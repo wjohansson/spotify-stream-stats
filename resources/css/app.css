@@ -1,0 +1,26 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+li {
+    width: 48px;
+    height: 32px;
+    border-radius: 1000px;
+}
+
+@media screen and (min-width: 810px) {
+    li {
+        width: 56px;
+        height: 36px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    li {
+        width: 40px;
+        height: 32px;
+    }
+}
+
