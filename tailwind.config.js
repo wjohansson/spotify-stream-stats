@@ -59,6 +59,7 @@ module.exports = {
 
       transitionProperty: {
         'scale': 'scale(0)',
+        'backgroundcolor': 'backgroundcolor'
       },
 
       transitionDuration: {

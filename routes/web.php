@@ -23,12 +23,12 @@ Route::get('/questions', function () {
     $jsonData = json_decode($file, true);
 
     $questions = [];
-    $count = ["Film & TV" => [], "Geografi" => [], "Historia" => [], "Musik" => [], "Övrigt" => [], "Vetenskap" => [], "Sport" => []];
+    $count = ["Film & TV" => [], "Geografi" => [], "Historia" => [], "Musik" => [], "Övrigt" => [], "Vetenskap" => [], "Sport" => [1, 1, 1, 1, 1]];
 
     /* $whileCount = [];
     $totalCat = []; */
 
-    while (count($questions) < 35) {
+    while (count($questions) < 3) {
         /* array_push($whileCount, 1); */
         $randomNumber = rand(0, (count($jsonData) - 1)); 
         if (in_array($jsonData[$randomNumber], $questions)) {
