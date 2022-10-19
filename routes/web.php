@@ -25,11 +25,7 @@ Route::get('/questions', function () {
     $questions = [];
     $count = ["Film & TV" => [], "Geografi" => [], "Historia" => [], "Musik" => [], "Övrigt" => [], "Vetenskap" => [], "Sport" => [1, 1, 1, 1, 1]];
 
-    /* $whileCount = [];
-    $totalCat = []; */
-
     while (count($questions) < 3) {
-        /* array_push($whileCount, 1); */
         $randomNumber = rand(0, (count($jsonData) - 1)); 
         if (in_array($jsonData[$randomNumber], $questions)) {
             continue;
@@ -79,12 +75,7 @@ Route::get('/questions', function () {
             continue;
         }
 
-        /* array_push($totalCat, $category); */
         array_push($questions, $jsonData[$randomNumber]);
     }
-
     return response()->json($questions);
-
-    //sortera array innan man skickar den vidare
-
 });

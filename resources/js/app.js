@@ -13,7 +13,10 @@ window.axios = axios
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
 
-//simplexnoise för att kolla ändringar mellan v3 och v4
+import { spline } from '@georgedoescode/spline';
+import { createNoise2D } from 'simplex-noise';
+
+
 
 const body = document.body
 
@@ -41,8 +44,6 @@ const resultpagebuttoncontainer = document.getElementById('result-page-button-co
 
 const logo = document.getElementById('logo')
 const navheader = document.getElementById('nav-header')
-const leftblob = document.getElementById('left-blob')
-const rightblob = document.getElementById('right-blob')
 const progressbarcontainer = document.getElementById('progress-bar-container')
 const progressline = document.getElementById('progress-line')
 const progressbar = document.getElementById('progress-bar')
@@ -61,6 +62,73 @@ const blobs = document.getElementsByTagName('li')
 const category = document.getElementById('category')
 const question = document.getElementById('question')
 const answer = document.getElementById('answer')
+
+//Animering av blobbar
+const leftblob = document.getElementById('left-blob')
+const rightblob = document.getElementById('right-blob')
+
+function createPoints() {
+    const points = []
+    const numPoints = 6
+    const angleStep = (Math.PI * 2) / numPoints
+    const rad = 75
+
+    for (let i = 1; i <= numPoints; i++) {
+        const theta = i * angleStep
+
+        const x = 100 + Math.cos(theta) * rad
+        const y = 100 + Math.sin(theta) * rad
+
+        points.push({
+            x: x,
+            y: y,
+            originX: x,
+            originY: y,
+            noiseOffsetX: Math.random() * 1000,
+            noiseOffsetY: Math.random() * 1000,
+        })
+    }
+    return points
+}
+
+const points = createPoints()
+
+function map(n, start1, end1, start2, end2) {
+    return ((n - start1) / (end1 - start1)) * (end2 - start2) + start2
+}
+
+const simplex = new createNoise2D()
+
+let noiseStep = 0.0025;
+
+function noise(x, y) {
+  return simplex(x, y);
+};
+
+(function animate() {
+    leftblob.setAttribute('d', spline(points, 1, true));
+    rightblob.setAttribute('d', spline(points, 1, true));
+    
+    requestAnimationFrame(animate)
+
+    for (let i = 0; i < points.length; i++) {
+        const point = points[i]
+
+        const nX= noise(point.noiseOffsetX, point.noiseOffsetX)
+        const nY= noise(point.noiseOffsetY, point.noiseOffsetY)
+
+        const x = map(nX, -1, 1, point.originX - 5, point.originX + 5)
+        const y = map(nY, -1, 1, point.originY - 20, point.originY + 20)
+
+        point.x = x
+        point.y = y
+
+        point.noiseOffsetX += noiseStep
+        point.noiseOffsetY += noiseStep
+    }
+})()
+
+//End of animation
 
 let questions
 let count
@@ -114,6 +182,18 @@ frontpagebutton.onclick = function() {
 
         count.push(1)
 
+        body.classList.remove('duration-0')
+        body.classList.add('duration-500')
+
+        logo.classList.remove('duration-0')
+        logo.classList.add('duration-500')
+
+        navheader.classList.remove('duration-0')
+        navheader.classList.add('duration-500')
+
+        progressbarcontainer.classList.remove('duration-0')
+        progressbarcontainer.classList.add('duration-300')
+
         frontpagetext.classList.remove('scale-100')
         frontpagetext.classList.add('scale-0')
 
@@ -146,8 +226,6 @@ frontpagebutton.onclick = function() {
         }, 2.1*animationduration)
 
         setTimeout(function() {
-            progressbarcontainer.classList.remove('duration-0')
-            progressbarcontainer.classList.add('duration-300')
             progressbarcontainer.classList.remove('scale-0')
             progressbarcontainer.classList.add('scale-100')
         }, 2.6*animationduration)
@@ -159,9 +237,6 @@ questionpagebutton.onclick = function() {
     answerpagebuttonyes.disabled = false
     answerpagebuttonno.disabled = false
     questionpagebutton.disabled = true
-
-    progressbarcontainer.classList.remove('duration-300')
-    progressbarcontainer.classList.add('duration-0')
 
     questionpagetext.classList.remove('scale-100')
     questionpagetext.classList.add('scale-0')
@@ -182,8 +257,8 @@ questionpagebutton.onclick = function() {
         navheader.classList.remove('text-darkblue')
         navheader.classList.add('text-white')
 
-        leftblob.src = '/images/BlobSmallWhite.svg'
-        rightblob.src = '/images/BlobBigWhite.svg'
+        leftblob.style.fill = 'white'
+        rightblob.style.fill = 'white'
 
         progressbarcontainer.classList.remove('text-darkblue')
         progressbarcontainer.classList.add('text-white')
@@ -269,6 +344,9 @@ answerpagebuttonyes.onclick = function() {
 
         body.classList.remove('bg-lightblue')
         body.classList.add('bg-white')
+
+        leftblob.style.fill = '#7678ED'
+        rightblob.style.fill = '#7678ED'
     
         progressbar.style.transition = 'width 1s'
         questionnumber.innerHTML = 'Fråga ' + count.length + ' av ' + questions.length
@@ -286,14 +364,9 @@ answerpagebuttonyes.onclick = function() {
         logo.src = 'images/LogoPrimary.svg'
         navheader.classList.remove('text-white')
         navheader.classList.add('text-darkblue')
-
-        leftblob.src = '/images/BlobSmallBlue.svg'
-        rightblob.src = '/images/BlobBigBlue.svg'
     }, 1.5*animationduration)
         
     if (count.length > questions.length) {
-        progressbarcontainer.classList.remove('duration-0')
-        progressbarcontainer.classList.add('duration-300')
 
         setTimeout(function() {
             progressbarcontainer.classList.remove('scale-100')
@@ -304,22 +377,22 @@ answerpagebuttonyes.onclick = function() {
             resultpage.style.display = 'block'
             progressbarcontainer.style.display = 'none'
             totalresult.innerHTML = correct.length + ' av ' + questions.length + ' rätt'
-        }, 2*animationduration)
+        }, 2.5*animationduration)
 
         setTimeout(function() {
             resultpagetext.classList.remove('scale-0')
             resultpagetext.classList.add('scale-100')
-        }, 2.1*animationduration)
+        }, 2.6*animationduration)
 
         setTimeout(function() {
             resultpageblobs.classList.remove('scale-0')
             resultpageblobs.classList.add('scale-100')
-        }, 2.6*animationduration)
+        }, 3.1*animationduration)
 
         setTimeout(function() {
             resultpagebuttoncontainer.classList.remove('scale-0')
             resultpagebuttoncontainer.classList.add('scale-100')
-        }, 3.1*animationduration)
+        }, 3.6*animationduration)
 
     } else if (count.length <= questions.length) {
         setTimeout(function() {
@@ -362,6 +435,9 @@ answerpagebuttonno.onclick = function() {
 
         body.classList.remove('bg-lightblue')
         body.classList.add('bg-white')
+
+        leftblob.style.fill = '#7678ED'
+        rightblob.style.fill = '#7678ED'
     
         progressbar.style.transition = 'width 1s'
         questionnumber.innerHTML = 'Fråga ' + count.length + ' av ' + questions.length
@@ -379,14 +455,9 @@ answerpagebuttonno.onclick = function() {
         logo.src = 'images/LogoPrimary.svg'
         navheader.classList.remove('text-white')
         navheader.classList.add('text-darkblue')
-
-        leftblob.src = '/images/BlobSmallBlue.svg'
-        rightblob.src = '/images/BlobBigBlue.svg'
     }, 1.5*animationduration)
         
     if (count.length > questions.length) {
-        progressbarcontainer.classList.remove('duration-0')
-        progressbarcontainer.classList.add('duration-300')
 
         setTimeout(function() {
             progressbarcontainer.classList.remove('scale-100')
@@ -397,22 +468,22 @@ answerpagebuttonno.onclick = function() {
             resultpage.style.display = 'block'
             progressbarcontainer.style.display = 'none'
             totalresult.innerHTML = correct.length + ' av ' + questions.length + ' rätt'
-        }, 2*animationduration)
+        }, 2.5*animationduration)
 
         setTimeout(function() {
             resultpagetext.classList.remove('scale-0')
             resultpagetext.classList.add('scale-100')
-        }, 2.1*animationduration)
+        }, 2.6*animationduration)
 
         setTimeout(function() {
             resultpageblobs.classList.remove('scale-0')
             resultpageblobs.classList.add('scale-100')
-        }, 2.6*animationduration)
+        }, 3.1*animationduration)
 
         setTimeout(function() {
             resultpagebuttoncontainer.classList.remove('scale-0')
             resultpagebuttoncontainer.classList.add('scale-100')
-        }, 3.1*animationduration)
+        }, 3.6*animationduration)
 
     } else if (count.length <= questions.length) {
         setTimeout(function() {
@@ -439,6 +510,9 @@ resultpagebutton.onclick = function() {
     answerpagebuttonyes.disabled = false
     answerpagebuttonno.disabled = false
     resultpagebutton.disabled = true
+
+    body.classList.remove('duration-500')
+    body.classList.add('duration-0')
 
     resultpagetext.classList.remove('scale-100')
     resultpagetext.classList.add('scale-0')

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -5,35 +6,37 @@
         <title>Donkeyquiz</title>
         <link href='https://fonts.googleapis.com/css?family=Poppins:500,600,700' rel='stylesheet'>
     </head>
-    <body class="flex justify-center h-full text-darkblue bg-white box-border px-8 font-poppins tablet:px-16">
-
+    <body class="flex justify-center h-screen text-darkblue bg-white box-border px-8 font-poppins transition-all tablet:px-16">
         <!--Init of tailwind classes -->
 
         <div class="hidden bg-lightgray"></div>
         <div class="hidden bg-green"></div>
-
+        <div class="hidden duration-3000"></div>
 
         <!--Start of nav -->
         <nav class="absolute top-0 left-0 w-full">
             <div class="flex m-8 justify-items-start items-center gap-8 tablet:ml-16 laptop:flex-col laptop:items-center laptop:w-fit laptop:gap-2">
-                <img id="logo" class="w-24" src="/images/LogoPrimary.svg" alt="Primary Logo">
-                <h3 id="nav-header" class="text-24 font-semibold">donkeyquiz</h3>
+                <img id="logo" src="/images/LogoPrimary.svg" class="w-24 transition-all duration-0">
+                <h3 id="nav-header" class="text-24 font-semibold transition-all duration-0">donkeyquiz</h3>
             </div>
         </nav>
         
         <!--Start of blobs -->
-        <img id="left-blob" src="/images/BlobSmallBlue.svg" alt="Small blue blob" class="hidden w-16 left-0 top-[480px] absolute tablet:block tablet:w-32 tablet:top-[580px] laptop:top-[350px] laptop:w-36 desktop:w-40">
-        <img id="right-blob" src="/images/BlobBigBlue.svg" alt="Big blue blob" class="hidden w-20 right-0 top-[200px] absolute tablet:block tablet:w-40 tablet:top-[520px] laptop:w-48 laptop:top-24 desktop:w-52">
+        <svg viewBox="120 0 100 200" class="hidden w-[225px] left-0 top-[600px] absolute tablet:block laptop:w-[250px] laptop:top-[300px] desktop:w-[300px] desktop:top-[300px]">
+            <path id="left-blob" d="" fill="#7678ED"></path>
+        </svg>
+
+        <svg viewBox="-20 0 100 200" class="hidden w-[250px] right-0 top-[500px] absolute tablet:block laptop:w-[275px] laptop:top-[150px] desktop:w-[350px] desktop:top-[175px]">
+            <path id="right-blob" d="" fill="#7678ED"></path>
+        </svg>
 
         <!--Start of progress bar-->
-        <div id="progress-bar-container" class="absolute hidden px-8 bottom-8 tablet:px-32 w-full duration-0 scale-0 laptop:p-0 laptop:w-1/2">
+        <div id="progress-bar-container" class="absolute hidden px-8 bottom-8 tablet:px-48 w-full scale-0 laptop:p-0 laptop:w-1/2">
             <div id="progress-line" class="w-full h-[2px] relative bg-lightblue rounded-full flex align-center">
                 <div id="progress-bar" class="h-[14px] absolute -mt-[6px] rounded-full bg-darkblue"></div>
             </div>
             <h4 id="question-number" class="w-full text-center mt-4"></h4>
         </div>
-
-
 
         <!--Start of front page -->
         <div id="front-page" class="hidden w-full h-full">
@@ -42,13 +45,11 @@
                     <h2 class="text-24 text-center font-semibold tablet:text-32 laptop:text-40 desktop:text-48">Svensk mästare i TP?</h2>
                     <p class="text-16 text-center w-52 tablet:text-center tablet:w-96 laptop:w-[450px]">Utmana vänner, kollegor och familj på frågesport. Svara på 35 samtida frågor i 7 olika kategorier.</p>
                 </div>
-                <div id="front-page-button-container" class="duration-300 scale-0">
+                <div id="front-page-button-container" class="flex justify-center w-full duration-300 scale-0">
                     <input id="front-page-button" type="button" value="Klicka här för att starta" class="p-4 border-2 w-full rounded-full border-lightblue text-lightblue active:bg-darkblue active:text-white active:border-darkblue tablet:self-center tablet:w-96 laptop:hover:bg-darkblue laptop:hover:border-darkblue laptop:hover:text-white laptop:w-64 laptop:hover:cursor-pointer">
                 </div>
             </div>
         </div>
-
-
 
         <!--Start of second page-->
         <div id="question-page" class="hidden w-full h-full">
@@ -57,13 +58,11 @@
                     <h4 id="category" class="text-14 text-center font-semibold text-lightblue"></h4>
                     <h2 id="question" class="text-20 text-center w-full font-semibold tablet:text-32 tablet:w-[656px] laptop:w-9/12 laptop:text-40 desktop:text-48"></h2>
                 </div>
-                <div id="question-page-button-container" class="duration-300 scale-0">
+                <div id="question-page-button-container" class="flex justify-center w-full duration-300 scale-0">
                     <input id="question-page-button" type="button" value="Se svaret" class="p-4 border-2 rounded-full w-full border-lightblue text-lightblue active:bg-darkblue active:text-white active:border-darkblue tablet:self-center tablet:w-96 laptop:hover:bg-darkblue laptop:hover:border-darkblue laptop:hover:text-white laptop:w-64 laptop:hover:cursor-pointer">
                 </div>
             </div>
         </div>
-
-
 
         <!--Start of third page-->
         <div id="answer-page" class="hidden w-full h-full text-white">
@@ -81,8 +80,6 @@
                 </div>
             </div>
         </div>
-
-
 
         <!--Start of last page-->
         <div id="result-page" class="hidden bg-white text-darkblue">
@@ -163,13 +160,11 @@
                         <h4 class="w-full text-center -order-2">Sport</h4>
                     </div>
                 </div>
-                <div id="result-page-button-container" class="duration-300 scale-0">
+                <div id="result-page-button-container" class="flex justify-center w-full duration-300 scale-0">
                     <input id="result-page-button" type="button" value="En runda till" class="w-full p-4 border-2 rounded-full border-lightblue text-lightblue active:bg-darkblue active:text-white active:border-darkblue tablet:self-center tablet:w-96 laptop:hover:bg-darkblue laptop:hover:border-darkblue laptop:hover:text-white laptop:w-64 laptop:hover:cursor-pointer">
                 </div>
             </div>
         </div>
-
-
 
         <script type="module" crossorigin src="http://localhost:3000/@@vite/client"></script>
         <script type="module" crossorigin src="http://localhost:3000/resources/js/app.js"></script>
