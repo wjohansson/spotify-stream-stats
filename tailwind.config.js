@@ -9,7 +9,10 @@ module.exports = {
     './resources/js/**/*.{vue, js, ts, jsx, tsx}',
     './resources/views/**/*.php'
   ],
-  safelist: [],
+  safelist: [
+    'bg-lightgray',
+    'bg-green',
+  ],
   theme: {
     screens: {
       tablet: '810px',

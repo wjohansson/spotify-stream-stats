@@ -17,7 +17,7 @@ import { spline } from '@georgedoescode/spline';
 import { createNoise2D } from 'simplex-noise';
 
 
-
+const html = document.getElementById('html')
 const body = document.body
 
 const frontpage = document.getElementById('front-page')
@@ -42,7 +42,10 @@ const resultpageblobs = document.getElementById('result-page-blobs')
 const resultpagebutton = document.getElementById('result-page-button')
 const resultpagebuttoncontainer = document.getElementById('result-page-button-container')
 
-const logo = document.getElementById('logo')
+const logoblob = document.getElementById('logo-blob')
+const logodonkey = document.getElementById('logo-donkey')
+const logoeye = document.getElementById('logo-eye')
+
 const navheader = document.getElementById('nav-header')
 const progressbarcontainer = document.getElementById('progress-bar-container')
 const progressline = document.getElementById('progress-line')
@@ -50,15 +53,10 @@ const progressbar = document.getElementById('progress-bar')
 const questionnumber = document.getElementById('question-number')
 const totalresult = document.getElementById('total-result')
 
-const movblobs = document.getElementById('mov-blobs').children
-const geoblobs = document.getElementById('geo-blobs').children
-const hisblobs = document.getElementById('his-blobs').children
-const musblobs = document.getElementById('mus-blobs').children
-const othblobs = document.getElementById('oth-blobs').children
-const sciblobs = document.getElementById('sci-blobs').children
-const spoblobs = document.getElementById('spo-blobs').children
+let blobs
+let thiscategoryblobs
+let colorblobs
 
-const blobs = document.getElementsByTagName('li')
 const category = document.getElementById('category')
 const question = document.getElementById('question')
 const answer = document.getElementById('answer')
@@ -71,7 +69,7 @@ function createPoints() {
     const points = []
     const numPoints = 6
     const angleStep = (Math.PI * 2) / numPoints
-    const rad = 75
+    const rad = 90
 
     for (let i = 1; i <= numPoints; i++) {
         const theta = i * angleStep
@@ -118,7 +116,7 @@ function noise(x, y) {
         const nY= noise(point.noiseOffsetY, point.noiseOffsetY)
 
         const x = map(nX, -1, 1, point.originX - 5, point.originX + 5)
-        const y = map(nY, -1, 1, point.originY - 20, point.originY + 20)
+        const y = map(nY, -1, 1, point.originY - 10, point.originY + 10)
 
         point.x = x
         point.y = y
@@ -132,30 +130,26 @@ function noise(x, y) {
 
 let questions
 let count
-let correct
-let correctMov
-let correctGeo
-let correctHis
-let correctMus
-let correctOth
-let correctSci
-let correctSpo
 
-const animationduration = 500
+let correct
+let correctCategory = []
+
+const transitionduration = 0 //Ändra tillbaka till 500
 
 setTimeout(function() {
+    html.style.display = 'block'
     frontpage.style.display = 'block'
 }, 0)
 
 setTimeout(function() {
     frontpagetext.classList.remove('scale-0')
     frontpagetext.classList.add('scale-100')
-}, 0.5*animationduration)
+}, 0.5*transitionduration)
 
 setTimeout(function() {
     frontpagebuttoncontainer.classList.remove('scale-0')
     frontpagebuttoncontainer.classList.add('scale-100')
-}, 1*animationduration)
+}, 1*transitionduration)
 
 
 frontpagebutton.onclick = function() {
@@ -167,13 +161,15 @@ frontpagebutton.onclick = function() {
 
         count = []
         correct = []
-        correctMov = []
-        correctGeo = []
-        correctHis = []
-        correctMus = []
-        correctOth = []
-        correctSci = []
-        correctSpo = []
+        correctCategory['Film & TV'] = []
+        correctCategory['Geografi'] = []
+        correctCategory['Historia'] = []
+        correctCategory['Musik'] = []
+        correctCategory['Övrigt'] = []
+        correctCategory['Vetenskap'] = []
+        correctCategory['Sport'] = []     
+
+        blobs = Object.values(document.getElementsByTagName('li'))
 
         for (var i = 0; i < blobs.length; i++) {
             blobs[i].classList.remove('bg-green')
@@ -185,8 +181,14 @@ frontpagebutton.onclick = function() {
         body.classList.remove('duration-0')
         body.classList.add('duration-500')
 
-        logo.classList.remove('duration-0')
-        logo.classList.add('duration-500')
+        logoblob.classList.remove('duration-0')
+        logoblob.classList.add('duration-500')
+
+        logodonkey.classList.remove('duration-0')
+        logodonkey.classList.add('duration-500')
+
+        logoeye.classList.remove('duration-0')
+        logoeye.classList.add('duration-500')
 
         navheader.classList.remove('duration-0')
         navheader.classList.add('duration-500')
@@ -200,7 +202,7 @@ frontpagebutton.onclick = function() {
         setTimeout(function() {
             frontpagebuttoncontainer.classList.remove('scale-100')
             frontpagebuttoncontainer.classList.add('scale-0')
-        }, 0.5*animationduration)
+        }, 0.5*transitionduration)
 
         setTimeout(function() {
             frontpage.style.display = 'none'
@@ -213,22 +215,22 @@ frontpagebutton.onclick = function() {
             category.innerHTML = questions[count.length - 1]['category']
             question.innerHTML = questions[count.length - 1]['question']
             answer.innerHTML = questions[count.length - 1]['answer']
-        }, 1.5*animationduration)
+        }, 1.5*transitionduration)
             
         setTimeout(function() {
             questionpagetext.classList.remove('scale-0')
             questionpagetext.classList.add('scale-100')
-        }, 1.6*animationduration)
+        }, 1.6*transitionduration)
 
         setTimeout(function() {
             questionpagebuttoncontainer.classList.remove('scale-0')
             questionpagebuttoncontainer.classList.add('scale-100')
-        }, 2.1*animationduration)
+        }, 2.1*transitionduration)
 
         setTimeout(function() {
             progressbarcontainer.classList.remove('scale-0')
             progressbarcontainer.classList.add('scale-100')
-        }, 2.6*animationduration)
+        }, 2.6*transitionduration)
     })
 }
 
@@ -244,7 +246,7 @@ questionpagebutton.onclick = function() {
     setTimeout(function() {
         questionpagebuttoncontainer.classList.remove('scale-100')
         questionpagebuttoncontainer.classList.add('scale-0')
-    }, 0.5*animationduration)
+    }, 0.5*transitionduration)
 
     setTimeout(function() {
         questionpage.style.display = 'none'
@@ -253,7 +255,10 @@ questionpagebutton.onclick = function() {
         body.classList.remove('bg-white')
         body.classList.add('bg-lightblue')
 
-        logo.src = '/images/LogoSecondary.svg'
+        logoblob.style.fill = '#FFFFFF'
+        logodonkey.style.fill = '#7678ED'
+        logoeye.style.fill = '#7678ED'
+
         navheader.classList.remove('text-darkblue')
         navheader.classList.add('text-white')
 
@@ -268,17 +273,17 @@ questionpagebutton.onclick = function() {
 
         progressbar.classList.remove('bg-darkblue')
         progressbar.classList.add('bg-white')
-    }, 1.5*animationduration)
+    }, 1.5*transitionduration)
         
     setTimeout(function() {
         answerpagetext.classList.remove('scale-0')
         answerpagetext.classList.add('scale-100')
-    }, 1.6*animationduration) 
+    }, 1.6*transitionduration) 
 
     setTimeout(function() {
         answerpagebuttoncontainer.classList.remove('scale-0')
         answerpagebuttoncontainer.classList.add('scale-100')
-    }, 2.1*animationduration) 
+    }, 2.1*transitionduration) 
 }
 
 answerpagebuttonyes.onclick = function() {
@@ -286,47 +291,7 @@ answerpagebuttonyes.onclick = function() {
     answerpagebuttonyes.disabled = true
     answerpagebuttonno.disabled = true
 
-    if (category.textContent === 'Film & TV') {
-        movblobs[correctMov.length].classList.remove('bg-lightgray')
-        movblobs[correctMov.length].classList.add('bg-green')
-        correctMov.push(1)
-    }
-
-    if (category.textContent === 'Geografi') {
-        geoblobs[correctGeo.length].classList.remove('bg-lightgray')
-        geoblobs[correctGeo.length].classList.add('bg-green')
-        correctGeo.push(1)
-    }
-
-    if (category.textContent === 'Historia') {
-        hisblobs[correctHis.length].classList.remove('bg-lightgray')
-        hisblobs[correctHis.length].classList.add('bg-green')
-        correctHis.push(1)
-    }
-
-    if (category.textContent === 'Musik') {
-        musblobs[correctMus.length].classList.remove('bg-lightgray')
-        musblobs[correctMus.length].classList.add('bg-green')
-        correctMus.push(1)
-    }
-
-    if (category.textContent === 'Övrigt') {
-        othblobs[correctOth.length].classList.remove('bg-lightgray')
-        othblobs[correctOth.length].classList.add('bg-green')
-        correctOth.push(1)
-    }
-
-    if (category.textContent === 'Vetenskap') {
-        sciblobs[correctSci.length].classList.remove('bg-lightgray')
-        sciblobs[correctSci.length].classList.add('bg-green')
-        correctSci.push(1)
-    }
-
-    if (category.textContent === 'Sport') {
-        spoblobs[correctSpo.length].classList.remove('bg-lightgray')
-        spoblobs[correctSpo.length].classList.add('bg-green')
-        correctSpo.push(1)
-    }
+    correctCategory[category.textContent].push(1)
 
     correct.push(1)
     count.push(1)
@@ -337,7 +302,7 @@ answerpagebuttonyes.onclick = function() {
     setTimeout(function() {
         answerpagebuttoncontainer.classList.remove('scale-100')
         answerpagebuttoncontainer.classList.add('scale-0')
-    }, 0.5*animationduration)
+    }, 0.5*transitionduration)
 
     setTimeout(function() {
         answerpage.style.display = 'none'
@@ -361,38 +326,51 @@ answerpagebuttonyes.onclick = function() {
         progressbar.classList.remove('bg-white')
         progressbar.classList.add('bg-darkblue')
 
-        logo.src = 'images/LogoPrimary.svg'
+        logoblob.style.fill = '#7678ED'
+        logodonkey.style.fill = '#FFFFFF'
+        logoeye.style.fill = '#FFFFFF'
+
         navheader.classList.remove('text-white')
         navheader.classList.add('text-darkblue')
-    }, 1.5*animationduration)
+    }, 1.5*transitionduration)
         
     if (count.length > questions.length) {
+
+        for (var key in correctCategory) {
+            thiscategoryblobs = blobs.splice(0, 5)
+            colorblobs = thiscategoryblobs.splice(0, correctCategory[key].length)
+            
+            for (var key in colorblobs) {
+                colorblobs[key].classList.remove('bg-lightgray')
+                colorblobs[key].classList.add('bg-green')
+            }
+        }
 
         setTimeout(function() {
             progressbarcontainer.classList.remove('scale-100')
             progressbarcontainer.classList.add('scale-0')
-        }, 1*animationduration)
+        }, 1*transitionduration)
 
         setTimeout(function() {
             resultpage.style.display = 'block'
             progressbarcontainer.style.display = 'none'
             totalresult.innerHTML = correct.length + ' av ' + questions.length + ' rätt'
-        }, 2.5*animationduration)
+        }, 2.5*transitionduration)
 
         setTimeout(function() {
             resultpagetext.classList.remove('scale-0')
             resultpagetext.classList.add('scale-100')
-        }, 2.6*animationduration)
+        }, 2.6*transitionduration)
 
         setTimeout(function() {
             resultpageblobs.classList.remove('scale-0')
             resultpageblobs.classList.add('scale-100')
-        }, 3.1*animationduration)
+        }, 3.1*transitionduration)
 
         setTimeout(function() {
             resultpagebuttoncontainer.classList.remove('scale-0')
             resultpagebuttoncontainer.classList.add('scale-100')
-        }, 3.6*animationduration)
+        }, 3.6*transitionduration)
 
     } else if (count.length <= questions.length) {
         setTimeout(function() {
@@ -401,17 +379,17 @@ answerpagebuttonyes.onclick = function() {
             category.innerHTML = questions[count.length - 1]['category']
             question.innerHTML = questions[count.length - 1]['question']
             answer.innerHTML = questions[count.length - 1]['answer']
-        }, 1.5*animationduration)
+        }, 1.5*transitionduration)
 
         setTimeout(function() {
             questionpagetext.classList.remove('scale-0')
             questionpagetext.classList.add('scale-100')
-        }, 1.6*animationduration)
+        }, 1.6*transitionduration)
 
         setTimeout(function() {
             questionpagebuttoncontainer.classList.remove('scale-0')
             questionpagebuttoncontainer.classList.add('scale-100')
-        }, 2.1*animationduration)
+        }, 2.1*transitionduration)
     }
 }
 
@@ -428,7 +406,7 @@ answerpagebuttonno.onclick = function() {
     setTimeout(function() {
         answerpagebuttoncontainer.classList.remove('scale-100')
         answerpagebuttoncontainer.classList.add('scale-0')
-    }, 0.5*animationduration)
+    }, 0.5*transitionduration)
 
     setTimeout(function() {
         answerpage.style.display = 'none'
@@ -452,38 +430,41 @@ answerpagebuttonno.onclick = function() {
         progressbar.classList.remove('bg-white')
         progressbar.classList.add('bg-darkblue')
 
-        logo.src = 'images/LogoPrimary.svg'
+        logoblob.style.fill = '#7678ED'
+        logodonkey.style.fill = '#FFFFFF'
+        logoeye.style.fill = '#FFFFFF'
+
         navheader.classList.remove('text-white')
         navheader.classList.add('text-darkblue')
-    }, 1.5*animationduration)
+    }, 1.5*transitionduration)
         
     if (count.length > questions.length) {
 
         setTimeout(function() {
             progressbarcontainer.classList.remove('scale-100')
             progressbarcontainer.classList.add('scale-0')
-        }, 1*animationduration)
+        }, 1*transitionduration)
 
         setTimeout(function() {
             resultpage.style.display = 'block'
             progressbarcontainer.style.display = 'none'
             totalresult.innerHTML = correct.length + ' av ' + questions.length + ' rätt'
-        }, 2.5*animationduration)
+        }, 2.5*transitionduration)
 
         setTimeout(function() {
             resultpagetext.classList.remove('scale-0')
             resultpagetext.classList.add('scale-100')
-        }, 2.6*animationduration)
+        }, 2.6*transitionduration)
 
         setTimeout(function() {
             resultpageblobs.classList.remove('scale-0')
             resultpageblobs.classList.add('scale-100')
-        }, 3.1*animationduration)
+        }, 3.1*transitionduration)
 
         setTimeout(function() {
             resultpagebuttoncontainer.classList.remove('scale-0')
             resultpagebuttoncontainer.classList.add('scale-100')
-        }, 3.6*animationduration)
+        }, 3.6*transitionduration)
 
     } else if (count.length <= questions.length) {
         setTimeout(function() {
@@ -492,17 +473,17 @@ answerpagebuttonno.onclick = function() {
             category.innerHTML = questions[count.length - 1]['category']
             question.innerHTML = questions[count.length - 1]['question']
             answer.innerHTML = questions[count.length - 1]['answer']
-        }, 1.5*animationduration)
+        }, 1.5*transitionduration)
 
         setTimeout(function() {
             questionpagetext.classList.remove('scale-0')
             questionpagetext.classList.add('scale-100')
-        }, 1.6*animationduration)
+        }, 1.6*transitionduration)
 
         setTimeout(function() {
             questionpagebuttoncontainer.classList.remove('scale-0')
             questionpagebuttoncontainer.classList.add('scale-100')
-        }, 2.1*animationduration)
+        }, 2.1*transitionduration)
     }
 }
 
@@ -520,27 +501,27 @@ resultpagebutton.onclick = function() {
     setTimeout(function() {
         resultpageblobs.classList.remove('scale-100')
         resultpageblobs.classList.add('scale-0')
-    }, 0.5*animationduration)
+    }, 0.5*transitionduration)
     
 
     setTimeout(function() {
         resultpagebuttoncontainer.classList.remove('scale-100')
         resultpagebuttoncontainer.classList.add('scale-0')
-    }, 1*animationduration)
+    }, 1*transitionduration)
 
     setTimeout(function() {
         resultpage.style.display = 'none'
         frontpage.style.display = 'block'
-    }, 2*animationduration)
+    }, 2*transitionduration)
         
 
     setTimeout(function() {
         frontpagetext.classList.remove('scale-0')
         frontpagetext.classList.add('scale-100')
-    }, 2.1*animationduration) 
+    }, 2.1*transitionduration) 
 
     setTimeout(function() {
         frontpagebuttoncontainer.classList.remove('scale-0')
         frontpagebuttoncontainer.classList.add('scale-100')
-    }, 2.6*animationduration) 
+    }, 2.6*transitionduration) 
 }
