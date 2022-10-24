@@ -48,21 +48,13 @@ module.exports = {
       'poppins': ['"Poppins"']
     },
     
-    
-
     extend: {
-      order: {
-        '13': '13',
-        '14': '14',
-      },
-
       borderWidth: {
         '1': '1',
       },
 
       transitionProperty: {
         'scale': 'scale(0)',
-        'backgroundcolor': 'backgroundcolor'
       },
 
       transitionDuration: {

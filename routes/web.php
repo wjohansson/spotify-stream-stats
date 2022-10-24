@@ -25,7 +25,7 @@ Route::get('/questions', function () {
     $questions = [];
     $count = ["Film & TV" => [], "Geografi" => [], "Historia" => [], "Musik" => [], "Övrigt" => [], "Vetenskap" => [], "Sport" => []];
 
-    while (count($questions) < 10) {
+    while (count($questions) < 3) {
         $randomNumber = rand(0, (count($jsonData) - 1)); 
         if (in_array($jsonData[$randomNumber], $questions)) {
             continue;

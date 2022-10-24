@@ -1,6 +1,6 @@
 // Our main CSS
 import '../css/app.css'
-  
+import'./blobanimation.js'
 
 /**
 * We'll load the axios HTTP library which allows us to easily issue requests
@@ -13,120 +13,63 @@ window.axios = axios
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
 
-import { spline } from '@georgedoescode/spline';
-import { createNoise2D } from 'simplex-noise';
-
 
 const html = document.getElementById('html')
 const body = document.body
 
-const frontpage = document.getElementById('front-page')
-const frontpagetext = document.getElementById('front-page-text')
-const frontpagebutton = document.getElementById('front-page-button')
-const frontpagebuttoncontainer = document.getElementById('front-page-button-container')
+const frontPage = document.getElementById('front-page')
+const frontPageText = document.getElementById('front-page-text')
+const frontPageButton = document.getElementById('front-page-button')
+const frontPageButtonContainer = document.getElementById('front-page-button-container')
+const front = {frontPage, frontPageText, frontPageButton, frontPageButtonContainer}
 
-const questionpage = document.getElementById('question-page')
-const questionpagetext = document.getElementById('question-page-text')
-const questionpagebutton = document.getElementById('question-page-button')
-const questionpagebuttoncontainer = document.getElementById('question-page-button-container')
+const questionPage = document.getElementById('question-page')
+const questionPageText = document.getElementById('question-page-text')
+const questionPageButton = document.getElementById('question-page-button')
+const questionPageButtonContainer = document.getElementById('question-page-button-container')
 
-const answerpage = document.getElementById('answer-page')
-const answerpagetext = document.getElementById('answer-page-text')
-const answerpagebuttonyes = document.getElementById('answer-page-button-yes')
-const answerpagebuttonno = document.getElementById('answer-page-button-no')
-const answerpagebuttoncontainer = document.getElementById('answer-page-button-container')
+const answerPage = document.getElementById('answer-page')
+const answerPageText = document.getElementById('answer-page-text')
+const answerPageButtonYes = document.getElementById('answer-page-button-yes')
+const answerPageButtonNo = document.getElementById('answer-page-button-no')
+const answerPageButtonContainer = document.getElementById('answer-page-button-container')
 
-const resultpage = document.getElementById('result-page')
-const resultpagetext = document.getElementById('result-page-text')
-const resultpageblobs = document.getElementById('result-page-blobs')
-const resultpagebutton = document.getElementById('result-page-button')
-const resultpagebuttoncontainer = document.getElementById('result-page-button-container')
+const resultPage = document.getElementById('result-page')
+const resultPageText = document.getElementById('result-page-text')
+const resultPageBlobs = document.getElementById('result-page-blobs')
+const resultPageButton = document.getElementById('result-page-button')
+const resultPageButtonContainer = document.getElementById('result-page-button-container')
 
-const logoblob = document.getElementById('logo-blob')
-const logodonkey = document.getElementById('logo-donkey')
-const logoeye = document.getElementById('logo-eye')
+const navHeader = document.getElementById('nav-header')
+const logoBlob = document.getElementById('logo-blob')
+const logoDonkey = document.getElementById('logo-donkey')
+const logoEye = document.getElementById('logo-eye')
+const nav = [navHeader, logoBlob, logoDonkey, logoEye]
 
-const navheader = document.getElementById('nav-header')
-const progressbarcontainer = document.getElementById('progress-bar-container')
-const progressline = document.getElementById('progress-line')
-const progressbar = document.getElementById('progress-bar')
-const questionnumber = document.getElementById('question-number')
-const totalresult = document.getElementById('total-result')
+const progressBarContainer = document.getElementById('progress-bar-container')
+const progressLine = document.getElementById('progress-line')
+const progressBar = document.getElementById('progress-bar')
+const progress = [progressBarContainer, progressLine, progressBar]
+
+const questionNumber = document.getElementById('question-number')
+const totalResult = document.getElementById('total-result')
 
 let blobs
-let thiscategoryblobs
-let colorblobs
+let thisCategoryBlobs
+let colorBlobs
 
 const category = document.getElementById('category')
 const question = document.getElementById('question')
 const answer = document.getElementById('answer')
 
-//Animering av blobbar
-const leftblob = document.getElementById('left-blob')
-const rightblob = document.getElementById('right-blob')
+const leftBlob = document.getElementById('left-blob')
+const rightBlob = document.getElementById('right-blob')
 
-function createPoints() {
-    const points = []
-    const numPoints = 6
-    const angleStep = (Math.PI * 2) / numPoints
-    const rad = 90
+const durationChange = {}
 
-    for (let i = 1; i <= numPoints; i++) {
-        const theta = i * angleStep
-
-        const x = 100 + Math.cos(theta) * rad
-        const y = 100 + Math.sin(theta) * rad
-
-        points.push({
-            x: x,
-            y: y,
-            originX: x,
-            originY: y,
-            noiseOffsetX: Math.random() * 1000,
-            noiseOffsetY: Math.random() * 1000,
-        })
-    }
-    return points
-}
-
-const points = createPoints()
-
-function map(n, start1, end1, start2, end2) {
-    return ((n - start1) / (end1 - start1)) * (end2 - start2) + start2
-}
-
-const simplex = new createNoise2D()
-
-let noiseStep = 0.0025;
-
-function noise(x, y) {
-  return simplex(x, y);
-};
-
-(function animate() {
-    leftblob.setAttribute('d', spline(points, 1, true));
-    rightblob.setAttribute('d', spline(points, 1, true));
-    
-    requestAnimationFrame(animate)
-
-    for (let i = 0; i < points.length; i++) {
-        const point = points[i]
-
-        const nX= noise(point.noiseOffsetX, point.noiseOffsetX)
-        const nY= noise(point.noiseOffsetY, point.noiseOffsetY)
-
-        const x = map(nX, -1, 1, point.originX - 5, point.originX + 5)
-        const y = map(nY, -1, 1, point.originY - 10, point.originY + 10)
-
-        point.x = x
-        point.y = y
-
-        point.noiseOffsetX += noiseStep
-        point.noiseOffsetY += noiseStep
-    }
-})()
-
-//End of animation
+//Adding colors
+const white = '#FFFFFF'
+const lightblue = '#7678ED'
 
 let questions
 let count
@@ -134,28 +77,28 @@ let count
 let correct
 let correctCategory = []
 
-const transitionduration = 0 //Ändra tillbaka till 500
+const transitionDuration = 500
 
 setTimeout(function() {
     html.style.display = 'block'
-    frontpage.style.display = 'block'
+    frontPage.style.display = 'block'
 }, 0)
 
 setTimeout(function() {
-    frontpagetext.classList.remove('scale-0')
-    frontpagetext.classList.add('scale-100')
-}, 0.5*transitionduration)
+    frontPageText.classList.remove('scale-0')
+    frontPageText.classList.add('scale-100')
+}, 0.5*transitionDuration)
 
 setTimeout(function() {
-    frontpagebuttoncontainer.classList.remove('scale-0')
-    frontpagebuttoncontainer.classList.add('scale-100')
-}, 1*transitionduration)
+    frontPageButtonContainer.classList.remove('scale-0')
+    frontPageButtonContainer.classList.add('scale-100')
+}, 1*transitionDuration)
 
 
-frontpagebutton.onclick = function() {
+frontPageButton.onclick = function() {
     axios.get('/questions').then(response => {
-        resultpagebutton.disabled = false
-        frontpagebutton.disabled = true
+        resultPageButton.disabled = false
+        frontPageButton.disabled = true
 
         questions = response.data
 
@@ -181,347 +124,362 @@ frontpagebutton.onclick = function() {
         body.classList.remove('duration-0')
         body.classList.add('duration-500')
 
-        logoblob.classList.remove('duration-0')
-        logoblob.classList.add('duration-500')
+        for (let i = 0; i < nav.length; i++) {
+            nav[i].classList.remove('duration-0')
+            nav[i].classList.add('duration-500')
+        }
 
-        logodonkey.classList.remove('duration-0')
-        logodonkey.classList.add('duration-500')
+        for (let i = 0; i < progress.length; i++) {
+            progress[i].classList.remove('duration-0')
+            progress[i].classList.add('duration-500')
+        }
 
-        logoeye.classList.remove('duration-0')
-        logoeye.classList.add('duration-500')
+        progressBarContainer.classList.remove('text-white')
+        progressBarContainer.classList.add('text-darkblue')
 
-        navheader.classList.remove('duration-0')
-        navheader.classList.add('duration-500')
+        progressLine.classList.remove('bg-white')
+        progressLine.classList.add('bg-lightblue')
 
-        progressbarcontainer.classList.remove('duration-0')
-        progressbarcontainer.classList.add('duration-300')
+        progressBar.classList.remove('bg-white')
+        progressBar.classList.add('bg-darkblue')
 
-        frontpagetext.classList.remove('scale-100')
-        frontpagetext.classList.add('scale-0')
+        frontPageText.classList.remove('scale-100')
+        frontPageText.classList.add('scale-0')
 
         setTimeout(function() {
-            frontpagebuttoncontainer.classList.remove('scale-100')
-            frontpagebuttoncontainer.classList.add('scale-0')
-        }, 0.5*transitionduration)
+            frontPageButtonContainer.classList.remove('scale-100')
+            frontPageButtonContainer.classList.add('scale-0')
+        }, 0.5*transitionDuration)
 
         setTimeout(function() {
-            frontpage.style.display = 'none'
-            questionpage.style.display = 'block'
-            progressbarcontainer.style.display = 'block'
+            frontPage.style.display = 'none'
+            questionPage.style.display = 'block'
+            progressBarContainer.style.display = 'block'
 
-            progressbar.style.width = (count.length / questions.length) * 100 + '%'
-            questionnumber.innerHTML = 'Fråga ' + count.length + ' av ' + questions.length
+            progressBar.style.width = (count.length / questions.length) * 100 + '%'
+            questionNumber.innerHTML = 'Fråga ' + count.length + ' av ' + questions.length
 
             category.innerHTML = questions[count.length - 1]['category']
             question.innerHTML = questions[count.length - 1]['question']
             answer.innerHTML = questions[count.length - 1]['answer']
-        }, 1.5*transitionduration)
+        }, 1.5*transitionDuration)
             
         setTimeout(function() {
-            questionpagetext.classList.remove('scale-0')
-            questionpagetext.classList.add('scale-100')
-        }, 1.6*transitionduration)
+            questionPageText.classList.remove('scale-0')
+            questionPageText.classList.add('scale-100')
+        }, 1.6*transitionDuration)
 
         setTimeout(function() {
-            questionpagebuttoncontainer.classList.remove('scale-0')
-            questionpagebuttoncontainer.classList.add('scale-100')
-        }, 2.1*transitionduration)
+            questionPageButtonContainer.classList.remove('scale-0')
+            questionPageButtonContainer.classList.add('scale-100')
+        }, 2.1*transitionDuration)
 
         setTimeout(function() {
-            progressbarcontainer.classList.remove('scale-0')
-            progressbarcontainer.classList.add('scale-100')
-        }, 2.6*transitionduration)
+            progressBarContainer.classList.remove('scale-0')
+            progressBarContainer.classList.add('scale-100')
+        }, 2.6*transitionDuration)
     })
 }
 
-questionpagebutton.onclick = function() {
-    frontpagebutton.disabled = false
-    answerpagebuttonyes.disabled = false
-    answerpagebuttonno.disabled = false
-    questionpagebutton.disabled = true
+questionPageButton.onclick = function() {
+    frontPageButton.disabled = false
+    answerPageButtonYes.disabled = false
+    answerPageButtonNo.disabled = false
+    questionPageButton.disabled = true
 
-    questionpagetext.classList.remove('scale-100')
-    questionpagetext.classList.add('scale-0')
-
-    setTimeout(function() {
-        questionpagebuttoncontainer.classList.remove('scale-100')
-        questionpagebuttoncontainer.classList.add('scale-0')
-    }, 0.5*transitionduration)
+    questionPageText.classList.remove('scale-100')
+    questionPageText.classList.add('scale-0')
 
     setTimeout(function() {
-        questionpage.style.display = 'none'
-        answerpage.style.display = 'block'
+        questionPageButtonContainer.classList.remove('scale-100')
+        questionPageButtonContainer.classList.add('scale-0')
+    }, 0.5*transitionDuration)
+
+    setTimeout(function() {
+        questionPage.style.display = 'none'
+        answerPage.style.display = 'block'
 
         body.classList.remove('bg-white')
         body.classList.add('bg-lightblue')
 
-        logoblob.style.fill = '#FFFFFF'
-        logodonkey.style.fill = '#7678ED'
-        logoeye.style.fill = '#7678ED'
+        logoBlob.style.fill = white
+        logoDonkey.style.fill = lightblue
+        logoEye.style.fill = lightblue
 
-        navheader.classList.remove('text-darkblue')
-        navheader.classList.add('text-white')
+        navHeader.classList.remove('text-darkblue')
+        navHeader.classList.add('text-white')
 
-        leftblob.style.fill = 'white'
-        rightblob.style.fill = 'white'
+        leftBlob.style.fill = white
+        rightBlob.style.fill = white
 
-        progressbarcontainer.classList.remove('text-darkblue')
-        progressbarcontainer.classList.add('text-white')
+        progressBarContainer.classList.remove('text-darkblue')
+        progressBarContainer.classList.add('text-white')
 
-        progressline.classList.remove('bg-lightblue')
-        progressline.classList.add('bg-white')
+        progressLine.classList.remove('bg-lightblue')
+        progressLine.classList.add('bg-white')
 
-        progressbar.classList.remove('bg-darkblue')
-        progressbar.classList.add('bg-white')
-    }, 1.5*transitionduration)
+        progressBar.classList.remove('bg-darkblue')
+        progressBar.classList.add('bg-white')
+    }, 1.5*transitionDuration)
         
     setTimeout(function() {
-        answerpagetext.classList.remove('scale-0')
-        answerpagetext.classList.add('scale-100')
-    }, 1.6*transitionduration) 
+        answerPageText.classList.remove('scale-0')
+        answerPageText.classList.add('scale-100')
+    }, 1.6*transitionDuration) 
 
     setTimeout(function() {
-        answerpagebuttoncontainer.classList.remove('scale-0')
-        answerpagebuttoncontainer.classList.add('scale-100')
-    }, 2.1*transitionduration) 
+        answerPageButtonContainer.classList.remove('scale-0')
+        answerPageButtonContainer.classList.add('scale-100')
+    }, 2.1*transitionDuration) 
 }
 
-answerpagebuttonyes.onclick = function() {
-    questionpagebutton.disabled = false
-    answerpagebuttonyes.disabled = true
-    answerpagebuttonno.disabled = true
+answerPageButtonYes.onclick = function() {
+    questionPageButton.disabled = false
+    answerPageButtonYes.disabled = true
+    answerPageButtonNo.disabled = true
 
     correctCategory[category.textContent].push(1)
 
     correct.push(1)
     count.push(1)
 
-    answerpagetext.classList.remove('scale-100')
-    answerpagetext.classList.add('scale-0')
+    answerPageText.classList.remove('scale-100')
+    answerPageText.classList.add('scale-0')
 
     setTimeout(function() {
-        answerpagebuttoncontainer.classList.remove('scale-100')
-        answerpagebuttoncontainer.classList.add('scale-0')
-    }, 0.5*transitionduration)
+        answerPageButtonContainer.classList.remove('scale-100')
+        answerPageButtonContainer.classList.add('scale-0')
+    }, 0.5*transitionDuration)
 
     setTimeout(function() {
-        answerpage.style.display = 'none'
+        answerPage.style.display = 'none'
 
         body.classList.remove('bg-lightblue')
         body.classList.add('bg-white')
 
-        leftblob.style.fill = '#7678ED'
-        rightblob.style.fill = '#7678ED'
+        leftBlob.style.fill = lightblue
+        rightBlob.style.fill = lightblue
     
-        progressbar.style.transition = 'width 1s'
-        questionnumber.innerHTML = 'Fråga ' + count.length + ' av ' + questions.length
-        progressbar.style.width = (count.length / questions.length) * 100  + '%'
+        progressBar.style.transition = 'all ' + transitionDuration
+        questionNumber.innerHTML = 'Fråga ' + count.length + ' av ' + questions.length
+        progressBar.style.width = (count.length / questions.length) * 100  + '%'
 
-        progressbarcontainer.classList.remove('text-white')
-        progressbarcontainer.classList.add('text-darkblue')
+        logoBlob.style.fill = lightblue
+        logoDonkey.style.fill = white
+        logoEye.style.fill = white
 
-        progressline.classList.remove('bg-white')
-        progressline.classList.add('bg-lightblue')
-
-        progressbar.classList.remove('bg-white')
-        progressbar.classList.add('bg-darkblue')
-
-        logoblob.style.fill = '#7678ED'
-        logodonkey.style.fill = '#FFFFFF'
-        logoeye.style.fill = '#FFFFFF'
-
-        navheader.classList.remove('text-white')
-        navheader.classList.add('text-darkblue')
-    }, 1.5*transitionduration)
+        navHeader.classList.remove('text-white')
+        navHeader.classList.add('text-darkblue')
+    }, 1.5*transitionDuration)
         
     if (count.length > questions.length) {
 
         for (var key in correctCategory) {
-            thiscategoryblobs = blobs.splice(0, 5)
-            colorblobs = thiscategoryblobs.splice(0, correctCategory[key].length)
+            thisCategoryBlobs = blobs.splice(0, 5)
+            colorBlobs = thisCategoryBlobs.splice(0, correctCategory[key].length)
             
-            for (var key in colorblobs) {
-                colorblobs[key].classList.remove('bg-lightgray')
-                colorblobs[key].classList.add('bg-green')
+            for (var key in colorBlobs) {
+                colorBlobs[key].classList.remove('bg-lightgray')
+                colorBlobs[key].classList.add('bg-green')
             }
         }
 
         setTimeout(function() {
-            progressbarcontainer.classList.remove('scale-100')
-            progressbarcontainer.classList.add('scale-0')
-        }, 1*transitionduration)
+            progressBarContainer.classList.remove('scale-100')
+            progressBarContainer.classList.add('scale-0')
+        }, 1*transitionDuration)
 
         setTimeout(function() {
-            resultpage.style.display = 'block'
-            progressbarcontainer.style.display = 'none'
-            totalresult.innerHTML = correct.length + ' av ' + questions.length + ' rätt'
-        }, 2.5*transitionduration)
+            resultPage.style.display = 'block'
+            progressBarContainer.style.display = 'none'
+            totalResult.innerHTML = correct.length + ' av ' + questions.length + ' rätt'
+        }, 2.5*transitionDuration)
 
         setTimeout(function() {
-            resultpagetext.classList.remove('scale-0')
-            resultpagetext.classList.add('scale-100')
-        }, 2.6*transitionduration)
+            resultPageText.classList.remove('scale-0')
+            resultPageText.classList.add('scale-100')
+        }, 2.6*transitionDuration)
 
         setTimeout(function() {
-            resultpageblobs.classList.remove('scale-0')
-            resultpageblobs.classList.add('scale-100')
-        }, 3.1*transitionduration)
+            resultPageBlobs.classList.remove('scale-0')
+            resultPageBlobs.classList.add('scale-100')
+        }, 3.1*transitionDuration)
 
         setTimeout(function() {
-            resultpagebuttoncontainer.classList.remove('scale-0')
-            resultpagebuttoncontainer.classList.add('scale-100')
-        }, 3.6*transitionduration)
+            resultPageButtonContainer.classList.remove('scale-0')
+            resultPageButtonContainer.classList.add('scale-100')
+        }, 3.6*transitionDuration)
 
     } else if (count.length <= questions.length) {
         setTimeout(function() {
-            questionpage.style.display = 'block'
+            questionPage.style.display = 'block'
 
             category.innerHTML = questions[count.length - 1]['category']
             question.innerHTML = questions[count.length - 1]['question']
             answer.innerHTML = questions[count.length - 1]['answer']
-        }, 1.5*transitionduration)
+
+            progressBarContainer.classList.remove('text-white')
+            progressBarContainer.classList.add('text-darkblue')
+
+            progressLine.classList.remove('bg-white')
+            progressLine.classList.add('bg-lightblue')
+
+            progressBar.classList.remove('bg-white')
+            progressBar.classList.add('bg-darkblue')
+        }, 1.5*transitionDuration)
 
         setTimeout(function() {
-            questionpagetext.classList.remove('scale-0')
-            questionpagetext.classList.add('scale-100')
-        }, 1.6*transitionduration)
+            questionPageText.classList.remove('scale-0')
+            questionPageText.classList.add('scale-100')
+        }, 1.6*transitionDuration)
 
         setTimeout(function() {
-            questionpagebuttoncontainer.classList.remove('scale-0')
-            questionpagebuttoncontainer.classList.add('scale-100')
-        }, 2.1*transitionduration)
+            questionPageButtonContainer.classList.remove('scale-0')
+            questionPageButtonContainer.classList.add('scale-100')
+        }, 2.1*transitionDuration)
     }
 }
 
-answerpagebuttonno.onclick = function() {
-    questionpagebutton.disabled = false
-    answerpagebuttonyes.disabled = true
-    answerpagebuttonno.disabled = true
+answerPageButtonNo.onclick = function() {
+    questionPageButton.disabled = false
+    answerPageButtonYes.disabled = true
+    answerPageButtonNo.disabled = true
 
     count.push(1)
 
-    answerpagetext.classList.remove('scale-100')
-    answerpagetext.classList.add('scale-0')
+    answerPageText.classList.remove('scale-100')
+    answerPageText.classList.add('scale-0')
 
     setTimeout(function() {
-        answerpagebuttoncontainer.classList.remove('scale-100')
-        answerpagebuttoncontainer.classList.add('scale-0')
-    }, 0.5*transitionduration)
+        answerPageButtonContainer.classList.remove('scale-100')
+        answerPageButtonContainer.classList.add('scale-0')
+    }, 0.5*transitionDuration)
 
     setTimeout(function() {
-        answerpage.style.display = 'none'
+        answerPage.style.display = 'none'
 
         body.classList.remove('bg-lightblue')
         body.classList.add('bg-white')
 
-        leftblob.style.fill = '#7678ED'
-        rightblob.style.fill = '#7678ED'
+        leftBlob.style.fill = lightblue
+        rightBlob.style.fill = lightblue
     
-        progressbar.style.transition = 'width 1s'
-        questionnumber.innerHTML = 'Fråga ' + count.length + ' av ' + questions.length
-        progressbar.style.width = (count.length / questions.length) * 100  + '%'
+        progressBar.style.transition = 'all 0.5s'
+        questionNumber.innerHTML = 'Fråga ' + count.length + ' av ' + questions.length
+        progressBar.style.width = (count.length / questions.length) * 100  + '%'
 
-        progressbarcontainer.classList.remove('text-white')
-        progressbarcontainer.classList.add('text-darkblue')
+        logoBlob.style.fill = lightblue
+        logoDonkey.style.fill = white
+        logoEye.style.fill = white
 
-        progressline.classList.remove('bg-white')
-        progressline.classList.add('bg-lightblue')
-
-        progressbar.classList.remove('bg-white')
-        progressbar.classList.add('bg-darkblue')
-
-        logoblob.style.fill = '#7678ED'
-        logodonkey.style.fill = '#FFFFFF'
-        logoeye.style.fill = '#FFFFFF'
-
-        navheader.classList.remove('text-white')
-        navheader.classList.add('text-darkblue')
-    }, 1.5*transitionduration)
+        navHeader.classList.remove('text-white')
+        navHeader.classList.add('text-darkblue')
+    }, 1.5*transitionDuration)
         
     if (count.length > questions.length) {
 
+        for (var key in correctCategory) {
+            thisCategoryBlobs = blobs.splice(0, 5)
+            colorBlobs = thisCategoryBlobs.splice(0, correctCategory[key].length)
+            
+            for (var key in colorBlobs) {
+                colorBlobs[key].classList.remove('bg-lightgray')
+                colorBlobs[key].classList.add('bg-green')
+            }
+        }
+        
         setTimeout(function() {
-            progressbarcontainer.classList.remove('scale-100')
-            progressbarcontainer.classList.add('scale-0')
-        }, 1*transitionduration)
+            progressBarContainer.classList.remove('scale-100')
+            progressBarContainer.classList.add('scale-0')
+        }, 1*transitionDuration)
 
         setTimeout(function() {
-            resultpage.style.display = 'block'
-            progressbarcontainer.style.display = 'none'
-            totalresult.innerHTML = correct.length + ' av ' + questions.length + ' rätt'
-        }, 2.5*transitionduration)
+            resultPage.style.display = 'block'
+            progressBarContainer.style.display = 'none'
+            totalResult.innerHTML = correct.length + ' av ' + questions.length + ' rätt'
+        }, 2.5*transitionDuration)
 
         setTimeout(function() {
-            resultpagetext.classList.remove('scale-0')
-            resultpagetext.classList.add('scale-100')
-        }, 2.6*transitionduration)
+            resultPageText.classList.remove('scale-0')
+            resultPageText.classList.add('scale-100')
+        }, 2.6*transitionDuration)
 
         setTimeout(function() {
-            resultpageblobs.classList.remove('scale-0')
-            resultpageblobs.classList.add('scale-100')
-        }, 3.1*transitionduration)
+            resultPageBlobs.classList.remove('scale-0')
+            resultPageBlobs.classList.add('scale-100')
+        }, 3.1*transitionDuration)
 
         setTimeout(function() {
-            resultpagebuttoncontainer.classList.remove('scale-0')
-            resultpagebuttoncontainer.classList.add('scale-100')
-        }, 3.6*transitionduration)
+            resultPageButtonContainer.classList.remove('scale-0')
+            resultPageButtonContainer.classList.add('scale-100')
+        }, 3.6*transitionDuration)
 
     } else if (count.length <= questions.length) {
         setTimeout(function() {
-            questionpage.style.display = 'block'
+            questionPage.style.display = 'block'
 
             category.innerHTML = questions[count.length - 1]['category']
             question.innerHTML = questions[count.length - 1]['question']
             answer.innerHTML = questions[count.length - 1]['answer']
-        }, 1.5*transitionduration)
+
+
+            progressBarContainer.classList.remove('text-white')
+            progressBarContainer.classList.add('text-darkblue')
+
+            progressLine.classList.remove('bg-white')
+            progressLine.classList.add('bg-lightblue')
+
+            progressBar.classList.remove('bg-white')
+            progressBar.classList.add('bg-darkblue')
+        }, 1.5*transitionDuration)
 
         setTimeout(function() {
-            questionpagetext.classList.remove('scale-0')
-            questionpagetext.classList.add('scale-100')
-        }, 1.6*transitionduration)
+            questionPageText.classList.remove('scale-0')
+            questionPageText.classList.add('scale-100')
+        }, 1.6*transitionDuration)
 
         setTimeout(function() {
-            questionpagebuttoncontainer.classList.remove('scale-0')
-            questionpagebuttoncontainer.classList.add('scale-100')
-        }, 2.1*transitionduration)
+            questionPageButtonContainer.classList.remove('scale-0')
+            questionPageButtonContainer.classList.add('scale-100')
+        }, 2.1*transitionDuration)
     }
 }
 
-resultpagebutton.onclick = function() {
-    answerpagebuttonyes.disabled = false
-    answerpagebuttonno.disabled = false
-    resultpagebutton.disabled = true
+resultPageButton.onclick = function() {
+    answerPageButtonYes.disabled = false
+    answerPageButtonNo.disabled = false
+    resultPageButton.disabled = true
 
     body.classList.remove('duration-500')
     body.classList.add('duration-0')
 
-    resultpagetext.classList.remove('scale-100')
-    resultpagetext.classList.add('scale-0')
+    resultPageText.classList.remove('scale-100')
+    resultPageText.classList.add('scale-0')
 
     setTimeout(function() {
-        resultpageblobs.classList.remove('scale-100')
-        resultpageblobs.classList.add('scale-0')
-    }, 0.5*transitionduration)
+        resultPageBlobs.classList.remove('scale-100')
+        resultPageBlobs.classList.add('scale-0')
+    }, 0.5*transitionDuration)
     
 
     setTimeout(function() {
-        resultpagebuttoncontainer.classList.remove('scale-100')
-        resultpagebuttoncontainer.classList.add('scale-0')
-    }, 1*transitionduration)
+        resultPageButtonContainer.classList.remove('scale-100')
+        resultPageButtonContainer.classList.add('scale-0')
+    }, 1*transitionDuration)
 
     setTimeout(function() {
-        resultpage.style.display = 'none'
-        frontpage.style.display = 'block'
-    }, 2*transitionduration)
+        resultPage.style.display = 'none'
+        frontPage.style.display = 'block'
+    }, 2*transitionDuration)
         
 
     setTimeout(function() {
-        frontpagetext.classList.remove('scale-0')
-        frontpagetext.classList.add('scale-100')
-    }, 2.1*transitionduration) 
+        frontPageText.classList.remove('scale-0')
+        frontPageText.classList.add('scale-100')
+    }, 2.1*transitionDuration) 
 
     setTimeout(function() {
-        frontpagebuttoncontainer.classList.remove('scale-0')
-        frontpagebuttoncontainer.classList.add('scale-100')
-    }, 2.6*transitionduration) 
+        frontPageButtonContainer.classList.remove('scale-0')
+        frontPageButtonContainer.classList.add('scale-100')
+    }, 2.6*transitionDuration) 
 }
