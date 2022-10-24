@@ -1,7 +1,6 @@
 import { spline } from '@georgedoescode/spline';
 import { createNoise2D } from 'simplex-noise';
 
-//Blob animation
 const leftBlob = document.getElementById('left-blob')
 const rightBlob = document.getElementById('right-blob')
 
@@ -65,4 +64,3 @@ function noise(x, y) {
         point.noiseOffsetY += noiseStep
     }
 })()
-//End of animation
