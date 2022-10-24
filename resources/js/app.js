@@ -97,6 +97,16 @@ function durationRemove(element) {
 setTimeout(function() {
     html.style.display = 'block'
     frontPage.style.display = 'block'
+
+    durationAdd(body)
+
+    for (let i = 0; i < nav.length; i++) {
+        durationAdd(nav[i])
+    }
+
+    for (let i = 0; i < progress.length; i++) {
+        durationAdd(progress[i])
+    }
 }, 0)
 
 scaleUp(0.5, frontPageText)
@@ -154,9 +164,9 @@ function yesAndNoButton() {
             totalResult.innerHTML = correct.length + ' av ' + questions.length + ' rätt'
         }, 2.5*transitionDuration)
 
-        scaleUp(2.6, resultPageText)
-        scaleUp(3.1, resultPageBlobs)
-        scaleUp(3.6, resultPageButtonContainer)
+        scaleUp(3, resultPageText)
+        scaleUp(3.5, resultPageBlobs)
+        scaleUp(4, resultPageButtonContainer)
 
     } else if (count.length <= questions.length) {
         setTimeout(function() {
@@ -206,16 +216,6 @@ frontPageButton.onclick = function() {
         }
 
         count.push(1)
-
-        durationAdd(body)
-
-        for (let i = 0; i < nav.length; i++) {
-            durationAdd(nav[i])
-        }
-
-        for (let i = 0; i < progress.length; i++) {
-            durationAdd(progress[i])
-        }
 
         progressBarContainer.classList.remove('text-white')
         progressBarContainer.classList.add('text-darkblue')
