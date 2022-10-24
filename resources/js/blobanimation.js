@@ -6,7 +6,7 @@ const rightBlob = document.getElementById('right-blob')
 
 function createPoints() {
     const points = []
-    const numPoints = 6
+    const numPoints = 8
     const angleStep = (Math.PI * 2) / numPoints
     const rad = 90
 
@@ -55,7 +55,7 @@ function noise(x, y) {
         const nY= noise(point.noiseOffsetY, point.noiseOffsetY)
 
         const x = map(nX, -1, 1, point.originX - 10, point.originX + 10)
-        const y = map(nY, -1, 1, point.originY - 10, point.originY + 10)
+        const y = map(nY, -1, 1, point.originY - 20, point.originY + 20)
 
         point.x = x
         point.y = y
