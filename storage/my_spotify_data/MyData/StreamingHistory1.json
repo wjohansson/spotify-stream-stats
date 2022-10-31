@@ -1,0 +1,5054 @@
+[
+  {
+    "endTime" : "2022-09-15 10:18",
+    "artistName" : "Metallica",
+    "trackName" : "All Nightmare Long",
+    "msPlayed" : 477026
+  },
+  {
+    "endTime" : "2022-09-15 10:23",
+    "artistName" : "Metallica",
+    "trackName" : "Sweet Amber",
+    "msPlayed" : 327132
+  },
+  {
+    "endTime" : "2022-09-15 10:30",
+    "artistName" : "Metallica",
+    "trackName" : "The Small Hours",
+    "msPlayed" : 400800
+  },
+  {
+    "endTime" : "2022-09-15 10:35",
+    "artistName" : "Metallica",
+    "trackName" : "Battery",
+    "msPlayed" : 312360
+  },
+  {
+    "endTime" : "2022-09-15 10:39",
+    "artistName" : "Metallica",
+    "trackName" : "Poor Twisted Me",
+    "msPlayed" : 240000
+  },
+  {
+    "endTime" : "2022-09-15 10:45",
+    "artistName" : "Metallica",
+    "trackName" : "Remember Tomorrow",
+    "msPlayed" : 350066
+  },
+  {
+    "endTime" : "2022-09-15 10:52",
+    "artistName" : "Metallica",
+    "trackName" : "Where The Wild Things Are",
+    "msPlayed" : 412960
+  },
+  {
+    "endTime" : "2022-09-15 12:13",
+    "artistName" : "Metallica",
+    "trackName" : "Hate Train",
+    "msPlayed" : 419186
+  },
+  {
+    "endTime" : "2022-09-15 12:20",
+    "artistName" : "Metallica",
+    "trackName" : "Blackened",
+    "msPlayed" : 402143
+  },
+  {
+    "endTime" : "2022-09-15 12:29",
+    "artistName" : "Metallica",
+    "trackName" : "Suicide & Redemption",
+    "msPlayed" : 597720
+  },
+  {
+    "endTime" : "2022-09-15 12:36",
+    "artistName" : "Metallica",
+    "trackName" : "Prince Charming",
+    "msPlayed" : 365093
+  },
+  {
+    "endTime" : "2022-09-15 12:43",
+    "artistName" : "Metallica",
+    "trackName" : "One",
+    "msPlayed" : 446145
+  },
+  {
+    "endTime" : "2022-09-15 12:52",
+    "artistName" : "Metallica",
+    "trackName" : "Master Of Puppets",
+    "msPlayed" : 515386
+  },
+  {
+    "endTime" : "2022-09-15 12:57",
+    "artistName" : "Metallica",
+    "trackName" : "Breadfan",
+    "msPlayed" : 341066
+  },
+  {
+    "endTime" : "2022-09-15 13:04",
+    "artistName" : "Metallica",
+    "trackName" : "Halo On Fire",
+    "msPlayed" : 396730
+  },
+  {
+    "endTime" : "2022-09-16 06:35",
+    "artistName" : "Metallica",
+    "trackName" : "Phantom Lord - Remastered",
+    "msPlayed" : 5094
+  },
+  {
+    "endTime" : "2022-09-16 06:35",
+    "artistName" : "Metallica",
+    "trackName" : "Ronnie Rising Medley (A Light In The Black / Tarot Woman / Stargazer / Kill The King)",
+    "msPlayed" : 2759
+  },
+  {
+    "endTime" : "2022-09-16 07:00",
+    "artistName" : "Metallica",
+    "trackName" : "Disposable Heroes",
+    "msPlayed" : 245863
+  },
+  {
+    "endTime" : "2022-09-16 07:01",
+    "artistName" : "Metallica",
+    "trackName" : "Halo On Fire",
+    "msPlayed" : 98298
+  },
+  {
+    "endTime" : "2022-09-16 08:11",
+    "artistName" : "Metallica",
+    "trackName" : "Sabbra Cadabra",
+    "msPlayed" : 302532
+  },
+  {
+    "endTime" : "2022-09-16 08:16",
+    "artistName" : "Metallica",
+    "trackName" : "Don't Tread on Me - Remastered 2021",
+    "msPlayed" : 240160
+  },
+  {
+    "endTime" : "2022-09-16 08:24",
+    "artistName" : "Metallica",
+    "trackName" : "My Apocalypse",
+    "msPlayed" : 301026
+  },
+  {
+    "endTime" : "2022-09-16 08:29",
+    "artistName" : "Metallica",
+    "trackName" : "The More I See",
+    "msPlayed" : 288666
+  },
+  {
+    "endTime" : "2022-09-16 08:35",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 387146
+  },
+  {
+    "endTime" : "2022-09-16 08:42",
+    "artistName" : "Metallica",
+    "trackName" : "That Was Just Your Life",
+    "msPlayed" : 428320
+  },
+  {
+    "endTime" : "2022-09-16 08:50",
+    "artistName" : "Metallica",
+    "trackName" : "The End Of The Line",
+    "msPlayed" : 472360
+  },
+  {
+    "endTime" : "2022-09-16 08:57",
+    "artistName" : "Metallica",
+    "trackName" : "Nothing Else Matters - Remastered 2021",
+    "msPlayed" : 388733
+  },
+  {
+    "endTime" : "2022-09-16 09:00",
+    "artistName" : "Metallica",
+    "trackName" : "The Struggle Within - Remastered 2021",
+    "msPlayed" : 232648
+  },
+  {
+    "endTime" : "2022-09-16 09:08",
+    "artistName" : "Metallica",
+    "trackName" : "The Day That Never Comes",
+    "msPlayed" : 476266
+  },
+  {
+    "endTime" : "2022-09-16 09:17",
+    "artistName" : "Metallica",
+    "trackName" : "The Call Of Ktulu - Remastered",
+    "msPlayed" : 533493
+  },
+  {
+    "endTime" : "2022-09-16 10:31",
+    "artistName" : "Metallica",
+    "trackName" : "Creeping Death - Remastered",
+    "msPlayed" : 395706
+  },
+  {
+    "endTime" : "2022-09-16 10:39",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "The Incantation",
+    "msPlayed" : 487973
+  },
+  {
+    "endTime" : "2022-09-16 10:42",
+    "artistName" : "Metallica",
+    "trackName" : "Killing Time",
+    "msPlayed" : 183666
+  },
+  {
+    "endTime" : "2022-09-16 10:48",
+    "artistName" : "Metallica",
+    "trackName" : "Purify",
+    "msPlayed" : 313932
+  },
+  {
+    "endTime" : "2022-09-16 10:53",
+    "artistName" : "Metallica",
+    "trackName" : "Harvester of Sorrow",
+    "msPlayed" : 345283
+  },
+  {
+    "endTime" : "2022-09-16 11:02",
+    "artistName" : "Metallica",
+    "trackName" : "Some Kind Of Monster",
+    "msPlayed" : 505532
+  },
+  {
+    "endTime" : "2022-09-16 11:06",
+    "artistName" : "Metallica",
+    "trackName" : "I Disappear",
+    "msPlayed" : 266240
+  },
+  {
+    "endTime" : "2022-09-16 11:11",
+    "artistName" : "Metallica",
+    "trackName" : "Phantom Lord - Remastered",
+    "msPlayed" : 301293
+  },
+  {
+    "endTime" : "2022-09-16 11:18",
+    "artistName" : "Metallica",
+    "trackName" : "Just A Bullet Away",
+    "msPlayed" : 431480
+  },
+  {
+    "endTime" : "2022-09-16 11:25",
+    "artistName" : "Metallica",
+    "trackName" : "No Remorse - Remastered",
+    "msPlayed" : 386560
+  },
+  {
+    "endTime" : "2022-09-16 11:27",
+    "artistName" : "Metallica",
+    "trackName" : "Stone Cold Crazy",
+    "msPlayed" : 137706
+  },
+  {
+    "endTime" : "2022-09-16 11:32",
+    "artistName" : "Metallica",
+    "trackName" : "The Prince",
+    "msPlayed" : 264800
+  },
+  {
+    "endTime" : "2022-09-16 12:05",
+    "artistName" : "Metallica",
+    "trackName" : "Rebel Of Babylon",
+    "msPlayed" : 482000
+  },
+  {
+    "endTime" : "2022-09-16 12:12",
+    "artistName" : "Metallica",
+    "trackName" : "Here Comes Revenge",
+    "msPlayed" : 437625
+  },
+  {
+    "endTime" : "2022-09-16 12:18",
+    "artistName" : "Metallica",
+    "trackName" : "Dirty Window",
+    "msPlayed" : 324905
+  },
+  {
+    "endTime" : "2022-09-16 12:23",
+    "artistName" : "Metallica",
+    "trackName" : "Dyers Eve",
+    "msPlayed" : 313045
+  },
+  {
+    "endTime" : "2022-09-16 12:29",
+    "artistName" : "Metallica",
+    "trackName" : "Dream No More",
+    "msPlayed" : 389597
+  },
+  {
+    "endTime" : "2022-09-16 12:42",
+    "artistName" : "Metallica",
+    "trackName" : "Don't Tread on Me - Remastered 2021",
+    "msPlayed" : 105632
+  },
+  {
+    "endTime" : "2022-09-16 12:56",
+    "artistName" : "Metallica",
+    "trackName" : "The Call Of Ktulu - Remastered",
+    "msPlayed" : 209760
+  },
+  {
+    "endTime" : "2022-09-16 13:38",
+    "artistName" : "Metallica",
+    "trackName" : "The Call Of Ktulu - Remastered",
+    "msPlayed" : 324179
+  },
+  {
+    "endTime" : "2022-09-16 13:51",
+    "artistName" : "Metallica",
+    "trackName" : "Trapped Under Ice - Remastered",
+    "msPlayed" : 105240
+  },
+  {
+    "endTime" : "2022-09-16 14:52",
+    "artistName" : "Metallica",
+    "trackName" : "Trapped Under Ice - Remastered",
+    "msPlayed" : 116402
+  },
+  {
+    "endTime" : "2022-09-16 14:59",
+    "artistName" : "Metallica",
+    "trackName" : "Seek & Destroy - Remastered",
+    "msPlayed" : 414720
+  },
+  {
+    "endTime" : "2022-09-16 15:05",
+    "artistName" : "Metallica",
+    "trackName" : "Creeping Death - Remastered",
+    "msPlayed" : 395706
+  },
+  {
+    "endTime" : "2022-09-16 15:12",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 387146
+  },
+  {
+    "endTime" : "2022-09-16 15:12",
+    "artistName" : "Metallica",
+    "trackName" : "Sweet Amber",
+    "msPlayed" : 1446
+  },
+  {
+    "endTime" : "2022-09-16 15:24",
+    "artistName" : "Metallica",
+    "trackName" : "Bleeding Me",
+    "msPlayed" : 134623
+  },
+  {
+    "endTime" : "2022-09-16 16:46",
+    "artistName" : "Metallica",
+    "trackName" : "Bleeding Me",
+    "msPlayed" : 363342
+  },
+  {
+    "endTime" : "2022-09-16 17:12",
+    "artistName" : "Metallica",
+    "trackName" : "The Thing That Should Not Be",
+    "msPlayed" : 396106
+  },
+  {
+    "endTime" : "2022-09-16 17:24",
+    "artistName" : "Metallica",
+    "trackName" : "Mama Said",
+    "msPlayed" : 153190
+  },
+  {
+    "endTime" : "2022-09-16 20:03",
+    "artistName" : "Metallica",
+    "trackName" : "Fade To Black - Remastered",
+    "msPlayed" : 534330
+  },
+  {
+    "endTime" : "2022-09-18 10:27",
+    "artistName" : "Metallica",
+    "trackName" : "Confusion",
+    "msPlayed" : 650
+  },
+  {
+    "endTime" : "2022-09-18 10:27",
+    "artistName" : "Metallica",
+    "trackName" : "Ronnie",
+    "msPlayed" : 1160
+  },
+  {
+    "endTime" : "2022-09-18 10:27",
+    "artistName" : "Metallica",
+    "trackName" : "Mama Said",
+    "msPlayed" : 11423
+  },
+  {
+    "endTime" : "2022-09-18 10:27",
+    "artistName" : "Metallica",
+    "trackName" : "Purify",
+    "msPlayed" : 0
+  },
+  {
+    "endTime" : "2022-09-18 10:27",
+    "artistName" : "Metallica",
+    "trackName" : "I Disappear",
+    "msPlayed" : 1027
+  },
+  {
+    "endTime" : "2022-09-18 10:32",
+    "artistName" : "Metallica",
+    "trackName" : "One",
+    "msPlayed" : 308116
+  },
+  {
+    "endTime" : "2022-09-18 14:01",
+    "artistName" : "Metallica",
+    "trackName" : "Dirty Window",
+    "msPlayed" : 7480
+  },
+  {
+    "endTime" : "2022-09-18 15:06",
+    "artistName" : "Metallica",
+    "trackName" : "Dream No More",
+    "msPlayed" : 388038
+  },
+  {
+    "endTime" : "2022-09-18 15:13",
+    "artistName" : "Metallica",
+    "trackName" : "The Shortest Straw",
+    "msPlayed" : 395101
+  },
+  {
+    "endTime" : "2022-09-18 15:20",
+    "artistName" : "Metallica",
+    "trackName" : "The Four Horsemen - Remastered",
+    "msPlayed" : 432546
+  },
+  {
+    "endTime" : "2022-09-18 15:27",
+    "artistName" : "Metallica",
+    "trackName" : "The Thing That Should Not Be",
+    "msPlayed" : 396106
+  },
+  {
+    "endTime" : "2022-09-18 15:31",
+    "artistName" : "Metallica",
+    "trackName" : "Until It Sleeps",
+    "msPlayed" : 267933
+  },
+  {
+    "endTime" : "2022-09-18 15:34",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 188933
+  },
+  {
+    "endTime" : "2022-09-18 15:41",
+    "artistName" : "Metallica",
+    "trackName" : "All Within My Hands",
+    "msPlayed" : 393812
+  },
+  {
+    "endTime" : "2022-09-18 15:46",
+    "artistName" : "Metallica",
+    "trackName" : "Mama Said",
+    "msPlayed" : 319693
+  },
+  {
+    "endTime" : "2022-09-18 15:54",
+    "artistName" : "Metallica",
+    "trackName" : "Loverman",
+    "msPlayed" : 472826
+  },
+  {
+    "endTime" : "2022-09-18 16:00",
+    "artistName" : "Metallica",
+    "trackName" : "Better Than You",
+    "msPlayed" : 321600
+  },
+  {
+    "endTime" : "2022-09-18 16:04",
+    "artistName" : "Metallica",
+    "trackName" : "The Memory Remains",
+    "msPlayed" : 279173
+  },
+  {
+    "endTime" : "2022-09-18 16:08",
+    "artistName" : "Metallica",
+    "trackName" : "Whiplash - Remastered",
+    "msPlayed" : 248546
+  },
+  {
+    "endTime" : "2022-09-18 16:14",
+    "artistName" : "Metallica",
+    "trackName" : "For Whom The Bell Tolls - Remastered",
+    "msPlayed" : 309973
+  },
+  {
+    "endTime" : "2022-09-18 16:21",
+    "artistName" : "Metallica",
+    "trackName" : "ManUNkind",
+    "msPlayed" : 415599
+  },
+  {
+    "endTime" : "2022-09-18 16:25",
+    "artistName" : "Metallica",
+    "trackName" : "Escape - Remastered",
+    "msPlayed" : 263866
+  },
+  {
+    "endTime" : "2022-09-18 16:26",
+    "artistName" : "Metallica",
+    "trackName" : "Lords Of Summer",
+    "msPlayed" : 77584
+  },
+  {
+    "endTime" : "2022-09-19 06:26",
+    "artistName" : "Metallica",
+    "trackName" : "Dirty Window",
+    "msPlayed" : 3098
+  },
+  {
+    "endTime" : "2022-09-19 06:31",
+    "artistName" : "Metallica",
+    "trackName" : "My Apocalypse",
+    "msPlayed" : 301026
+  },
+  {
+    "endTime" : "2022-09-19 06:48",
+    "artistName" : "Metallica",
+    "trackName" : "Sad But True - Remastered 2021",
+    "msPlayed" : 6456
+  },
+  {
+    "endTime" : "2022-09-19 13:08",
+    "artistName" : "Metallica",
+    "trackName" : "Sad But True - Remastered 2021",
+    "msPlayed" : 318429
+  },
+  {
+    "endTime" : "2022-09-19 13:20",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "High Plains Drifter",
+    "msPlayed" : 149110
+  },
+  {
+    "endTime" : "2022-09-19 14:46",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "High Plains Drifter",
+    "msPlayed" : 988
+  },
+  {
+    "endTime" : "2022-09-19 14:48",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "High Plains Drifter",
+    "msPlayed" : 136063
+  },
+  {
+    "endTime" : "2022-09-19 14:50",
+    "artistName" : "Metallica",
+    "trackName" : "Shoot Me Again",
+    "msPlayed" : 2194
+  },
+  {
+    "endTime" : "2022-09-19 14:50",
+    "artistName" : "Metallica",
+    "trackName" : "Where The Wild Things Are",
+    "msPlayed" : 112725
+  },
+  {
+    "endTime" : "2022-09-19 14:54",
+    "artistName" : "Metallica",
+    "trackName" : "Now That We’re Dead",
+    "msPlayed" : 33327
+  },
+  {
+    "endTime" : "2022-09-19 14:54",
+    "artistName" : "Metallica",
+    "trackName" : "ManUNkind",
+    "msPlayed" : 244971
+  },
+  {
+    "endTime" : "2022-09-19 14:55",
+    "artistName" : "Metallica",
+    "trackName" : "It's Electric",
+    "msPlayed" : 2965
+  },
+  {
+    "endTime" : "2022-09-19 14:55",
+    "artistName" : "Metallica",
+    "trackName" : "Hardwired",
+    "msPlayed" : 3171
+  },
+  {
+    "endTime" : "2022-09-19 15:02",
+    "artistName" : "Metallica",
+    "trackName" : "Hell And Back",
+    "msPlayed" : 417893
+  },
+  {
+    "endTime" : "2022-09-19 15:02",
+    "artistName" : "Metallica",
+    "trackName" : "Lords Of Summer",
+    "msPlayed" : 7507
+  },
+  {
+    "endTime" : "2022-09-19 15:02",
+    "artistName" : "Metallica",
+    "trackName" : "Rebel Of Babylon",
+    "msPlayed" : 1959
+  },
+  {
+    "endTime" : "2022-09-19 15:02",
+    "artistName" : "Metallica",
+    "trackName" : "The Small Hours",
+    "msPlayed" : 21803
+  },
+  {
+    "endTime" : "2022-09-19 15:05",
+    "artistName" : "Metallica",
+    "trackName" : "Killing Time",
+    "msPlayed" : 183666
+  },
+  {
+    "endTime" : "2022-09-19 15:12",
+    "artistName" : "Metallica",
+    "trackName" : "Eye of the Beholder",
+    "msPlayed" : 385986
+  },
+  {
+    "endTime" : "2022-09-19 15:14",
+    "artistName" : "Metallica",
+    "trackName" : "Carpe Diem Baby",
+    "msPlayed" : 125479
+  },
+  {
+    "endTime" : "2022-09-19 15:22",
+    "artistName" : "Metallica",
+    "trackName" : "All Nightmare Long",
+    "msPlayed" : 477026
+  },
+  {
+    "endTime" : "2022-09-19 15:22",
+    "artistName" : "Metallica",
+    "trackName" : "Attitude",
+    "msPlayed" : 2524
+  },
+  {
+    "endTime" : "2022-09-19 15:27",
+    "artistName" : "Metallica",
+    "trackName" : "The Wait",
+    "msPlayed" : 292960
+  },
+  {
+    "endTime" : "2022-09-19 15:31",
+    "artistName" : "Metallica",
+    "trackName" : "Of Wolf and Man - Remastered 2021",
+    "msPlayed" : 256573
+  },
+  {
+    "endTime" : "2022-09-19 15:39",
+    "artistName" : "Metallica",
+    "trackName" : "Master Of Puppets",
+    "msPlayed" : 515386
+  },
+  {
+    "endTime" : "2022-09-19 15:46",
+    "artistName" : "Metallica",
+    "trackName" : "Leper Messiah",
+    "msPlayed" : 339880
+  },
+  {
+    "endTime" : "2022-09-19 15:54",
+    "artistName" : "Metallica",
+    "trackName" : "Am I Savage?",
+    "msPlayed" : 389662
+  },
+  {
+    "endTime" : "2022-09-19 16:01",
+    "artistName" : "Metallica",
+    "trackName" : "The Unnamed Feeling",
+    "msPlayed" : 427892
+  },
+  {
+    "endTime" : "2022-09-19 16:09",
+    "artistName" : "Metallica",
+    "trackName" : "Just A Bullet Away",
+    "msPlayed" : 431480
+  },
+  {
+    "endTime" : "2022-09-19 16:37",
+    "artistName" : "Metallica",
+    "trackName" : "Damage, Inc.",
+    "msPlayed" : 332465
+  },
+  {
+    "endTime" : "2022-09-19 16:38",
+    "artistName" : "Metallica",
+    "trackName" : "Metal Militia - Remastered",
+    "msPlayed" : 92469
+  },
+  {
+    "endTime" : "2022-09-19 16:38",
+    "artistName" : "Metallica",
+    "trackName" : "Loverman",
+    "msPlayed" : 1700
+  },
+  {
+    "endTime" : "2022-09-19 16:45",
+    "artistName" : "Metallica",
+    "trackName" : "No Remorse - Remastered",
+    "msPlayed" : 2789
+  },
+  {
+    "endTime" : "2022-09-19 16:45",
+    "artistName" : "Metallica",
+    "trackName" : "The Shortest Straw",
+    "msPlayed" : 395101
+  },
+  {
+    "endTime" : "2022-09-19 17:02",
+    "artistName" : "Metallica",
+    "trackName" : "Dyers Eve",
+    "msPlayed" : 232422
+  },
+  {
+    "endTime" : "2022-09-19 17:02",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "The Incantation",
+    "msPlayed" : 7643
+  },
+  {
+    "endTime" : "2022-09-19 17:17",
+    "artistName" : "Metallica",
+    "trackName" : "The Day That Never Comes",
+    "msPlayed" : 242520
+  },
+  {
+    "endTime" : "2022-09-19 19:11",
+    "artistName" : "Metallica",
+    "trackName" : "The Day That Never Comes",
+    "msPlayed" : 234031
+  },
+  {
+    "endTime" : "2022-09-19 19:23",
+    "artistName" : "Metallica",
+    "trackName" : "Low Man's Lyric",
+    "msPlayed" : 109668
+  },
+  {
+    "endTime" : "2022-09-20 06:51",
+    "artistName" : "Metallica",
+    "trackName" : "Lords Of Summer",
+    "msPlayed" : 351442
+  },
+  {
+    "endTime" : "2022-09-20 06:54",
+    "artistName" : "Metallica",
+    "trackName" : "Blitzkrieg",
+    "msPlayed" : 216960
+  },
+  {
+    "endTime" : "2022-09-20 06:59",
+    "artistName" : "Metallica",
+    "trackName" : "Fuel",
+    "msPlayed" : 269800
+  },
+  {
+    "endTime" : "2022-09-20 07:26",
+    "artistName" : "Metallica",
+    "trackName" : "Broken, Beat & Scarred",
+    "msPlayed" : 385466
+  },
+  {
+    "endTime" : "2022-09-20 07:32",
+    "artistName" : "Metallica",
+    "trackName" : "Wherever I May Roam - Remastered 2021",
+    "msPlayed" : 404333
+  },
+  {
+    "endTime" : "2022-09-20 07:39",
+    "artistName" : "Metallica",
+    "trackName" : "Confusion",
+    "msPlayed" : 401226
+  },
+  {
+    "endTime" : "2022-09-20 07:46",
+    "artistName" : "Metallica",
+    "trackName" : "Now That We’re Dead",
+    "msPlayed" : 419074
+  },
+  {
+    "endTime" : "2022-09-20 07:50",
+    "artistName" : "Metallica",
+    "trackName" : "Trapped Under Ice - Remastered",
+    "msPlayed" : 244066
+  },
+  {
+    "endTime" : "2022-09-20 07:57",
+    "artistName" : "Metallica",
+    "trackName" : "Eye of the Beholder",
+    "msPlayed" : 385986
+  },
+  {
+    "endTime" : "2022-09-20 08:03",
+    "artistName" : "Metallica",
+    "trackName" : "The Unforgiven - Remastered 2021",
+    "msPlayed" : 387160
+  },
+  {
+    "endTime" : "2022-09-20 08:09",
+    "artistName" : "Metallica",
+    "trackName" : "Thorn Within",
+    "msPlayed" : 351666
+  },
+  {
+    "endTime" : "2022-09-20 08:14",
+    "artistName" : "Metallica",
+    "trackName" : "Metal Militia - Remastered",
+    "msPlayed" : 311466
+  },
+  {
+    "endTime" : "2022-09-20 08:20",
+    "artistName" : "Metallica",
+    "trackName" : "2 X 4",
+    "msPlayed" : 328200
+  },
+  {
+    "endTime" : "2022-09-20 08:22",
+    "artistName" : "Metallica",
+    "trackName" : "Free Speech For The Dumb",
+    "msPlayed" : 155493
+  },
+  {
+    "endTime" : "2022-09-20 08:30",
+    "artistName" : "Metallica",
+    "trackName" : "The Unforgiven III",
+    "msPlayed" : 466586
+  },
+  {
+    "endTime" : "2022-09-20 08:37",
+    "artistName" : "Metallica",
+    "trackName" : "The House That Jack Built",
+    "msPlayed" : 398866
+  },
+  {
+    "endTime" : "2022-09-20 08:42",
+    "artistName" : "Metallica",
+    "trackName" : "Moth Into Flame",
+    "msPlayed" : 350644
+  },
+  {
+    "endTime" : "2022-09-20 08:49",
+    "artistName" : "Metallica",
+    "trackName" : "My Friend of Misery - Remastered 2021",
+    "msPlayed" : 409666
+  },
+  {
+    "endTime" : "2022-09-20 08:54",
+    "artistName" : "Metallica",
+    "trackName" : "Whiskey In The Jar",
+    "msPlayed" : 304693
+  },
+  {
+    "endTime" : "2022-09-20 09:01",
+    "artistName" : "Metallica",
+    "trackName" : "Carpe Diem Baby",
+    "msPlayed" : 372200
+  },
+  {
+    "endTime" : "2022-09-20 09:06",
+    "artistName" : "Metallica",
+    "trackName" : "Ronnie",
+    "msPlayed" : 317133
+  },
+  {
+    "endTime" : "2022-09-20 10:21",
+    "artistName" : "Metallica",
+    "trackName" : "Cyanide",
+    "msPlayed" : 188212
+  },
+  {
+    "endTime" : "2022-09-20 10:39",
+    "artistName" : "Metallica",
+    "trackName" : "Cyanide",
+    "msPlayed" : 211340
+  },
+  {
+    "endTime" : "2022-09-20 10:45",
+    "artistName" : "Metallica",
+    "trackName" : "The Unnamed Feeling",
+    "msPlayed" : 380067
+  },
+  {
+    "endTime" : "2022-09-20 10:54",
+    "artistName" : "Metallica",
+    "trackName" : "Tuesday's Gone",
+    "msPlayed" : 543866
+  },
+  {
+    "endTime" : "2022-09-20 10:59",
+    "artistName" : "Metallica",
+    "trackName" : "Slither",
+    "msPlayed" : 313200
+  },
+  {
+    "endTime" : "2022-09-20 11:08",
+    "artistName" : "Metallica",
+    "trackName" : "Fixxxer",
+    "msPlayed" : 494773
+  },
+  {
+    "endTime" : "2022-09-20 11:13",
+    "artistName" : "Metallica",
+    "trackName" : "The God That Failed - Remastered 2021",
+    "msPlayed" : 308506
+  },
+  {
+    "endTime" : "2022-09-20 11:17",
+    "artistName" : "Metallica",
+    "trackName" : "Of Wolf and Man - Remastered 2021",
+    "msPlayed" : 256573
+  },
+  {
+    "endTime" : "2022-09-20 11:22",
+    "artistName" : "Metallica",
+    "trackName" : "When A Blind Man Cries",
+    "msPlayed" : 275013
+  },
+  {
+    "endTime" : "2022-09-20 11:25",
+    "artistName" : "Metallica",
+    "trackName" : "Crash Course In Brain Surgery",
+    "msPlayed" : 188826
+  },
+  {
+    "endTime" : "2022-09-20 11:30",
+    "artistName" : "Metallica",
+    "trackName" : "The Wait",
+    "msPlayed" : 292960
+  },
+  {
+    "endTime" : "2022-09-20 11:34",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "High Plains Drifter",
+    "msPlayed" : 285960
+  },
+  {
+    "endTime" : "2022-09-20 11:40",
+    "artistName" : "Metallica",
+    "trackName" : "Frantic",
+    "msPlayed" : 350358
+  },
+  {
+    "endTime" : "2022-09-20 11:48",
+    "artistName" : "Metallica",
+    "trackName" : "The Frayed Ends of Sanity",
+    "msPlayed" : 463158
+  },
+  {
+    "endTime" : "2022-09-20 11:55",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "The Jinn",
+    "msPlayed" : 417226
+  },
+  {
+    "endTime" : "2022-09-20 12:03",
+    "artistName" : "Metallica",
+    "trackName" : "Disposable Heroes",
+    "msPlayed" : 496626
+  },
+  {
+    "endTime" : "2022-09-20 12:12",
+    "artistName" : "Metallica",
+    "trackName" : "Invisible Kid",
+    "msPlayed" : 510092
+  },
+  {
+    "endTime" : "2022-09-20 12:22",
+    "artistName" : "Metallica",
+    "trackName" : "To Live is to Die",
+    "msPlayed" : 588381
+  },
+  {
+    "endTime" : "2022-09-20 12:29",
+    "artistName" : "Metallica",
+    "trackName" : "Orion",
+    "msPlayed" : 465302
+  },
+  {
+    "endTime" : "2022-09-20 15:56",
+    "artistName" : "Metallica",
+    "trackName" : "Low Man's Lyric",
+    "msPlayed" : 312800
+  },
+  {
+    "endTime" : "2022-09-21 06:22",
+    "artistName" : "Metallica",
+    "trackName" : "Low Man's Lyric",
+    "msPlayed" : 3290
+  },
+  {
+    "endTime" : "2022-09-21 06:44",
+    "artistName" : "Metallica",
+    "trackName" : "Halo On Fire",
+    "msPlayed" : 253960
+  },
+  {
+    "endTime" : "2022-09-21 06:47",
+    "artistName" : "Metallica",
+    "trackName" : "Orion",
+    "msPlayed" : 6440
+  },
+  {
+    "endTime" : "2022-09-21 06:52",
+    "artistName" : "Metallica",
+    "trackName" : "Devil's Dance",
+    "msPlayed" : 318960
+  },
+  {
+    "endTime" : "2022-09-21 07:17",
+    "artistName" : "Metallica",
+    "trackName" : "It's Electric",
+    "msPlayed" : 190122
+  },
+  {
+    "endTime" : "2022-09-21 07:24",
+    "artistName" : "Metallica",
+    "trackName" : "Fade To Black - Remastered",
+    "msPlayed" : 417226
+  },
+  {
+    "endTime" : "2022-09-21 07:33",
+    "artistName" : "Metallica",
+    "trackName" : "Ronnie Rising Medley (A Light In The Black / Tarot Woman / Stargazer / Kill The King)",
+    "msPlayed" : 543146
+  },
+  {
+    "endTime" : "2022-09-21 07:42",
+    "artistName" : "Metallica",
+    "trackName" : "Bleeding Me",
+    "msPlayed" : 497933
+  },
+  {
+    "endTime" : "2022-09-21 07:46",
+    "artistName" : "Metallica",
+    "trackName" : "Jump In The Fire - Remastered",
+    "msPlayed" : 281293
+  },
+  {
+    "endTime" : "2022-09-21 07:53",
+    "artistName" : "Metallica",
+    "trackName" : "Hell And Back",
+    "msPlayed" : 417893
+  },
+  {
+    "endTime" : "2022-09-21 07:57",
+    "artistName" : "Metallica",
+    "trackName" : "Wasting My Hate",
+    "msPlayed" : 237240
+  },
+  {
+    "endTime" : "2022-09-21 08:04",
+    "artistName" : "Metallica",
+    "trackName" : "Seek & Destroy - Remastered",
+    "msPlayed" : 414720
+  },
+  {
+    "endTime" : "2022-09-21 08:08",
+    "artistName" : "Metallica",
+    "trackName" : "Holier Than Thou - Remastered 2021",
+    "msPlayed" : 227573
+  },
+  {
+    "endTime" : "2022-09-21 08:13",
+    "artistName" : "Metallica",
+    "trackName" : "Cure",
+    "msPlayed" : 294293
+  },
+  {
+    "endTime" : "2022-09-21 08:20",
+    "artistName" : "Metallica",
+    "trackName" : "St. Anger",
+    "msPlayed" : 441132
+  },
+  {
+    "endTime" : "2022-09-21 08:30",
+    "artistName" : "Metallica",
+    "trackName" : "The Outlaw Torn",
+    "msPlayed" : 588666
+  },
+  {
+    "endTime" : "2022-09-21 08:36",
+    "artistName" : "Metallica",
+    "trackName" : "Hero Of The Day",
+    "msPlayed" : 261906
+  },
+  {
+    "endTime" : "2022-09-21 08:41",
+    "artistName" : "Metallica",
+    "trackName" : "Damage, Inc.",
+    "msPlayed" : 332465
+  },
+  {
+    "endTime" : "2022-09-21 08:48",
+    "artistName" : "Metallica",
+    "trackName" : "Helpless",
+    "msPlayed" : 396920
+  },
+  {
+    "endTime" : "2022-09-21 08:56",
+    "artistName" : "Metallica",
+    "trackName" : "Am I Evil?",
+    "msPlayed" : 470066
+  },
+  {
+    "endTime" : "2022-09-21 10:05",
+    "artistName" : "Metallica",
+    "trackName" : "Ain't My Bitch",
+    "msPlayed" : 304400
+  },
+  {
+    "endTime" : "2022-09-21 10:08",
+    "artistName" : "Metallica",
+    "trackName" : "Motorbreath - Remastered",
+    "msPlayed" : 187840
+  },
+  {
+    "endTime" : "2022-09-21 10:15",
+    "artistName" : "Metallica",
+    "trackName" : "Astronomy",
+    "msPlayed" : 397840
+  },
+  {
+    "endTime" : "2022-09-21 10:21",
+    "artistName" : "Metallica",
+    "trackName" : "Ride The Lightning - Remastered",
+    "msPlayed" : 396986
+  },
+  {
+    "endTime" : "2022-09-21 10:22",
+    "artistName" : "Metallica",
+    "trackName" : "Shoot Me Again",
+    "msPlayed" : 66672
+  },
+  {
+    "endTime" : "2022-09-21 10:27",
+    "artistName" : "Metallica",
+    "trackName" : "(Anesthesia) Pulling Teeth - Remastered",
+    "msPlayed" : 254560
+  },
+  {
+    "endTime" : "2022-09-21 10:32",
+    "artistName" : "Metallica",
+    "trackName" : "Attitude",
+    "msPlayed" : 316533
+  },
+  {
+    "endTime" : "2022-09-21 10:38",
+    "artistName" : "Metallica",
+    "trackName" : "Atlas, Rise!",
+    "msPlayed" : 388624
+  },
+  {
+    "endTime" : "2022-09-21 10:44",
+    "artistName" : "Metallica",
+    "trackName" : "Turn The Page",
+    "msPlayed" : 366466
+  },
+  {
+    "endTime" : "2022-09-21 10:52",
+    "artistName" : "Metallica",
+    "trackName" : "Spit Out The Bone",
+    "msPlayed" : 429198
+  },
+  {
+    "endTime" : "2022-09-21 10:58",
+    "artistName" : "Metallica",
+    "trackName" : "The Unforgiven II",
+    "msPlayed" : 396440
+  },
+  {
+    "endTime" : "2022-09-21 11:02",
+    "artistName" : "Metallica",
+    "trackName" : "Bad Seed",
+    "msPlayed" : 245333
+  },
+  {
+    "endTime" : "2022-09-21 11:47",
+    "artistName" : "Metallica",
+    "trackName" : "Murder One",
+    "msPlayed" : 284094
+  },
+  {
+    "endTime" : "2022-09-21 11:53",
+    "artistName" : "Metallica",
+    "trackName" : "Sad But True - Remastered 2021",
+    "msPlayed" : 324600
+  },
+  {
+    "endTime" : "2022-09-21 11:59",
+    "artistName" : "Metallica",
+    "trackName" : "Am I Savage?",
+    "msPlayed" : 389662
+  },
+  {
+    "endTime" : "2022-09-21 12:04",
+    "artistName" : "Metallica",
+    "trackName" : "Fight Fire With Fire - Remastered",
+    "msPlayed" : 284506
+  },
+  {
+    "endTime" : "2022-09-21 12:11",
+    "artistName" : "Metallica",
+    "trackName" : "Low Man's Lyric",
+    "msPlayed" : 456226
+  },
+  {
+    "endTime" : "2022-09-21 12:16",
+    "artistName" : "Metallica",
+    "trackName" : "Hit The Lights - Remastered",
+    "msPlayed" : 255866
+  },
+  {
+    "endTime" : "2022-09-21 12:24",
+    "artistName" : "Metallica",
+    "trackName" : "The Judas Kiss",
+    "msPlayed" : 480760
+  },
+  {
+    "endTime" : "2022-09-21 12:29",
+    "artistName" : "Metallica",
+    "trackName" : "My World",
+    "msPlayed" : 345532
+  },
+  {
+    "endTime" : "2022-09-21 12:35",
+    "artistName" : "Metallica",
+    "trackName" : "King Nothing",
+    "msPlayed" : 329760
+  },
+  {
+    "endTime" : "2022-09-21 12:39",
+    "artistName" : "Metallica",
+    "trackName" : "Through the Never - Remastered 2021",
+    "msPlayed" : 244533
+  },
+  {
+    "endTime" : "2022-09-21 12:50",
+    "artistName" : "Metallica",
+    "trackName" : "Mercyful Fate",
+    "msPlayed" : 670373
+  },
+  {
+    "endTime" : "2022-09-21 12:54",
+    "artistName" : "Metallica",
+    "trackName" : "Last Caress / Green Hell",
+    "msPlayed" : 210000
+  },
+  {
+    "endTime" : "2022-09-21 12:59",
+    "artistName" : "Metallica",
+    "trackName" : "Leper Messiah",
+    "msPlayed" : 339880
+  },
+  {
+    "endTime" : "2022-09-21 13:10",
+    "artistName" : "Metallica",
+    "trackName" : "Fight Fire With Fire - Remastered",
+    "msPlayed" : 1794
+  },
+  {
+    "endTime" : "2022-09-21 13:10",
+    "artistName" : "Metallica",
+    "trackName" : "The Prince",
+    "msPlayed" : 1485
+  },
+  {
+    "endTime" : "2022-09-21 13:10",
+    "artistName" : "Metallica",
+    "trackName" : "Halo On Fire",
+    "msPlayed" : 10174
+  },
+  {
+    "endTime" : "2022-09-21 13:10",
+    "artistName" : "Metallica",
+    "trackName" : "King Nothing",
+    "msPlayed" : 4916
+  },
+  {
+    "endTime" : "2022-09-21 13:26",
+    "artistName" : "Metallica",
+    "trackName" : "To Live is to Die",
+    "msPlayed" : 11383
+  },
+  {
+    "endTime" : "2022-09-21 14:09",
+    "artistName" : "Metallica",
+    "trackName" : "...And Justice for All",
+    "msPlayed" : 585506
+  },
+  {
+    "endTime" : "2022-09-21 14:11",
+    "artistName" : "Metallica",
+    "trackName" : "Die, Die My Darling",
+    "msPlayed" : 146560
+  },
+  {
+    "endTime" : "2022-09-21 14:15",
+    "artistName" : "Metallica",
+    "trackName" : "Hardwired",
+    "msPlayed" : 189347
+  },
+  {
+    "endTime" : "2022-09-21 14:22",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "Maiden and the Monster",
+    "msPlayed" : 437866
+  },
+  {
+    "endTime" : "2022-09-21 14:25",
+    "artistName" : "Metallica",
+    "trackName" : "Hardwired",
+    "msPlayed" : 189347
+  },
+  {
+    "endTime" : "2022-09-21 14:31",
+    "artistName" : "Slash",
+    "trackName" : "Anastasia",
+    "msPlayed" : 367280
+  },
+  {
+    "endTime" : "2022-09-21 14:36",
+    "artistName" : "Ozzy Osbourne",
+    "trackName" : "Crazy Train",
+    "msPlayed" : 293183
+  },
+  {
+    "endTime" : "2022-09-21 14:39",
+    "artistName" : "Nirvana",
+    "trackName" : "Rape Me",
+    "msPlayed" : 170000
+  },
+  {
+    "endTime" : "2022-09-21 14:41",
+    "artistName" : "Ray Davies",
+    "trackName" : "You Really Got Me",
+    "msPlayed" : 135240
+  },
+  {
+    "endTime" : "2022-09-21 14:46",
+    "artistName" : "Metallica",
+    "trackName" : "Whiskey In The Jar",
+    "msPlayed" : 304693
+  },
+  {
+    "endTime" : "2022-09-21 14:51",
+    "artistName" : "Death Angel",
+    "trackName" : "The Moth",
+    "msPlayed" : 278381
+  },
+  {
+    "endTime" : "2022-09-21 14:55",
+    "artistName" : "Nirvana",
+    "trackName" : "Aneurysm",
+    "msPlayed" : 275600
+  },
+  {
+    "endTime" : "2022-09-21 14:59",
+    "artistName" : "Anti-Mortem",
+    "trackName" : "100% Pure American Rage",
+    "msPlayed" : 216240
+  },
+  {
+    "endTime" : "2022-09-21 15:02",
+    "artistName" : "Judas Priest",
+    "trackName" : "Breaking the Law",
+    "msPlayed" : 153840
+  },
+  {
+    "endTime" : "2022-09-21 15:06",
+    "artistName" : "Metallica",
+    "trackName" : "Fight Fire With Fire - Remastered",
+    "msPlayed" : 284506
+  },
+  {
+    "endTime" : "2022-09-21 15:09",
+    "artistName" : "Slipknot",
+    "trackName" : "Wait and Bleed",
+    "msPlayed" : 147840
+  },
+  {
+    "endTime" : "2022-09-21 15:13",
+    "artistName" : "Death Angel",
+    "trackName" : "The Dream Calls for Blood",
+    "msPlayed" : 251786
+  },
+  {
+    "endTime" : "2022-09-21 15:17",
+    "artistName" : "Flotsam & Jetsam",
+    "trackName" : "Iron Maiden",
+    "msPlayed" : 220242
+  },
+  {
+    "endTime" : "2022-09-21 16:14",
+    "artistName" : "System Of A Down",
+    "trackName" : "Aerials",
+    "msPlayed" : 235053
+  },
+  {
+    "endTime" : "2022-09-21 16:19",
+    "artistName" : "Metallica",
+    "trackName" : "Sad But True",
+    "msPlayed" : 323933
+  },
+  {
+    "endTime" : "2022-09-21 16:25",
+    "artistName" : "Guns N' Roses",
+    "trackName" : "You Could Be Mine",
+    "msPlayed" : 343640
+  },
+  {
+    "endTime" : "2022-09-21 16:30",
+    "artistName" : "Slipknot",
+    "trackName" : "Psychosocial",
+    "msPlayed" : 284120
+  },
+  {
+    "endTime" : "2022-09-21 16:33",
+    "artistName" : "Death Angel",
+    "trackName" : "I Came for Blood",
+    "msPlayed" : 191698
+  },
+  {
+    "endTime" : "2022-09-21 16:36",
+    "artistName" : "System Of A Down",
+    "trackName" : "Chop Suey!",
+    "msPlayed" : 210240
+  },
+  {
+    "endTime" : "2022-09-21 16:45",
+    "artistName" : "Metallica",
+    "trackName" : "Halo On Fire",
+    "msPlayed" : 495016
+  },
+  {
+    "endTime" : "2022-09-21 16:48",
+    "artistName" : "Slipknot",
+    "trackName" : "People = Shit",
+    "msPlayed" : 215600
+  },
+  {
+    "endTime" : "2022-09-21 16:51",
+    "artistName" : "Hail The Villain",
+    "trackName" : "My Reward",
+    "msPlayed" : 173160
+  },
+  {
+    "endTime" : "2022-09-21 16:55",
+    "artistName" : "Death Angel",
+    "trackName" : "The Pack",
+    "msPlayed" : 212853
+  },
+  {
+    "endTime" : "2022-09-21 17:04",
+    "artistName" : "Metallica",
+    "trackName" : "To Live is to Die",
+    "msPlayed" : 79630
+  },
+  {
+    "endTime" : "2022-09-21 17:07",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 188933
+  },
+  {
+    "endTime" : "2022-09-21 17:18",
+    "artistName" : "Metallica",
+    "trackName" : "Frantic",
+    "msPlayed" : 11469
+  },
+  {
+    "endTime" : "2022-09-21 19:26",
+    "artistName" : "Metallica",
+    "trackName" : "Frantic",
+    "msPlayed" : 298720
+  },
+  {
+    "endTime" : "2022-09-22 06:17",
+    "artistName" : "Metallica",
+    "trackName" : "Frantic",
+    "msPlayed" : 6215
+  },
+  {
+    "endTime" : "2022-09-22 06:21",
+    "artistName" : "Metallica",
+    "trackName" : "Ain't My Bitch",
+    "msPlayed" : 35939
+  },
+  {
+    "endTime" : "2022-09-22 06:21",
+    "artistName" : "Metallica",
+    "trackName" : "The Struggle Within - Remastered 2021",
+    "msPlayed" : 232648
+  },
+  {
+    "endTime" : "2022-09-22 06:34",
+    "artistName" : "Guns N' Roses",
+    "trackName" : "Welcome To The Jungle",
+    "msPlayed" : 272026
+  },
+  {
+    "endTime" : "2022-09-22 06:39",
+    "artistName" : "Metallica",
+    "trackName" : "Fuel",
+    "msPlayed" : 269800
+  },
+  {
+    "endTime" : "2022-09-22 06:45",
+    "artistName" : "Slipknot",
+    "trackName" : "Duality",
+    "msPlayed" : 252613
+  },
+  {
+    "endTime" : "2022-09-22 06:49",
+    "artistName" : "System Of A Down",
+    "trackName" : "Toxicity",
+    "msPlayed" : 218933
+  },
+  {
+    "endTime" : "2022-09-22 06:55",
+    "artistName" : "Metal Allegiance",
+    "trackName" : "Dying Song",
+    "msPlayed" : 395040
+  },
+  {
+    "endTime" : "2022-09-22 06:57",
+    "artistName" : "Slayer",
+    "trackName" : "Delusions of Saviour",
+    "msPlayed" : 115413
+  },
+  {
+    "endTime" : "2022-09-22 07:05",
+    "artistName" : "Metallica",
+    "trackName" : "The End Of The Line",
+    "msPlayed" : 472360
+  },
+  {
+    "endTime" : "2022-09-22 07:09",
+    "artistName" : "System Of A Down",
+    "trackName" : "Spiders",
+    "msPlayed" : 215440
+  },
+  {
+    "endTime" : "2022-09-22 07:12",
+    "artistName" : "Slipknot",
+    "trackName" : "(sic)",
+    "msPlayed" : 199880
+  },
+  {
+    "endTime" : "2022-09-22 07:17",
+    "artistName" : "Death Angel",
+    "trackName" : "Father of Lies",
+    "msPlayed" : 305022
+  },
+  {
+    "endTime" : "2022-09-22 07:21",
+    "artistName" : "AC/DC",
+    "trackName" : "Rock N Roll Train",
+    "msPlayed" : 261506
+  },
+  {
+    "endTime" : "2022-09-22 07:26",
+    "artistName" : "Metallica",
+    "trackName" : "Whiplash - Remastered",
+    "msPlayed" : 248546
+  },
+  {
+    "endTime" : "2022-09-22 07:31",
+    "artistName" : "AC/DC",
+    "trackName" : "Hells Bells",
+    "msPlayed" : 312293
+  },
+  {
+    "endTime" : "2022-09-22 07:35",
+    "artistName" : "Laaz Rockit",
+    "trackName" : "Fire in the Hole",
+    "msPlayed" : 230720
+  },
+  {
+    "endTime" : "2022-09-22 07:40",
+    "artistName" : "Death Angel",
+    "trackName" : "Left for Dead",
+    "msPlayed" : 331533
+  },
+  {
+    "endTime" : "2022-09-22 07:45",
+    "artistName" : "Slipknot",
+    "trackName" : "Before I Forget",
+    "msPlayed" : 278600
+  },
+  {
+    "endTime" : "2022-09-22 07:51",
+    "artistName" : "Metallica",
+    "trackName" : "Atlas, Rise!",
+    "msPlayed" : 388624
+  },
+  {
+    "endTime" : "2022-09-22 07:54",
+    "artistName" : "System Of A Down",
+    "trackName" : "ATWA",
+    "msPlayed" : 176200
+  },
+  {
+    "endTime" : "2022-09-22 07:57",
+    "artistName" : "J Balvin",
+    "trackName" : "Wherever I May Roam",
+    "msPlayed" : 158573
+  },
+  {
+    "endTime" : "2022-09-22 08:02",
+    "artistName" : "Slipknot",
+    "trackName" : "Nero Forte",
+    "msPlayed" : 315177
+  },
+  {
+    "endTime" : "2022-09-22 08:06",
+    "artistName" : "Iron Maiden",
+    "trackName" : "Run to the Hills - 2015 Remaster",
+    "msPlayed" : 233506
+  },
+  {
+    "endTime" : "2022-09-22 08:13",
+    "artistName" : "Metallica",
+    "trackName" : "Nothing Else Matters",
+    "msPlayed" : 388266
+  },
+  {
+    "endTime" : "2022-09-22 08:16",
+    "artistName" : "Rammstein",
+    "trackName" : "Amerika",
+    "msPlayed" : 226760
+  },
+  {
+    "endTime" : "2022-09-22 08:22",
+    "artistName" : "Slipknot",
+    "trackName" : "The Devil in I",
+    "msPlayed" : 342821
+  },
+  {
+    "endTime" : "2022-09-22 08:29",
+    "artistName" : "Guns N' Roses",
+    "trackName" : "It's So Easy",
+    "msPlayed" : 201360
+  },
+  {
+    "endTime" : "2022-09-22 08:32",
+    "artistName" : "Airbourne",
+    "trackName" : "Runnin' Wild",
+    "msPlayed" : 222240
+  },
+  {
+    "endTime" : "2022-09-22 10:13",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium) - Remastered",
+    "msPlayed" : 387146
+  },
+  {
+    "endTime" : "2022-09-22 10:13",
+    "artistName" : "Slipknot",
+    "trackName" : "Spit It Out",
+    "msPlayed" : 19933
+  },
+  {
+    "endTime" : "2022-09-22 10:13",
+    "artistName" : "Metallica",
+    "trackName" : "Enter Sandman - Remastered 2021",
+    "msPlayed" : 1584
+  },
+  {
+    "endTime" : "2022-09-22 10:18",
+    "artistName" : "Metallica",
+    "trackName" : "Sad But True - Remastered 2021",
+    "msPlayed" : 324600
+  },
+  {
+    "endTime" : "2022-09-22 10:24",
+    "artistName" : "Metallica",
+    "trackName" : "Ain't My Bitch",
+    "msPlayed" : 304400
+  },
+  {
+    "endTime" : "2022-09-22 10:31",
+    "artistName" : "Metallica",
+    "trackName" : "The Day That Never Comes",
+    "msPlayed" : 476266
+  },
+  {
+    "endTime" : "2022-09-22 10:32",
+    "artistName" : "Metallica",
+    "trackName" : "(Anesthesia) Pulling Teeth - Remastered",
+    "msPlayed" : 11343
+  },
+  {
+    "endTime" : "2022-09-22 10:37",
+    "artistName" : "Metallica",
+    "trackName" : "2 X 4",
+    "msPlayed" : 328200
+  },
+  {
+    "endTime" : "2022-09-22 10:40",
+    "artistName" : "Metallica",
+    "trackName" : "Killing Time",
+    "msPlayed" : 183666
+  },
+  {
+    "endTime" : "2022-09-22 10:47",
+    "artistName" : "Metallica",
+    "trackName" : "That Was Just Your Life",
+    "msPlayed" : 428320
+  },
+  {
+    "endTime" : "2022-09-22 10:54",
+    "artistName" : "Metallica",
+    "trackName" : "The Shortest Straw",
+    "msPlayed" : 395101
+  },
+  {
+    "endTime" : "2022-09-22 11:04",
+    "artistName" : "Metallica",
+    "trackName" : "To Live is to Die",
+    "msPlayed" : 588381
+  },
+  {
+    "endTime" : "2022-09-22 11:08",
+    "artistName" : "Metallica",
+    "trackName" : "Whiplash - Remastered",
+    "msPlayed" : 248546
+  },
+  {
+    "endTime" : "2022-09-22 11:12",
+    "artistName" : "Metallica",
+    "trackName" : "Fuel",
+    "msPlayed" : 269800
+  },
+  {
+    "endTime" : "2022-09-22 11:19",
+    "artistName" : "Metallica",
+    "trackName" : "Prince Charming",
+    "msPlayed" : 365093
+  },
+  {
+    "endTime" : "2022-09-22 11:24",
+    "artistName" : "Metallica",
+    "trackName" : "Attitude",
+    "msPlayed" : 316533
+  },
+  {
+    "endTime" : "2022-09-22 11:33",
+    "artistName" : "Metallica",
+    "trackName" : "Ronnie Rising Medley (A Light In The Black / Tarot Woman / Stargazer / Kill The King)",
+    "msPlayed" : 543146
+  },
+  {
+    "endTime" : "2022-09-22 11:41",
+    "artistName" : "Metallica",
+    "trackName" : "The End Of The Line",
+    "msPlayed" : 472360
+  },
+  {
+    "endTime" : "2022-09-22 11:46",
+    "artistName" : "Metallica",
+    "trackName" : "Ronnie",
+    "msPlayed" : 317133
+  },
+  {
+    "endTime" : "2022-09-22 11:54",
+    "artistName" : "Metallica",
+    "trackName" : "The Judas Kiss",
+    "msPlayed" : 480760
+  },
+  {
+    "endTime" : "2022-09-22 11:59",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "High Plains Drifter",
+    "msPlayed" : 285960
+  },
+  {
+    "endTime" : "2022-09-22 12:03",
+    "artistName" : "Metallica",
+    "trackName" : "Wasting My Hate",
+    "msPlayed" : 237240
+  },
+  {
+    "endTime" : "2022-09-22 12:07",
+    "artistName" : "Metallica",
+    "trackName" : "Hero Of The Day",
+    "msPlayed" : 261906
+  },
+  {
+    "endTime" : "2022-09-22 12:13",
+    "artistName" : "Metallica",
+    "trackName" : "Remember Tomorrow",
+    "msPlayed" : 350066
+  },
+  {
+    "endTime" : "2022-09-22 12:18",
+    "artistName" : "Metallica",
+    "trackName" : "Fight Fire With Fire - Remastered",
+    "msPlayed" : 284506
+  },
+  {
+    "endTime" : "2022-09-22 12:25",
+    "artistName" : "Metallica",
+    "trackName" : "Hate Train",
+    "msPlayed" : 419186
+  },
+  {
+    "endTime" : "2022-09-22 12:34",
+    "artistName" : "Metallica",
+    "trackName" : "The Call Of Ktulu - Remastered",
+    "msPlayed" : 533493
+  },
+  {
+    "endTime" : "2022-09-22 12:40",
+    "artistName" : "Metallica",
+    "trackName" : "Wherever I May Roam - Remastered 2021",
+    "msPlayed" : 404333
+  },
+  {
+    "endTime" : "2022-09-22 12:46",
+    "artistName" : "Metallica",
+    "trackName" : "Frantic",
+    "msPlayed" : 350358
+  },
+  {
+    "endTime" : "2022-09-22 12:53",
+    "artistName" : "Metallica",
+    "trackName" : "The Small Hours",
+    "msPlayed" : 400800
+  },
+  {
+    "endTime" : "2022-09-22 12:56",
+    "artistName" : "Metallica",
+    "trackName" : "Hardwired",
+    "msPlayed" : 189347
+  },
+  {
+    "endTime" : "2022-09-22 13:18",
+    "artistName" : "Metallica",
+    "trackName" : "Sabbra Cadabra",
+    "msPlayed" : 105816
+  },
+  {
+    "endTime" : "2022-09-22 13:27",
+    "artistName" : "Metallica",
+    "trackName" : "Ain't My Bitch",
+    "msPlayed" : 247040
+  },
+  {
+    "endTime" : "2022-09-22 14:19",
+    "artistName" : "Metallica",
+    "trackName" : "The Prince",
+    "msPlayed" : 264800
+  },
+  {
+    "endTime" : "2022-09-22 14:31",
+    "artistName" : "Metallica",
+    "trackName" : "Mercyful Fate",
+    "msPlayed" : 670373
+  },
+  {
+    "endTime" : "2022-09-22 14:40",
+    "artistName" : "Metallica",
+    "trackName" : "The Outlaw Torn",
+    "msPlayed" : 588666
+  },
+  {
+    "endTime" : "2022-09-22 14:49",
+    "artistName" : "Metallica",
+    "trackName" : "Halo On Fire",
+    "msPlayed" : 495016
+  },
+  {
+    "endTime" : "2022-09-22 14:52",
+    "artistName" : "Metallica",
+    "trackName" : "Blitzkrieg",
+    "msPlayed" : 216960
+  },
+  {
+    "endTime" : "2022-09-22 14:59",
+    "artistName" : "Metallica",
+    "trackName" : "Ride The Lightning - Remastered",
+    "msPlayed" : 396986
+  },
+  {
+    "endTime" : "2022-09-22 15:06",
+    "artistName" : "Metallica",
+    "trackName" : "Here Comes Revenge",
+    "msPlayed" : 437625
+  },
+  {
+    "endTime" : "2022-09-22 15:12",
+    "artistName" : "Metallica",
+    "trackName" : "Dirty Window",
+    "msPlayed" : 324905
+  },
+  {
+    "endTime" : "2022-09-22 15:17",
+    "artistName" : "Metallica",
+    "trackName" : "Sweet Amber",
+    "msPlayed" : 327132
+  },
+  {
+    "endTime" : "2022-09-22 15:53",
+    "artistName" : "Metallica",
+    "trackName" : "Fade To Black - Remastered",
+    "msPlayed" : 417226
+  },
+  {
+    "endTime" : "2022-09-22 15:57",
+    "artistName" : "Metallica",
+    "trackName" : "Holier Than Thou - Remastered 2021",
+    "msPlayed" : 227573
+  },
+  {
+    "endTime" : "2022-09-22 16:02",
+    "artistName" : "Metallica",
+    "trackName" : "The Wait",
+    "msPlayed" : 292960
+  },
+  {
+    "endTime" : "2022-09-22 16:08",
+    "artistName" : "Metallica",
+    "trackName" : "Damage, Inc.",
+    "msPlayed" : 332465
+  },
+  {
+    "endTime" : "2022-09-22 16:10",
+    "artistName" : "Metallica",
+    "trackName" : "Stone Cold Crazy",
+    "msPlayed" : 137706
+  },
+  {
+    "endTime" : "2022-09-22 16:15",
+    "artistName" : "Metallica",
+    "trackName" : "My Apocalypse",
+    "msPlayed" : 301026
+  },
+  {
+    "endTime" : "2022-09-22 16:49",
+    "artistName" : "Metallica",
+    "trackName" : "Ain't My Bitch",
+    "msPlayed" : 21608
+  },
+  {
+    "endTime" : "2022-09-22 16:49",
+    "artistName" : "Metallica",
+    "trackName" : "Invisible Kid",
+    "msPlayed" : 12707
+  },
+  {
+    "endTime" : "2022-09-22 17:03",
+    "artistName" : "Metallica",
+    "trackName" : "Wherever I May Roam - Remastered 2021",
+    "msPlayed" : 206943
+  },
+  {
+    "endTime" : "2022-09-22 19:12",
+    "artistName" : "Metallica",
+    "trackName" : "Wherever I May Roam - Remastered 2021",
+    "msPlayed" : 197444
+  },
+  {
+    "endTime" : "2022-09-22 19:15",
+    "artistName" : "Metallica",
+    "trackName" : "Stone Cold Crazy",
+    "msPlayed" : 137706
+  },
+  {
+    "endTime" : "2022-09-22 19:26",
+    "artistName" : "Metallica",
+    "trackName" : "Broken, Beat & Scarred",
+    "msPlayed" : 69888
+  },
+  {
+    "endTime" : "2022-09-23 05:53",
+    "artistName" : "Metallica",
+    "trackName" : "Broken, Beat & Scarred",
+    "msPlayed" : 288520
+  },
+  {
+    "endTime" : "2022-09-23 06:08",
+    "artistName" : "Metallica",
+    "trackName" : "Tuesday's Gone",
+    "msPlayed" : 543866
+  },
+  {
+    "endTime" : "2022-09-23 06:13",
+    "artistName" : "Metallica",
+    "trackName" : "Moth Into Flame",
+    "msPlayed" : 350644
+  },
+  {
+    "endTime" : "2022-09-23 06:21",
+    "artistName" : "Metallica",
+    "trackName" : "The Four Horsemen - Remastered",
+    "msPlayed" : 432546
+  },
+  {
+    "endTime" : "2022-09-23 06:27",
+    "artistName" : "Metallica",
+    "trackName" : "Thorn Within",
+    "msPlayed" : 351666
+  },
+  {
+    "endTime" : "2022-09-23 06:31",
+    "artistName" : "Metallica",
+    "trackName" : "When A Blind Man Cries",
+    "msPlayed" : 275013
+  },
+  {
+    "endTime" : "2022-09-23 06:38",
+    "artistName" : "Metallica",
+    "trackName" : "Am I Savage?",
+    "msPlayed" : 389662
+  },
+  {
+    "endTime" : "2022-09-23 06:45",
+    "artistName" : "Metallica",
+    "trackName" : "Shoot Me Again",
+    "msPlayed" : 430105
+  },
+  {
+    "endTime" : "2022-09-23 06:50",
+    "artistName" : "Metallica",
+    "trackName" : "Cure",
+    "msPlayed" : 294293
+  },
+  {
+    "endTime" : "2022-09-23 06:55",
+    "artistName" : "Metallica",
+    "trackName" : "Whiskey In The Jar",
+    "msPlayed" : 304693
+  },
+  {
+    "endTime" : "2022-09-23 06:58",
+    "artistName" : "Metallica",
+    "trackName" : "Motorbreath - Remastered",
+    "msPlayed" : 187840
+  },
+  {
+    "endTime" : "2022-09-23 07:05",
+    "artistName" : "Metallica",
+    "trackName" : "Astronomy",
+    "msPlayed" : 397840
+  },
+  {
+    "endTime" : "2022-09-23 07:10",
+    "artistName" : "Metallica",
+    "trackName" : "My World",
+    "msPlayed" : 345532
+  },
+  {
+    "endTime" : "2022-09-23 07:16",
+    "artistName" : "Metallica",
+    "trackName" : "Enter Sandman - Remastered 2021",
+    "msPlayed" : 331560
+  },
+  {
+    "endTime" : "2022-09-23 07:24",
+    "artistName" : "Metallica",
+    "trackName" : "All Nightmare Long",
+    "msPlayed" : 477026
+  },
+  {
+    "endTime" : "2022-09-23 07:29",
+    "artistName" : "Metallica",
+    "trackName" : "Metal Militia - Remastered",
+    "msPlayed" : 311466
+  },
+  {
+    "endTime" : "2022-09-23 07:36",
+    "artistName" : "Metallica",
+    "trackName" : "Where The Wild Things Are",
+    "msPlayed" : 412960
+  },
+  {
+    "endTime" : "2022-09-23 07:42",
+    "artistName" : "Metallica",
+    "trackName" : "King Nothing",
+    "msPlayed" : 329760
+  },
+  {
+    "endTime" : "2022-09-23 07:45",
+    "artistName" : "Metallica",
+    "trackName" : "Last Caress / Green Hell",
+    "msPlayed" : 201900
+  },
+  {
+    "endTime" : "2022-09-23 07:49",
+    "artistName" : "Metallica",
+    "trackName" : "Trapped Under Ice - Remastered",
+    "msPlayed" : 244066
+  },
+  {
+    "endTime" : "2022-09-23 07:55",
+    "artistName" : "Metallica",
+    "trackName" : "Sabbra Cadabra",
+    "msPlayed" : 380240
+  },
+  {
+    "endTime" : "2022-09-23 08:00",
+    "artistName" : "Metallica",
+    "trackName" : "Of Wolf and Man - Remastered 2021",
+    "msPlayed" : 256573
+  },
+  {
+    "endTime" : "2022-09-23 08:03",
+    "artistName" : "Metallica",
+    "trackName" : "Crash Course In Brain Surgery",
+    "msPlayed" : 188826
+  },
+  {
+    "endTime" : "2022-09-23 08:09",
+    "artistName" : "Metallica",
+    "trackName" : "Nothing Else Matters - Remastered 2021",
+    "msPlayed" : 388733
+  },
+  {
+    "endTime" : "2022-09-23 08:13",
+    "artistName" : "Metallica",
+    "trackName" : "Bad Seed",
+    "msPlayed" : 245333
+  },
+  {
+    "endTime" : "2022-09-23 08:20",
+    "artistName" : "Metallica",
+    "trackName" : "Atlas, Rise!",
+    "msPlayed" : 388624
+  },
+  {
+    "endTime" : "2022-09-23 08:21",
+    "artistName" : "Metallica",
+    "trackName" : "Invisible Kid",
+    "msPlayed" : 91374
+  },
+  {
+    "endTime" : "2022-09-23 08:26",
+    "artistName" : "Metallica",
+    "trackName" : "Jump In The Fire - Remastered",
+    "msPlayed" : 281293
+  },
+  {
+    "endTime" : "2022-09-23 08:31",
+    "artistName" : "Metallica",
+    "trackName" : "The Memory Remains",
+    "msPlayed" : 279173
+  },
+  {
+    "endTime" : "2022-09-23 08:39",
+    "artistName" : "Metallica",
+    "trackName" : "Loverman",
+    "msPlayed" : 472826
+  },
+  {
+    "endTime" : "2022-09-23 08:43",
+    "artistName" : "Metallica",
+    "trackName" : "Escape - Remastered",
+    "msPlayed" : 263866
+  },
+  {
+    "endTime" : "2022-09-23 08:51",
+    "artistName" : "Metallica",
+    "trackName" : "Fixxxer",
+    "msPlayed" : 494773
+  },
+  {
+    "endTime" : "2022-09-23 08:57",
+    "artistName" : "Metallica",
+    "trackName" : "Murder One",
+    "msPlayed" : 345277
+  },
+  {
+    "endTime" : "2022-09-23 09:04",
+    "artistName" : "Metallica",
+    "trackName" : "Blackened",
+    "msPlayed" : 402143
+  },
+  {
+    "endTime" : "2022-09-23 09:09",
+    "artistName" : "Metallica",
+    "trackName" : "Leper Messiah",
+    "msPlayed" : 339880
+  },
+  {
+    "endTime" : "2022-09-23 09:17",
+    "artistName" : "Metallica",
+    "trackName" : "The Frayed Ends of Sanity",
+    "msPlayed" : 463158
+  },
+  {
+    "endTime" : "2022-09-23 09:24",
+    "artistName" : "Metallica",
+    "trackName" : "Creeping Death - Remastered",
+    "msPlayed" : 395706
+  },
+  {
+    "endTime" : "2022-09-23 09:53",
+    "artistName" : "Metallica",
+    "trackName" : "Broken, Beat & Scarred",
+    "msPlayed" : 385466
+  },
+  {
+    "endTime" : "2022-09-23 10:00",
+    "artistName" : "Metallica",
+    "trackName" : "The Thing That Should Not Be",
+    "msPlayed" : 396106
+  },
+  {
+    "endTime" : "2022-09-23 10:56",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 188933
+  },
+  {
+    "endTime" : "2022-09-23 11:59",
+    "artistName" : "Metallica",
+    "trackName" : "Dream No More",
+    "msPlayed" : 133313
+  },
+  {
+    "endTime" : "2022-09-23 12:00",
+    "artistName" : "Metallica",
+    "trackName" : "Broken, Beat & Scarred",
+    "msPlayed" : 27507
+  },
+  {
+    "endTime" : "2022-09-23 12:35",
+    "artistName" : "Metallica",
+    "trackName" : "...And Justice for All",
+    "msPlayed" : 578272
+  },
+  {
+    "endTime" : "2022-09-23 12:54",
+    "artistName" : "Metallica",
+    "trackName" : "...And Justice for All",
+    "msPlayed" : 2021
+  },
+  {
+    "endTime" : "2022-09-23 12:58",
+    "artistName" : "Metallica",
+    "trackName" : "Crash Course In Brain Surgery",
+    "msPlayed" : 188826
+  },
+  {
+    "endTime" : "2022-09-23 13:04",
+    "artistName" : "Metallica",
+    "trackName" : "Cyanide",
+    "msPlayed" : 399546
+  },
+  {
+    "endTime" : "2022-09-23 13:11",
+    "artistName" : "Metallica",
+    "trackName" : "That Was Just Your Life",
+    "msPlayed" : 428320
+  },
+  {
+    "endTime" : "2022-09-23 13:16",
+    "artistName" : "Metallica",
+    "trackName" : "Hate Train",
+    "msPlayed" : 243370
+  },
+  {
+    "endTime" : "2022-09-23 13:19",
+    "artistName" : "Metallica",
+    "trackName" : "...And Justice for All",
+    "msPlayed" : 7294
+  },
+  {
+    "endTime" : "2022-09-23 13:22",
+    "artistName" : "Metallica",
+    "trackName" : "Dream No More",
+    "msPlayed" : 148296
+  },
+  {
+    "endTime" : "2022-09-23 13:36",
+    "artistName" : "Metallica",
+    "trackName" : "Turn The Page",
+    "msPlayed" : 261343
+  },
+  {
+    "endTime" : "2022-09-23 15:01",
+    "artistName" : "Metallica",
+    "trackName" : "Turn The Page",
+    "msPlayed" : 105227
+  },
+  {
+    "endTime" : "2022-09-23 15:03",
+    "artistName" : "Metallica",
+    "trackName" : "The Memory Remains",
+    "msPlayed" : 150001
+  },
+  {
+    "endTime" : "2022-09-23 15:04",
+    "artistName" : "Metallica",
+    "trackName" : "The Memory Remains",
+    "msPlayed" : 1774
+  },
+  {
+    "endTime" : "2022-09-23 15:04",
+    "artistName" : "Metallica",
+    "trackName" : "The Memory Remains",
+    "msPlayed" : 711
+  },
+  {
+    "endTime" : "2022-09-23 15:22",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "The Jinn",
+    "msPlayed" : 101903
+  },
+  {
+    "endTime" : "2022-09-24 04:34",
+    "artistName" : "Metallica",
+    "trackName" : "Killing Time",
+    "msPlayed" : 186994
+  },
+  {
+    "endTime" : "2022-09-24 04:39",
+    "artistName" : "Metallica",
+    "trackName" : "The More I See",
+    "msPlayed" : 288666
+  },
+  {
+    "endTime" : "2022-09-24 04:46",
+    "artistName" : "Metallica",
+    "trackName" : "The Unforgiven III",
+    "msPlayed" : 466586
+  },
+  {
+    "endTime" : "2022-09-24 04:53",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 387146
+  },
+  {
+    "endTime" : "2022-09-24 04:57",
+    "artistName" : "Metallica",
+    "trackName" : "Hero Of The Day",
+    "msPlayed" : 261906
+  },
+  {
+    "endTime" : "2022-09-24 05:03",
+    "artistName" : "Metallica",
+    "trackName" : "Prince Charming",
+    "msPlayed" : 365093
+  },
+  {
+    "endTime" : "2022-09-24 05:09",
+    "artistName" : "Metallica",
+    "trackName" : "Breadfan",
+    "msPlayed" : 341066
+  },
+  {
+    "endTime" : "2022-09-24 05:15",
+    "artistName" : "Metallica",
+    "trackName" : "Thorn Within",
+    "msPlayed" : 351666
+  },
+  {
+    "endTime" : "2022-09-24 05:22",
+    "artistName" : "Metallica",
+    "trackName" : "Spit Out The Bone",
+    "msPlayed" : 429198
+  },
+  {
+    "endTime" : "2022-09-24 05:29",
+    "artistName" : "Metallica",
+    "trackName" : "The Thing That Should Not Be",
+    "msPlayed" : 396106
+  },
+  {
+    "endTime" : "2022-09-24 05:31",
+    "artistName" : "Metallica",
+    "trackName" : "Stone Cold Crazy",
+    "msPlayed" : 137706
+  },
+  {
+    "endTime" : "2022-09-24 05:36",
+    "artistName" : "Metallica",
+    "trackName" : "For Whom The Bell Tolls - Remastered",
+    "msPlayed" : 309973
+  },
+  {
+    "endTime" : "2022-09-24 05:43",
+    "artistName" : "Metallica",
+    "trackName" : "Atlas, Rise!",
+    "msPlayed" : 388624
+  },
+  {
+    "endTime" : "2022-09-24 05:53",
+    "artistName" : "Metallica",
+    "trackName" : "Battery",
+    "msPlayed" : 10169
+  },
+  {
+    "endTime" : "2022-09-24 05:57",
+    "artistName" : "Metallica",
+    "trackName" : "Hate Train",
+    "msPlayed" : 4490
+  },
+  {
+    "endTime" : "2022-09-24 06:02",
+    "artistName" : "Metallica",
+    "trackName" : "Devil's Dance",
+    "msPlayed" : 318960
+  },
+  {
+    "endTime" : "2022-09-24 06:08",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 387146
+  },
+  {
+    "endTime" : "2022-09-24 06:12",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 188933
+  },
+  {
+    "endTime" : "2022-09-24 06:54",
+    "artistName" : "Metallica",
+    "trackName" : "Frantic",
+    "msPlayed" : 3453
+  },
+  {
+    "endTime" : "2022-09-24 06:54",
+    "artistName" : "Metallica",
+    "trackName" : "Spit Out The Bone",
+    "msPlayed" : 1015
+  },
+  {
+    "endTime" : "2022-09-24 06:54",
+    "artistName" : "Metallica",
+    "trackName" : "Sweet Amber",
+    "msPlayed" : 5566
+  },
+  {
+    "endTime" : "2022-09-24 06:54",
+    "artistName" : "Metallica",
+    "trackName" : "Invisible Kid",
+    "msPlayed" : 355344
+  },
+  {
+    "endTime" : "2022-09-24 07:04",
+    "artistName" : "Metallica",
+    "trackName" : "Suicide & Redemption",
+    "msPlayed" : 597720
+  },
+  {
+    "endTime" : "2022-09-24 10:06",
+    "artistName" : "Metallica",
+    "trackName" : "Am I Savage?",
+    "msPlayed" : 194692
+  },
+  {
+    "endTime" : "2022-09-24 11:30",
+    "artistName" : "Metallica",
+    "trackName" : "Battery",
+    "msPlayed" : 302544
+  },
+  {
+    "endTime" : "2022-09-24 11:35",
+    "artistName" : "Metallica",
+    "trackName" : "Fuel",
+    "msPlayed" : 269800
+  },
+  {
+    "endTime" : "2022-09-24 11:43",
+    "artistName" : "Metallica",
+    "trackName" : "Disposable Heroes",
+    "msPlayed" : 496626
+  },
+  {
+    "endTime" : "2022-09-24 11:50",
+    "artistName" : "Metallica",
+    "trackName" : "Hell And Back",
+    "msPlayed" : 417893
+  },
+  {
+    "endTime" : "2022-09-24 11:55",
+    "artistName" : "Metallica",
+    "trackName" : "Ain't My Bitch",
+    "msPlayed" : 304400
+  },
+  {
+    "endTime" : "2022-09-24 12:04",
+    "artistName" : "Metallica",
+    "trackName" : "Master Of Puppets",
+    "msPlayed" : 515386
+  },
+  {
+    "endTime" : "2022-09-24 12:08",
+    "artistName" : "Metallica",
+    "trackName" : "Hit The Lights - Remastered",
+    "msPlayed" : 255866
+  },
+  {
+    "endTime" : "2022-09-24 12:10",
+    "artistName" : "Metallica",
+    "trackName" : "The Call Of Ktulu - Remastered",
+    "msPlayed" : 90010
+  },
+  {
+    "endTime" : "2022-09-24 12:13",
+    "artistName" : "Metallica",
+    "trackName" : "The Call Of Ktulu - Remastered",
+    "msPlayed" : 133130
+  },
+  {
+    "endTime" : "2022-09-24 12:18",
+    "artistName" : "Metallica",
+    "trackName" : "Leper Messiah",
+    "msPlayed" : 339880
+  },
+  {
+    "endTime" : "2022-09-24 12:19",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 60386
+  },
+  {
+    "endTime" : "2022-09-24 12:19",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 220
+  },
+  {
+    "endTime" : "2022-09-24 12:19",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 8958
+  },
+  {
+    "endTime" : "2022-09-24 12:34",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 23570
+  },
+  {
+    "endTime" : "2022-09-24 18:51",
+    "artistName" : "Metallica",
+    "trackName" : "Hate Train",
+    "msPlayed" : 35136
+  },
+  {
+    "endTime" : "2022-09-24 18:52",
+    "artistName" : "Metallica",
+    "trackName" : "I Disappear",
+    "msPlayed" : 7879
+  },
+  {
+    "endTime" : "2022-09-24 18:54",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "Maiden and the Monster",
+    "msPlayed" : 37377
+  },
+  {
+    "endTime" : "2022-09-24 18:55",
+    "artistName" : "Pat Benatar",
+    "trackName" : "Hit Me With Your Best Shot",
+    "msPlayed" : 17419
+  },
+  {
+    "endTime" : "2022-09-24 18:55",
+    "artistName" : "Poison",
+    "trackName" : "Talk Dirty To Me",
+    "msPlayed" : 23330
+  },
+  {
+    "endTime" : "2022-09-24 18:55",
+    "artistName" : "Foghat",
+    "trackName" : "Slow Ride",
+    "msPlayed" : 9330
+  },
+  {
+    "endTime" : "2022-09-24 18:56",
+    "artistName" : "Rage Against The Machine",
+    "trackName" : "Bulls On Parade",
+    "msPlayed" : 31698
+  },
+  {
+    "endTime" : "2022-09-24 18:56",
+    "artistName" : "Black Sabbath",
+    "trackName" : "Paranoid",
+    "msPlayed" : 28971
+  },
+  {
+    "endTime" : "2022-09-24 18:57",
+    "artistName" : "Guns N' Roses",
+    "trackName" : "Welcome To The Jungle",
+    "msPlayed" : 10670
+  },
+  {
+    "endTime" : "2022-09-24 18:57",
+    "artistName" : "ZZ Top",
+    "trackName" : "La Grange - 2005 Remaster",
+    "msPlayed" : 15731
+  },
+  {
+    "endTime" : "2022-09-24 18:57",
+    "artistName" : "Aerosmith",
+    "trackName" : "Same Old Song and Dance",
+    "msPlayed" : 10805
+  },
+  {
+    "endTime" : "2022-09-24 18:57",
+    "artistName" : "Weezer",
+    "trackName" : "My Name Is Jonas",
+    "msPlayed" : 29885
+  },
+  {
+    "endTime" : "2022-09-24 18:57",
+    "artistName" : "Pearl Jam",
+    "trackName" : "Even Flow",
+    "msPlayed" : 12111
+  },
+  {
+    "endTime" : "2022-09-24 18:58",
+    "artistName" : "Tenacious D",
+    "trackName" : "The Metal",
+    "msPlayed" : 32515
+  },
+  {
+    "endTime" : "2022-09-24 18:58",
+    "artistName" : "Tenacious D",
+    "trackName" : "POST-APOCALYPTO THEME",
+    "msPlayed" : 9743
+  },
+  {
+    "endTime" : "2022-09-24 18:59",
+    "artistName" : "Tenacious D",
+    "trackName" : "HOPE",
+    "msPlayed" : 29846
+  },
+  {
+    "endTime" : "2022-09-24 19:00",
+    "artistName" : "Tenacious D",
+    "trackName" : "The Last In Line",
+    "msPlayed" : 56900
+  },
+  {
+    "endTime" : "2022-09-24 19:03",
+    "artistName" : "Metallica",
+    "trackName" : "Ronnie Rising Medley (Includes A Light In The Black, Tarot Woman, Stargazer & Kill The King)",
+    "msPlayed" : 33279
+  },
+  {
+    "endTime" : "2022-09-24 19:07",
+    "artistName" : "Meshuggah",
+    "trackName" : "Bleed",
+    "msPlayed" : 38190
+  },
+  {
+    "endTime" : "2022-09-24 19:08",
+    "artistName" : "Lynyrd Skynyrd",
+    "trackName" : "Free Bird",
+    "msPlayed" : 75560
+  },
+  {
+    "endTime" : "2022-09-24 19:16",
+    "artistName" : "Lynyrd Skynyrd",
+    "trackName" : "Tuesday's Gone",
+    "msPlayed" : 29859
+  },
+  {
+    "endTime" : "2022-09-24 19:18",
+    "artistName" : "Five Finger Death Punch",
+    "trackName" : "Bad Company",
+    "msPlayed" : 133993
+  },
+  {
+    "endTime" : "2022-09-24 19:23",
+    "artistName" : "Five Finger Death Punch",
+    "trackName" : "House of The Rising Sun",
+    "msPlayed" : 118703
+  },
+  {
+    "endTime" : "2022-09-24 19:30",
+    "artistName" : "Judas Priest",
+    "trackName" : "Painkiller",
+    "msPlayed" : 66234
+  },
+  {
+    "endTime" : "2022-09-24 19:30",
+    "artistName" : "Metallica",
+    "trackName" : "The Unforgiven III",
+    "msPlayed" : 15827
+  },
+  {
+    "endTime" : "2022-09-24 19:32",
+    "artistName" : "Metallica",
+    "trackName" : "Suicide & Redemption",
+    "msPlayed" : 129793
+  },
+  {
+    "endTime" : "2022-09-24 19:33",
+    "artistName" : "Avenged Sevenfold",
+    "trackName" : "Welcome to the Family",
+    "msPlayed" : 35500
+  },
+  {
+    "endTime" : "2022-09-24 19:34",
+    "artistName" : "Iron Maiden",
+    "trackName" : "Hallowed Be Thy Name - 2015 Remaster",
+    "msPlayed" : 89616
+  },
+  {
+    "endTime" : "2022-09-24 19:35",
+    "artistName" : "Iron Maiden",
+    "trackName" : "The Duellists - 2015 Remaster",
+    "msPlayed" : 9436
+  },
+  {
+    "endTime" : "2022-09-24 19:56",
+    "artistName" : "Iron Maiden",
+    "trackName" : "Powerslave - 2015 Remaster",
+    "msPlayed" : 208539
+  },
+  {
+    "endTime" : "2022-09-24 19:57",
+    "artistName" : "Lou Reed",
+    "trackName" : "Brandenburg Gate",
+    "msPlayed" : 22525
+  },
+  {
+    "endTime" : "2022-09-24 19:57",
+    "artistName" : "Lou Reed",
+    "trackName" : "The View",
+    "msPlayed" : 25306
+  },
+  {
+    "endTime" : "2022-09-24 19:58",
+    "artistName" : "Metallica",
+    "trackName" : "The Ecstasy Of Gold - Live",
+    "msPlayed" : 986
+  },
+  {
+    "endTime" : "2022-09-24 19:59",
+    "artistName" : "Linkin Park",
+    "trackName" : "Points of Authority",
+    "msPlayed" : 3296
+  },
+  {
+    "endTime" : "2022-09-24 19:59",
+    "artistName" : "Linkin Park",
+    "trackName" : "In the End",
+    "msPlayed" : 12862
+  },
+  {
+    "endTime" : "2022-09-24 19:59",
+    "artistName" : "Linkin Park",
+    "trackName" : "Papercut",
+    "msPlayed" : 14101
+  },
+  {
+    "endTime" : "2022-09-24 20:00",
+    "artistName" : "Beyoncé",
+    "trackName" : "I'M THAT GIRL",
+    "msPlayed" : 7402
+  },
+  {
+    "endTime" : "2022-09-24 20:00",
+    "artistName" : "Linkin Park",
+    "trackName" : "One Step Closer - 100 gecs Reanimation",
+    "msPlayed" : 34257
+  },
+  {
+    "endTime" : "2022-09-24 20:00",
+    "artistName" : "Linkin Park",
+    "trackName" : "Heavy (feat. Kiiara)",
+    "msPlayed" : 33703
+  },
+  {
+    "endTime" : "2022-09-24 20:01",
+    "artistName" : "Beyoncé",
+    "trackName" : "COZY",
+    "msPlayed" : 5317
+  },
+  {
+    "endTime" : "2022-09-24 20:06",
+    "artistName" : "Beyoncé",
+    "trackName" : "ALIEN SUPERSTAR",
+    "msPlayed" : 52456
+  },
+  {
+    "endTime" : "2022-09-24 20:09",
+    "artistName" : "Red Hot Chili Peppers",
+    "trackName" : "Black Summer",
+    "msPlayed" : 165861
+  },
+  {
+    "endTime" : "2022-09-24 20:14",
+    "artistName" : "Red Hot Chili Peppers",
+    "trackName" : "Snow (Hey Oh)",
+    "msPlayed" : 334666
+  },
+  {
+    "endTime" : "2022-09-24 20:17",
+    "artistName" : "Red Hot Chili Peppers",
+    "trackName" : "We Turn Red",
+    "msPlayed" : 200466
+  },
+  {
+    "endTime" : "2022-09-24 20:22",
+    "artistName" : "Red Hot Chili Peppers",
+    "trackName" : "Parallel Universe",
+    "msPlayed" : 269360
+  },
+  {
+    "endTime" : "2022-09-24 20:26",
+    "artistName" : "Red Hot Chili Peppers",
+    "trackName" : "Naked in the Rain",
+    "msPlayed" : 265626
+  },
+  {
+    "endTime" : "2022-09-24 20:29",
+    "artistName" : "Red Hot Chili Peppers",
+    "trackName" : "Make You Feel Better",
+    "msPlayed" : 151725
+  },
+  {
+    "endTime" : "2022-09-25 18:33",
+    "artistName" : "Ghost",
+    "trackName" : "Mary On A Cross",
+    "msPlayed" : 63024
+  },
+  {
+    "endTime" : "2022-09-25 18:37",
+    "artistName" : "Ghost",
+    "trackName" : "Call Me Little Sunshine",
+    "msPlayed" : 235773
+  },
+  {
+    "endTime" : "2022-09-25 18:42",
+    "artistName" : "Ghost",
+    "trackName" : "Griftwood",
+    "msPlayed" : 316042
+  },
+  {
+    "endTime" : "2022-09-25 18:53",
+    "artistName" : "Ghost",
+    "trackName" : "From The Pinnacle To The Pit",
+    "msPlayed" : 242638
+  },
+  {
+    "endTime" : "2022-09-25 18:53",
+    "artistName" : "Ghost",
+    "trackName" : "Ritual",
+    "msPlayed" : 24911
+  },
+  {
+    "endTime" : "2022-09-25 18:58",
+    "artistName" : "Slipknot",
+    "trackName" : "Duality",
+    "msPlayed" : 252613
+  },
+  {
+    "endTime" : "2022-09-25 19:02",
+    "artistName" : "Slipknot",
+    "trackName" : "Sulfur - 2012 Remaster",
+    "msPlayed" : 277800
+  },
+  {
+    "endTime" : "2022-09-25 19:22",
+    "artistName" : "Slipknot",
+    "trackName" : "Vendetta",
+    "msPlayed" : 206780
+  },
+  {
+    "endTime" : "2022-09-25 19:27",
+    "artistName" : "Slipknot",
+    "trackName" : "Before I Forget",
+    "msPlayed" : 278600
+  },
+  {
+    "endTime" : "2022-09-25 19:31",
+    "artistName" : "Slipknot",
+    "trackName" : "Psychosocial",
+    "msPlayed" : 240011
+  },
+  {
+    "endTime" : "2022-09-25 19:35",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 191338
+  },
+  {
+    "endTime" : "2022-09-25 19:43",
+    "artistName" : "Metallica",
+    "trackName" : "Disposable Heroes",
+    "msPlayed" : 496626
+  },
+  {
+    "endTime" : "2022-09-25 19:48",
+    "artistName" : "Metallica",
+    "trackName" : "Until It Sleeps",
+    "msPlayed" : 267933
+  },
+  {
+    "endTime" : "2022-09-25 19:50",
+    "artistName" : "Metallica",
+    "trackName" : "Die, Die My Darling",
+    "msPlayed" : 146560
+  },
+  {
+    "endTime" : "2022-09-25 19:57",
+    "artistName" : "Metallica",
+    "trackName" : "Ride The Lightning - Remastered",
+    "msPlayed" : 396986
+  },
+  {
+    "endTime" : "2022-09-25 20:07",
+    "artistName" : "Metallica",
+    "trackName" : "The Outlaw Torn",
+    "msPlayed" : 588666
+  },
+  {
+    "endTime" : "2022-09-25 20:15",
+    "artistName" : "Metallica",
+    "trackName" : "Orion",
+    "msPlayed" : 507226
+  },
+  {
+    "endTime" : "2022-09-25 20:23",
+    "artistName" : "Metallica",
+    "trackName" : "Disposable Heroes",
+    "msPlayed" : 496626
+  },
+  {
+    "endTime" : "2022-09-25 20:30",
+    "artistName" : "Metallica",
+    "trackName" : "Atlas, Rise!",
+    "msPlayed" : 388624
+  },
+  {
+    "endTime" : "2022-09-25 20:37",
+    "artistName" : "Metallica",
+    "trackName" : "One",
+    "msPlayed" : 446145
+  },
+  {
+    "endTime" : "2022-09-25 20:43",
+    "artistName" : "Metallica",
+    "trackName" : "Ronnie",
+    "msPlayed" : 317133
+  },
+  {
+    "endTime" : "2022-09-25 20:49",
+    "artistName" : "Metallica",
+    "trackName" : "Prince Charming",
+    "msPlayed" : 365093
+  },
+  {
+    "endTime" : "2022-09-25 20:55",
+    "artistName" : "Metallica",
+    "trackName" : "Blackened",
+    "msPlayed" : 402143
+  },
+  {
+    "endTime" : "2022-09-25 21:02",
+    "artistName" : "Metallica",
+    "trackName" : "Seek & Destroy - Remastered",
+    "msPlayed" : 414720
+  },
+  {
+    "endTime" : "2022-09-25 21:06",
+    "artistName" : "Metallica",
+    "trackName" : "The Struggle Within - Remastered 2021",
+    "msPlayed" : 232648
+  },
+  {
+    "endTime" : "2022-09-25 21:11",
+    "artistName" : "Metallica",
+    "trackName" : "Cure",
+    "msPlayed" : 294293
+  },
+  {
+    "endTime" : "2022-09-25 21:16",
+    "artistName" : "Metallica",
+    "trackName" : "Metal Militia - Remastered",
+    "msPlayed" : 311466
+  },
+  {
+    "endTime" : "2022-09-25 21:24",
+    "artistName" : "Metallica",
+    "trackName" : "Lords Of Summer",
+    "msPlayed" : 430000
+  },
+  {
+    "endTime" : "2022-09-25 21:31",
+    "artistName" : "Metallica",
+    "trackName" : "Am I Savage?",
+    "msPlayed" : 389662
+  },
+  {
+    "endTime" : "2022-09-25 21:35",
+    "artistName" : "Metallica",
+    "trackName" : "I Disappear",
+    "msPlayed" : 266240
+  },
+  {
+    "endTime" : "2022-09-25 21:39",
+    "artistName" : "Metallica",
+    "trackName" : "Sabbra Cadabra",
+    "msPlayed" : 202536
+  },
+  {
+    "endTime" : "2022-09-26 06:29",
+    "artistName" : "Metallica",
+    "trackName" : "Sabbra Cadabra",
+    "msPlayed" : 75646
+  },
+  {
+    "endTime" : "2022-09-26 06:43",
+    "artistName" : "Metallica",
+    "trackName" : "The Thing That Should Not Be",
+    "msPlayed" : 229983
+  },
+  {
+    "endTime" : "2022-09-26 11:27",
+    "artistName" : "Slipknot",
+    "trackName" : "Psychosocial",
+    "msPlayed" : 13490
+  },
+  {
+    "endTime" : "2022-09-26 11:27",
+    "artistName" : "Metallica",
+    "trackName" : "Loverman",
+    "msPlayed" : 1564
+  },
+  {
+    "endTime" : "2022-09-26 11:27",
+    "artistName" : "Metallica",
+    "trackName" : "Enter Sandman - Remastered 2021",
+    "msPlayed" : 2052
+  },
+  {
+    "endTime" : "2022-09-26 11:34",
+    "artistName" : "Metallica",
+    "trackName" : "The God That Failed - Remastered 2021",
+    "msPlayed" : 308506
+  },
+  {
+    "endTime" : "2022-09-26 11:41",
+    "artistName" : "Metallica",
+    "trackName" : "The Frayed Ends of Sanity",
+    "msPlayed" : 463158
+  },
+  {
+    "endTime" : "2022-09-26 11:49",
+    "artistName" : "Metallica",
+    "trackName" : "Low Man's Lyric",
+    "msPlayed" : 456226
+  },
+  {
+    "endTime" : "2022-09-26 11:57",
+    "artistName" : "Metallica",
+    "trackName" : "Bleeding Me",
+    "msPlayed" : 478107
+  },
+  {
+    "endTime" : "2022-09-26 12:04",
+    "artistName" : "Metallica",
+    "trackName" : "The Shortest Straw",
+    "msPlayed" : 395101
+  },
+  {
+    "endTime" : "2022-09-26 12:09",
+    "artistName" : "Metallica",
+    "trackName" : "Purify",
+    "msPlayed" : 313932
+  },
+  {
+    "endTime" : "2022-09-26 12:16",
+    "artistName" : "Metallica",
+    "trackName" : "Where The Wild Things Are",
+    "msPlayed" : 412960
+  },
+  {
+    "endTime" : "2022-09-26 12:22",
+    "artistName" : "Metallica",
+    "trackName" : "Am I Savage?",
+    "msPlayed" : 389662
+  },
+  {
+    "endTime" : "2022-09-26 12:31",
+    "artistName" : "Metallica",
+    "trackName" : "Cyanide",
+    "msPlayed" : 399546
+  },
+  {
+    "endTime" : "2022-09-26 12:32",
+    "artistName" : "Metallica",
+    "trackName" : "That Was Just Your Life",
+    "msPlayed" : 82466
+  },
+  {
+    "endTime" : "2022-09-26 13:20",
+    "artistName" : "Metallica",
+    "trackName" : "The Thing That Should Not Be",
+    "msPlayed" : 166306
+  },
+  {
+    "endTime" : "2022-09-26 13:23",
+    "artistName" : "Metallica",
+    "trackName" : "Spit Out The Bone",
+    "msPlayed" : 188544
+  },
+  {
+    "endTime" : "2022-09-26 13:57",
+    "artistName" : "Metallica",
+    "trackName" : "Tuesday's Gone",
+    "msPlayed" : 10030
+  },
+  {
+    "endTime" : "2022-09-26 13:57",
+    "artistName" : "Metallica",
+    "trackName" : "ManUNkind",
+    "msPlayed" : 14884
+  },
+  {
+    "endTime" : "2022-09-26 13:57",
+    "artistName" : "Metallica",
+    "trackName" : "Spit Out The Bone",
+    "msPlayed" : 240658
+  },
+  {
+    "endTime" : "2022-09-26 14:02",
+    "artistName" : "Metallica",
+    "trackName" : "Fuel",
+    "msPlayed" : 269800
+  },
+  {
+    "endTime" : "2022-09-26 14:09",
+    "artistName" : "Metallica",
+    "trackName" : "Confusion",
+    "msPlayed" : 401226
+  },
+  {
+    "endTime" : "2022-09-26 14:14",
+    "artistName" : "Metallica",
+    "trackName" : "Devil's Dance",
+    "msPlayed" : 318960
+  },
+  {
+    "endTime" : "2022-09-26 14:15",
+    "artistName" : "Metallica",
+    "trackName" : "Of Wolf and Man - Remastered 2021",
+    "msPlayed" : 71761
+  },
+  {
+    "endTime" : "2022-09-26 15:15",
+    "artistName" : "Metallica",
+    "trackName" : "Of Wolf and Man - Remastered 2021",
+    "msPlayed" : 15022
+  },
+  {
+    "endTime" : "2022-09-26 15:20",
+    "artistName" : "Ghost",
+    "trackName" : "Mary On A Cross",
+    "msPlayed" : 244804
+  },
+  {
+    "endTime" : "2022-09-26 15:24",
+    "artistName" : "Ghost",
+    "trackName" : "Call Me Little Sunshine",
+    "msPlayed" : 284275
+  },
+  {
+    "endTime" : "2022-09-26 15:28",
+    "artistName" : "Ghost",
+    "trackName" : "Spillways",
+    "msPlayed" : 196947
+  },
+  {
+    "endTime" : "2022-09-26 15:31",
+    "artistName" : "Ghost",
+    "trackName" : "Kiss The Go-Goat",
+    "msPlayed" : 195693
+  },
+  {
+    "endTime" : "2022-09-26 15:42",
+    "artistName" : "Ghost",
+    "trackName" : "Watcher In The Sky",
+    "msPlayed" : 44518
+  },
+  {
+    "endTime" : "2022-09-26 16:57",
+    "artistName" : "Ghost",
+    "trackName" : "Watcher In The Sky",
+    "msPlayed" : 33140
+  },
+  {
+    "endTime" : "2022-09-26 16:58",
+    "artistName" : "Polyphia",
+    "trackName" : "ABC (feat. Sophia Black)",
+    "msPlayed" : 58687
+  },
+  {
+    "endTime" : "2022-09-26 17:02",
+    "artistName" : "Polyphia",
+    "trackName" : "Playing God",
+    "msPlayed" : 205925
+  },
+  {
+    "endTime" : "2022-09-26 17:05",
+    "artistName" : "Polyphia",
+    "trackName" : "G.O.A.T.",
+    "msPlayed" : 215998
+  },
+  {
+    "endTime" : "2022-09-26 17:08",
+    "artistName" : "Polyphia",
+    "trackName" : "Neurotica",
+    "msPlayed" : 194590
+  },
+  {
+    "endTime" : "2022-09-26 17:12",
+    "artistName" : "Polyphia",
+    "trackName" : "40oz",
+    "msPlayed" : 233818
+  },
+  {
+    "endTime" : "2022-09-26 17:14",
+    "artistName" : "Polyphia",
+    "trackName" : "Champagne",
+    "msPlayed" : 72134
+  },
+  {
+    "endTime" : "2022-09-27 06:25",
+    "artistName" : "Metallica",
+    "trackName" : "(Anesthesia) Pulling Teeth - Remastered",
+    "msPlayed" : 4746
+  },
+  {
+    "endTime" : "2022-09-27 06:25",
+    "artistName" : "Polyphia",
+    "trackName" : "Champagne",
+    "msPlayed" : 4507
+  },
+  {
+    "endTime" : "2022-09-27 06:28",
+    "artistName" : "Metallica",
+    "trackName" : "Die, Die My Darling",
+    "msPlayed" : 146560
+  },
+  {
+    "endTime" : "2022-09-27 06:31",
+    "artistName" : "Metallica",
+    "trackName" : "Bad Seed",
+    "msPlayed" : 172802
+  },
+  {
+    "endTime" : "2022-09-27 08:43",
+    "artistName" : "Metallica",
+    "trackName" : "That Was Just Your Life",
+    "msPlayed" : 345853
+  },
+  {
+    "endTime" : "2022-09-27 08:49",
+    "artistName" : "Metallica",
+    "trackName" : "Broken, Beat & Scarred",
+    "msPlayed" : 385466
+  },
+  {
+    "endTime" : "2022-09-27 08:52",
+    "artistName" : "Metallica",
+    "trackName" : "Crash Course In Brain Surgery",
+    "msPlayed" : 188826
+  },
+  {
+    "endTime" : "2022-09-27 08:58",
+    "artistName" : "Metallica",
+    "trackName" : "Battery",
+    "msPlayed" : 312360
+  },
+  {
+    "endTime" : "2022-09-27 09:06",
+    "artistName" : "Metallica",
+    "trackName" : "All Within My Hands",
+    "msPlayed" : 527892
+  },
+  {
+    "endTime" : "2022-09-27 10:01",
+    "artistName" : "Metallica",
+    "trackName" : "Blitzkrieg",
+    "msPlayed" : 216960
+  },
+  {
+    "endTime" : "2022-09-27 10:09",
+    "artistName" : "Metallica",
+    "trackName" : "Just A Bullet Away",
+    "msPlayed" : 431480
+  },
+  {
+    "endTime" : "2022-09-27 10:14",
+    "artistName" : "Metallica",
+    "trackName" : "Harvester of Sorrow",
+    "msPlayed" : 345283
+  },
+  {
+    "endTime" : "2022-09-27 10:21",
+    "artistName" : "Metallica",
+    "trackName" : "Seek & Destroy - Remastered",
+    "msPlayed" : 414720
+  },
+  {
+    "endTime" : "2022-09-27 10:25",
+    "artistName" : "Metallica",
+    "trackName" : "The Struggle Within - Remastered 2021",
+    "msPlayed" : 232648
+  },
+  {
+    "endTime" : "2022-09-27 10:32",
+    "artistName" : "Metallica",
+    "trackName" : "Wherever I May Roam - Remastered 2021",
+    "msPlayed" : 404333
+  },
+  {
+    "endTime" : "2022-09-27 11:01",
+    "artistName" : "Metallica",
+    "trackName" : "...And Justice for All",
+    "msPlayed" : 585506
+  },
+  {
+    "endTime" : "2022-09-27 11:04",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 188933
+  },
+  {
+    "endTime" : "2022-09-27 11:11",
+    "artistName" : "Metallica",
+    "trackName" : "Now That We’re Dead",
+    "msPlayed" : 419074
+  },
+  {
+    "endTime" : "2022-09-27 11:11",
+    "artistName" : "Metallica",
+    "trackName" : "Spit Out The Bone",
+    "msPlayed" : 4210
+  },
+  {
+    "endTime" : "2022-09-27 11:15",
+    "artistName" : "Metallica",
+    "trackName" : "Of Wolf and Man - Remastered 2021",
+    "msPlayed" : 256573
+  },
+  {
+    "endTime" : "2022-09-27 11:22",
+    "artistName" : "Metallica",
+    "trackName" : "Shoot Me Again",
+    "msPlayed" : 430105
+  },
+  {
+    "endTime" : "2022-09-27 11:45",
+    "artistName" : "Metallica",
+    "trackName" : "King Nothing",
+    "msPlayed" : 329760
+  },
+  {
+    "endTime" : "2022-09-27 11:47",
+    "artistName" : "Metallica",
+    "trackName" : "Sweet Amber",
+    "msPlayed" : 121200
+  },
+  {
+    "endTime" : "2022-09-27 11:52",
+    "artistName" : "Metallica",
+    "trackName" : "Ronnie",
+    "msPlayed" : 317133
+  },
+  {
+    "endTime" : "2022-09-27 11:56",
+    "artistName" : "Metallica",
+    "trackName" : "Don't Tread on Me - Remastered 2021",
+    "msPlayed" : 240160
+  },
+  {
+    "endTime" : "2022-09-27 12:02",
+    "artistName" : "Metallica",
+    "trackName" : "No Remorse - Remastered",
+    "msPlayed" : 386560
+  },
+  {
+    "endTime" : "2022-09-27 12:06",
+    "artistName" : "Metallica",
+    "trackName" : "It's Electric",
+    "msPlayed" : 213933
+  },
+  {
+    "endTime" : "2022-09-27 12:08",
+    "artistName" : "Metallica",
+    "trackName" : "The Unnamed Feeling",
+    "msPlayed" : 90935
+  },
+  {
+    "endTime" : "2022-09-27 12:12",
+    "artistName" : "Metallica",
+    "trackName" : "The Wait",
+    "msPlayed" : 292960
+  },
+  {
+    "endTime" : "2022-09-27 12:27",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "Maiden and the Monster",
+    "msPlayed" : 2276
+  },
+  {
+    "endTime" : "2022-09-27 12:27",
+    "artistName" : "Metallica",
+    "trackName" : "Hell And Back",
+    "msPlayed" : 2517
+  },
+  {
+    "endTime" : "2022-09-27 12:27",
+    "artistName" : "Metallica",
+    "trackName" : "Bad Seed",
+    "msPlayed" : 44520
+  },
+  {
+    "endTime" : "2022-09-27 12:31",
+    "artistName" : "Metallica",
+    "trackName" : "All Nightmare Long",
+    "msPlayed" : 272755
+  },
+  {
+    "endTime" : "2022-09-27 18:19",
+    "artistName" : "Metallica",
+    "trackName" : "Hell And Back",
+    "msPlayed" : 1198
+  },
+  {
+    "endTime" : "2022-09-27 18:19",
+    "artistName" : "Metallica",
+    "trackName" : "I Disappear",
+    "msPlayed" : 210088
+  },
+  {
+    "endTime" : "2022-09-28 06:34",
+    "artistName" : "Metallica",
+    "trackName" : "All Nightmare Long",
+    "msPlayed" : 204271
+  },
+  {
+    "endTime" : "2022-09-28 06:35",
+    "artistName" : "Metallica",
+    "trackName" : "Murder One",
+    "msPlayed" : 41204
+  },
+  {
+    "endTime" : "2022-09-28 06:54",
+    "artistName" : "Metallica",
+    "trackName" : "The Unforgiven III",
+    "msPlayed" : 466586
+  },
+  {
+    "endTime" : "2022-09-28 09:12",
+    "artistName" : "Metallica",
+    "trackName" : "Sabbra Cadabra",
+    "msPlayed" : 220070
+  },
+  {
+    "endTime" : "2022-09-28 09:20",
+    "artistName" : "Metallica",
+    "trackName" : "Halo On Fire",
+    "msPlayed" : 495016
+  },
+  {
+    "endTime" : "2022-09-28 09:29",
+    "artistName" : "Metallica",
+    "trackName" : "Master Of Puppets",
+    "msPlayed" : 515386
+  },
+  {
+    "endTime" : "2022-09-28 09:36",
+    "artistName" : "Metallica",
+    "trackName" : "The Unforgiven II",
+    "msPlayed" : 396440
+  },
+  {
+    "endTime" : "2022-09-28 09:52",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "Maiden and the Monster",
+    "msPlayed" : 437866
+  },
+  {
+    "endTime" : "2022-09-28 09:57",
+    "artistName" : "Metallica",
+    "trackName" : "Better Than You",
+    "msPlayed" : 321600
+  },
+  {
+    "endTime" : "2022-09-28 10:03",
+    "artistName" : "Metallica",
+    "trackName" : "My World",
+    "msPlayed" : 345532
+  },
+  {
+    "endTime" : "2022-09-28 10:10",
+    "artistName" : "Metallica",
+    "trackName" : "The Thing That Should Not Be",
+    "msPlayed" : 396106
+  },
+  {
+    "endTime" : "2022-09-28 10:14",
+    "artistName" : "Metallica",
+    "trackName" : "Hit The Lights - Remastered",
+    "msPlayed" : 255866
+  },
+  {
+    "endTime" : "2022-09-28 10:18",
+    "artistName" : "Metallica",
+    "trackName" : "Hero Of The Day",
+    "msPlayed" : 261906
+  },
+  {
+    "endTime" : "2022-09-28 10:23",
+    "artistName" : "Metallica",
+    "trackName" : "The Memory Remains",
+    "msPlayed" : 268162
+  },
+  {
+    "endTime" : "2022-09-28 10:31",
+    "artistName" : "Metallica",
+    "trackName" : "The Day That Never Comes",
+    "msPlayed" : 476266
+  },
+  {
+    "endTime" : "2022-09-28 10:36",
+    "artistName" : "Metallica",
+    "trackName" : "For Whom The Bell Tolls - Remastered",
+    "msPlayed" : 309973
+  },
+  {
+    "endTime" : "2022-09-28 10:50",
+    "artistName" : "Metallica",
+    "trackName" : "One",
+    "msPlayed" : 867449
+  },
+  {
+    "endTime" : "2022-09-28 10:54",
+    "artistName" : "Metallica",
+    "trackName" : "Poor Twisted Me",
+    "msPlayed" : 240000
+  },
+  {
+    "endTime" : "2022-09-28 10:59",
+    "artistName" : "Metallica",
+    "trackName" : "Whiplash - Remastered",
+    "msPlayed" : 248546
+  },
+  {
+    "endTime" : "2022-09-28 11:05",
+    "artistName" : "Metallica",
+    "trackName" : "My Friend of Misery - Remastered 2021",
+    "msPlayed" : 409666
+  },
+  {
+    "endTime" : "2022-09-28 11:10",
+    "artistName" : "Metallica",
+    "trackName" : "Until It Sleeps",
+    "msPlayed" : 267933
+  },
+  {
+    "endTime" : "2022-09-28 11:13",
+    "artistName" : "Metallica",
+    "trackName" : "Last Caress / Green Hell",
+    "msPlayed" : 210000
+  },
+  {
+    "endTime" : "2022-09-28 11:24",
+    "artistName" : "Metallica",
+    "trackName" : "All Nightmare Long",
+    "msPlayed" : 477026
+  },
+  {
+    "endTime" : "2022-09-28 12:23",
+    "artistName" : "Metallica",
+    "trackName" : "Murder One",
+    "msPlayed" : 7227
+  },
+  {
+    "endTime" : "2022-09-28 12:23",
+    "artistName" : "Metallica",
+    "trackName" : "Purify",
+    "msPlayed" : 1780
+  },
+  {
+    "endTime" : "2022-09-28 12:30",
+    "artistName" : "Metallica",
+    "trackName" : "Just A Bullet Away",
+    "msPlayed" : 449688
+  },
+  {
+    "endTime" : "2022-09-28 12:40",
+    "artistName" : "Metallica",
+    "trackName" : "Cure",
+    "msPlayed" : 294293
+  },
+  {
+    "endTime" : "2022-09-28 12:41",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 54242
+  },
+  {
+    "endTime" : "2022-09-28 13:03",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 6066
+  },
+  {
+    "endTime" : "2022-09-28 14:56",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 6814
+  },
+  {
+    "endTime" : "2022-09-28 14:56",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 30915
+  },
+  {
+    "endTime" : "2022-09-28 14:56",
+    "artistName" : "Slipknot",
+    "trackName" : "My Plague",
+    "msPlayed" : 0
+  },
+  {
+    "endTime" : "2022-09-28 15:01",
+    "artistName" : "Slipknot",
+    "trackName" : "Duality",
+    "msPlayed" : 252613
+  },
+  {
+    "endTime" : "2022-09-28 15:02",
+    "artistName" : "Slipknot",
+    "trackName" : "Purity",
+    "msPlayed" : 63695
+  },
+  {
+    "endTime" : "2022-09-28 15:06",
+    "artistName" : "Slipknot",
+    "trackName" : "Before I Forget",
+    "msPlayed" : 278600
+  },
+  {
+    "endTime" : "2022-09-28 15:12",
+    "artistName" : "Slipknot",
+    "trackName" : "Dead Memories",
+    "msPlayed" : 268586
+  },
+  {
+    "endTime" : "2022-09-28 15:17",
+    "artistName" : "Slipknot",
+    "trackName" : "Killpop",
+    "msPlayed" : 225066
+  },
+  {
+    "endTime" : "2022-09-28 15:18",
+    "artistName" : "Slipknot",
+    "trackName" : "Critical Darling",
+    "msPlayed" : 11565
+  },
+  {
+    "endTime" : "2022-09-28 15:19",
+    "artistName" : "Panic! At The Disco",
+    "trackName" : "Dying in LA",
+    "msPlayed" : 4516
+  },
+  {
+    "endTime" : "2022-09-28 15:19",
+    "artistName" : "Five Finger Death Punch",
+    "trackName" : "Bad Company",
+    "msPlayed" : 58530
+  },
+  {
+    "endTime" : "2022-09-28 15:22",
+    "artistName" : "Fall Out Boy",
+    "trackName" : "Grand Theft Autumn / Where Is Your Boy",
+    "msPlayed" : 7280
+  },
+  {
+    "endTime" : "2022-09-28 15:22",
+    "artistName" : "Panic! At The Disco",
+    "trackName" : "Casual Affair",
+    "msPlayed" : 197693
+  },
+  {
+    "endTime" : "2022-09-28 15:22",
+    "artistName" : "Fall Out Boy",
+    "trackName" : "The Phoenix",
+    "msPlayed" : 0
+  },
+  {
+    "endTime" : "2022-09-28 15:22",
+    "artistName" : "My Chemical Romance",
+    "trackName" : "Mama",
+    "msPlayed" : 2294
+  },
+  {
+    "endTime" : "2022-09-28 15:22",
+    "artistName" : "Fall Out Boy",
+    "trackName" : "Sophomore Slump Or Comeback Of The Year",
+    "msPlayed" : 3377
+  },
+  {
+    "endTime" : "2022-09-28 15:28",
+    "artistName" : "Green Day",
+    "trackName" : "21 Guns",
+    "msPlayed" : 321093
+  },
+  {
+    "endTime" : "2022-09-28 15:34",
+    "artistName" : "Metallica",
+    "trackName" : "Nothing Else Matters - Remastered 2021",
+    "msPlayed" : 360698
+  },
+  {
+    "endTime" : "2022-09-28 15:46",
+    "artistName" : "Green Day",
+    "trackName" : "Holiday",
+    "msPlayed" : 64446
+  },
+  {
+    "endTime" : "2022-09-28 16:58",
+    "artistName" : "Green Day",
+    "trackName" : "Holiday",
+    "msPlayed" : 15696
+  },
+  {
+    "endTime" : "2022-09-28 17:01",
+    "artistName" : "Metallica",
+    "trackName" : "Fight Fire With Fire - Remastered",
+    "msPlayed" : 1584
+  },
+  {
+    "endTime" : "2022-09-28 17:01",
+    "artistName" : "Metallica",
+    "trackName" : "Moth Into Flame",
+    "msPlayed" : 164404
+  },
+  {
+    "endTime" : "2022-09-28 17:01",
+    "artistName" : "Metallica",
+    "trackName" : "Slither",
+    "msPlayed" : 1453
+  },
+  {
+    "endTime" : "2022-09-28 17:01",
+    "artistName" : "Metallica",
+    "trackName" : "Mercyful Fate",
+    "msPlayed" : 1836
+  },
+  {
+    "endTime" : "2022-09-28 17:01",
+    "artistName" : "Metallica",
+    "trackName" : "Loverman",
+    "msPlayed" : 18307
+  },
+  {
+    "endTime" : "2022-09-28 17:01",
+    "artistName" : "Metallica",
+    "trackName" : "Harvester of Sorrow",
+    "msPlayed" : 2541
+  },
+  {
+    "endTime" : "2022-09-28 17:03",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 108044
+  },
+  {
+    "endTime" : "2022-09-28 19:12",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 80890
+  },
+  {
+    "endTime" : "2022-09-28 19:15",
+    "artistName" : "Metallica",
+    "trackName" : "Confusion",
+    "msPlayed" : 214929
+  },
+  {
+    "endTime" : "2022-09-29 06:20",
+    "artistName" : "Metallica",
+    "trackName" : "Confusion",
+    "msPlayed" : 77747
+  },
+  {
+    "endTime" : "2022-09-29 06:24",
+    "artistName" : "Metallica",
+    "trackName" : "Eye of the Beholder",
+    "msPlayed" : 226586
+  },
+  {
+    "endTime" : "2022-09-29 07:16",
+    "artistName" : "Green Day",
+    "trackName" : "Holiday",
+    "msPlayed" : 5370
+  },
+  {
+    "endTime" : "2022-09-29 07:25",
+    "artistName" : "Metallica",
+    "trackName" : "Halo On Fire",
+    "msPlayed" : 495016
+  },
+  {
+    "endTime" : "2022-09-29 07:35",
+    "artistName" : "Metallica",
+    "trackName" : "Suicide & Redemption",
+    "msPlayed" : 597720
+  },
+  {
+    "endTime" : "2022-09-29 07:42",
+    "artistName" : "Metallica",
+    "trackName" : "Low Man's Lyric",
+    "msPlayed" : 456226
+  },
+  {
+    "endTime" : "2022-09-29 07:49",
+    "artistName" : "Metallica",
+    "trackName" : "The Unforgiven II",
+    "msPlayed" : 396440
+  },
+  {
+    "endTime" : "2022-09-29 07:54",
+    "artistName" : "Metallica",
+    "trackName" : "Phantom Lord - Remastered",
+    "msPlayed" : 301293
+  },
+  {
+    "endTime" : "2022-09-29 08:04",
+    "artistName" : "Metallica",
+    "trackName" : "The Outlaw Torn",
+    "msPlayed" : 588666
+  },
+  {
+    "endTime" : "2022-09-29 08:09",
+    "artistName" : "Metallica",
+    "trackName" : "Slither",
+    "msPlayed" : 313200
+  },
+  {
+    "endTime" : "2022-09-29 08:16",
+    "artistName" : "Metallica",
+    "trackName" : "The Small Hours",
+    "msPlayed" : 400800
+  },
+  {
+    "endTime" : "2022-09-29 08:24",
+    "artistName" : "Metallica",
+    "trackName" : "Loverman",
+    "msPlayed" : 472826
+  },
+  {
+    "endTime" : "2022-09-29 08:28",
+    "artistName" : "Metallica",
+    "trackName" : "Until It Sleeps",
+    "msPlayed" : 267933
+  },
+  {
+    "endTime" : "2022-09-29 08:33",
+    "artistName" : "Metallica",
+    "trackName" : "The More I See",
+    "msPlayed" : 288666
+  },
+  {
+    "endTime" : "2022-09-29 08:39",
+    "artistName" : "Metallica",
+    "trackName" : "Leper Messiah",
+    "msPlayed" : 339880
+  },
+  {
+    "endTime" : "2022-09-29 08:42",
+    "artistName" : "Metallica",
+    "trackName" : "Last Caress / Green Hell",
+    "msPlayed" : 210000
+  },
+  {
+    "endTime" : "2022-09-29 09:04",
+    "artistName" : "Metallica",
+    "trackName" : "My World",
+    "msPlayed" : 345532
+  },
+  {
+    "endTime" : "2022-09-29 09:11",
+    "artistName" : "Metallica",
+    "trackName" : "Hate Train",
+    "msPlayed" : 419186
+  },
+  {
+    "endTime" : "2022-09-29 09:22",
+    "artistName" : "Metallica",
+    "trackName" : "Mercyful Fate",
+    "msPlayed" : 670373
+  },
+  {
+    "endTime" : "2022-09-29 09:27",
+    "artistName" : "Metallica",
+    "trackName" : "Hero Of The Day",
+    "msPlayed" : 261906
+  },
+  {
+    "endTime" : "2022-09-29 09:31",
+    "artistName" : "Metallica",
+    "trackName" : "Trapped Under Ice - Remastered",
+    "msPlayed" : 244066
+  },
+  {
+    "endTime" : "2022-09-29 10:03",
+    "artistName" : "Metallica",
+    "trackName" : "The Prince",
+    "msPlayed" : 264800
+  },
+  {
+    "endTime" : "2022-09-29 10:07",
+    "artistName" : "Metallica",
+    "trackName" : "Don't Tread on Me - Remastered 2021",
+    "msPlayed" : 240160
+  },
+  {
+    "endTime" : "2022-09-29 10:14",
+    "artistName" : "Metallica",
+    "trackName" : "The Thing That Should Not Be",
+    "msPlayed" : 396106
+  },
+  {
+    "endTime" : "2022-09-29 10:22",
+    "artistName" : "Metallica",
+    "trackName" : "Master Of Puppets",
+    "msPlayed" : 515386
+  },
+  {
+    "endTime" : "2022-09-29 10:27",
+    "artistName" : "Metallica",
+    "trackName" : "Dyers Eve",
+    "msPlayed" : 313045
+  },
+  {
+    "endTime" : "2022-09-29 10:33",
+    "artistName" : "Metallica",
+    "trackName" : "Mama Said",
+    "msPlayed" : 319693
+  },
+  {
+    "endTime" : "2022-09-29 10:40",
+    "artistName" : "Metallica",
+    "trackName" : "ManUNkind",
+    "msPlayed" : 415599
+  },
+  {
+    "endTime" : "2022-09-29 10:44",
+    "artistName" : "Metallica",
+    "trackName" : "Fuel",
+    "msPlayed" : 269800
+  },
+  {
+    "endTime" : "2022-09-29 10:51",
+    "artistName" : "Metallica",
+    "trackName" : "Dream No More",
+    "msPlayed" : 389597
+  },
+  {
+    "endTime" : "2022-09-29 10:57",
+    "artistName" : "Metallica",
+    "trackName" : "Cyanide",
+    "msPlayed" : 399546
+  },
+  {
+    "endTime" : "2022-09-29 11:04",
+    "artistName" : "Metallica",
+    "trackName" : "Eye of the Beholder",
+    "msPlayed" : 385986
+  },
+  {
+    "endTime" : "2022-09-29 11:09",
+    "artistName" : "Metallica",
+    "trackName" : "Sad But True - Remastered 2021",
+    "msPlayed" : 324600
+  },
+  {
+    "endTime" : "2022-09-29 11:15",
+    "artistName" : "Metallica",
+    "trackName" : "Frantic",
+    "msPlayed" : 350358
+  },
+  {
+    "endTime" : "2022-09-29 11:24",
+    "artistName" : "Metallica",
+    "trackName" : "Whiskey In The Jar",
+    "msPlayed" : 304693
+  },
+  {
+    "endTime" : "2022-09-29 11:31",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "The Jinn",
+    "msPlayed" : 417226
+  },
+  {
+    "endTime" : "2022-09-29 11:38",
+    "artistName" : "Metallica",
+    "trackName" : "Astronomy",
+    "msPlayed" : 397840
+  },
+  {
+    "endTime" : "2022-09-29 11:45",
+    "artistName" : "Metallica",
+    "trackName" : "One",
+    "msPlayed" : 446145
+  },
+  {
+    "endTime" : "2022-09-29 11:49",
+    "artistName" : "Metallica",
+    "trackName" : "Holier Than Thou - Remastered 2021",
+    "msPlayed" : 227573
+  },
+  {
+    "endTime" : "2022-09-29 11:56",
+    "artistName" : "Metallica",
+    "trackName" : "Spit Out The Bone",
+    "msPlayed" : 429198
+  },
+  {
+    "endTime" : "2022-09-29 12:04",
+    "artistName" : "Metallica",
+    "trackName" : "Shoot Me Again",
+    "msPlayed" : 430105
+  },
+  {
+    "endTime" : "2022-09-29 12:09",
+    "artistName" : "Metallica",
+    "trackName" : "King Nothing",
+    "msPlayed" : 329760
+  },
+  {
+    "endTime" : "2022-09-29 12:14",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "High Plains Drifter",
+    "msPlayed" : 285960
+  },
+  {
+    "endTime" : "2022-09-29 12:17",
+    "artistName" : "Metallica",
+    "trackName" : "Blitzkrieg",
+    "msPlayed" : 216960
+  },
+  {
+    "endTime" : "2022-09-29 12:25",
+    "artistName" : "Metallica",
+    "trackName" : "The Day That Never Comes",
+    "msPlayed" : 476266
+  },
+  {
+    "endTime" : "2022-09-29 12:28",
+    "artistName" : "Metallica",
+    "trackName" : "Die, Die My Darling",
+    "msPlayed" : 146560
+  },
+  {
+    "endTime" : "2022-09-29 12:35",
+    "artistName" : "Metallica",
+    "trackName" : "The Four Horsemen - Remastered",
+    "msPlayed" : 432546
+  },
+  {
+    "endTime" : "2022-09-29 12:41",
+    "artistName" : "Metallica",
+    "trackName" : "Thorn Within",
+    "msPlayed" : 351666
+  },
+  {
+    "endTime" : "2022-09-29 12:47",
+    "artistName" : "Metallica",
+    "trackName" : "Welcome Home (Sanitarium)",
+    "msPlayed" : 387146
+  },
+  {
+    "endTime" : "2022-09-29 12:54",
+    "artistName" : "Metallica",
+    "trackName" : "Fade To Black - Remastered",
+    "msPlayed" : 417226
+  },
+  {
+    "endTime" : "2022-09-29 13:17",
+    "artistName" : "Metallica",
+    "trackName" : "Eye of the Beholder",
+    "msPlayed" : 159400
+  },
+  {
+    "endTime" : "2022-09-29 13:19",
+    "artistName" : "Metallica",
+    "trackName" : "Mercyful Fate",
+    "msPlayed" : 38583
+  },
+  {
+    "endTime" : "2022-09-29 13:19",
+    "artistName" : "Metallica",
+    "trackName" : "Carpe Diem Baby",
+    "msPlayed" : 101558
+  },
+  {
+    "endTime" : "2022-09-29 16:51",
+    "artistName" : "Metallica",
+    "trackName" : "Mercyful Fate",
+    "msPlayed" : 271780
+  },
+  {
+    "endTime" : "2022-09-29 19:01",
+    "artistName" : "Metallica",
+    "trackName" : "Mercyful Fate",
+    "msPlayed" : 267678
+  },
+  {
+    "endTime" : "2022-09-30 06:16",
+    "artistName" : "Metallica",
+    "trackName" : "(Anesthesia) Pulling Teeth - Remastered",
+    "msPlayed" : 11313
+  },
+  {
+    "endTime" : "2022-09-30 06:16",
+    "artistName" : "Metallica",
+    "trackName" : "Mercyful Fate",
+    "msPlayed" : 92334
+  },
+  {
+    "endTime" : "2022-09-30 06:21",
+    "artistName" : "Metallica",
+    "trackName" : "Hero Of The Day",
+    "msPlayed" : 261906
+  },
+  {
+    "endTime" : "2022-09-30 06:34",
+    "artistName" : "Metallica",
+    "trackName" : "Helpless",
+    "msPlayed" : 336273
+  },
+  {
+    "endTime" : "2022-09-30 06:35",
+    "artistName" : "Metallica",
+    "trackName" : "Low Man's Lyric",
+    "msPlayed" : 156273
+  },
+  {
+    "endTime" : "2022-09-30 06:42",
+    "artistName" : "Metallica",
+    "trackName" : "The Unforgiven III",
+    "msPlayed" : 466586
+  },
+  {
+    "endTime" : "2022-09-30 06:51",
+    "artistName" : "Metallica",
+    "trackName" : "Tuesday's Gone",
+    "msPlayed" : 543866
+  },
+  {
+    "endTime" : "2022-09-30 06:56",
+    "artistName" : "Metallica",
+    "trackName" : "Cure",
+    "msPlayed" : 294293
+  },
+  {
+    "endTime" : "2022-09-30 07:02",
+    "artistName" : "Metallica",
+    "trackName" : "No Remorse - Remastered",
+    "msPlayed" : 386560
+  },
+  {
+    "endTime" : "2022-09-30 07:12",
+    "artistName" : "Metallica",
+    "trackName" : "To Live is to Die",
+    "msPlayed" : 588381
+  },
+  {
+    "endTime" : "2022-09-30 07:19",
+    "artistName" : "Metallica",
+    "trackName" : "Seek & Destroy - Remastered",
+    "msPlayed" : 414720
+  },
+  {
+    "endTime" : "2022-09-30 07:27",
+    "artistName" : "Metallica",
+    "trackName" : "Bleeding Me",
+    "msPlayed" : 497933
+  },
+  {
+    "endTime" : "2022-09-30 07:36",
+    "artistName" : "Metallica",
+    "trackName" : "Disposable Heroes",
+    "msPlayed" : 496626
+  },
+  {
+    "endTime" : "2022-09-30 07:41",
+    "artistName" : "Metallica",
+    "trackName" : "Better Than You",
+    "msPlayed" : 321600
+  },
+  {
+    "endTime" : "2022-09-30 08:50",
+    "artistName" : "Kirk Hammett",
+    "trackName" : "The Incantation",
+    "msPlayed" : 487973
+  },
+  {
+    "endTime" : "2022-09-30 08:58",
+    "artistName" : "Metallica",
+    "trackName" : "Rebel Of Babylon",
+    "msPlayed" : 482000
+  },
+  {
+    "endTime" : "2022-09-30 09:06",
+    "artistName" : "Metallica",
+    "trackName" : "Orion",
+    "msPlayed" : 507226
+  },
+  {
+    "endTime" : "2022-09-30 09:11",
+    "artistName" : "Metallica",
+    "trackName" : "When A Blind Man Cries",
+    "msPlayed" : 275013
+  },
+  {
+    "endTime" : "2022-09-30 09:14",
+    "artistName" : "Metallica",
+    "trackName" : "Crash Course In Brain Surgery",
+    "msPlayed" : 188826
+  },
+  {
+    "endTime" : "2022-09-30 09:29",
+    "artistName" : "Metallica",
+    "trackName" : "Low Man's Lyric",
+    "msPlayed" : 300012
+  },
+  {
+    "endTime" : "2022-09-30 09:34",
+    "artistName" : "Metallica",
+    "trackName" : "Killing Time",
+    "msPlayed" : 183666
+  },
+  {
+    "endTime" : "2022-09-30 09:41",
+    "artistName" : "Metallica",
+    "trackName" : "Atlas, Rise!",
+    "msPlayed" : 388624
+  },
+  {
+    "endTime" : "2022-09-30 09:47",
+    "artistName" : "Metallica",
+    "trackName" : "Astronomy",
+    "msPlayed" : 397840
+  },
+  {
+    "endTime" : "2022-09-30 09:55",
+    "artistName" : "Metallica",
+    "trackName" : "The Judas Kiss",
+    "msPlayed" : 480760
+  },
+  {
+    "endTime" : "2022-09-30 10:03",
+    "artistName" : "Metallica",
+    "trackName" : "All Nightmare Long",
+    "msPlayed" : 477026
+  },
+  {
+    "endTime" : "2022-09-30 10:10",
+    "artistName" : "Metallica",
+    "trackName" : "Nothing Else Matters - Remastered 2021",
+    "msPlayed" : 388733
+  },
+  {
+    "endTime" : "2022-09-30 10:13",
+    "artistName" : "Metallica",
+    "trackName" : "Cure",
+    "msPlayed" : 204622
+  },
+  {
+    "endTime" : "2022-09-30 10:20",
+    "artistName" : "Metallica",
+    "trackName" : "Cyanide",
+    "msPlayed" : 378822
+  },
+  {
+    "endTime" : "2022-09-30 10:24",
+    "artistName" : "Metallica",
+    "trackName" : "Cyanide",
+    "msPlayed" : 20724
+  },
+  {
+    "endTime" : "2022-09-30 10:30",
+    "artistName" : "Metallica",
+    "trackName" : "One",
+    "msPlayed" : 413260
+  },
+  {
+    "endTime" : "2022-09-30 11:05",
+    "artistName" : "Metallica",
+    "trackName" : "One",
+    "msPlayed" : 23320
+  },
+  {
+    "endTime" : "2022-09-30 11:05",
+    "artistName" : "Metallica",
+    "trackName" : "All Within My Hands",
+    "msPlayed" : 527892
+  },
+  {
+    "endTime" : "2022-09-30 11:08",
+    "artistName" : "Metallica",
+    "trackName" : "Hardwired",
+    "msPlayed" : 189347
+  },
+  {
+    "endTime" : "2022-09-30 11:12",
+    "artistName" : "Metallica",
+    "trackName" : "Of Wolf and Man - Remastered 2021",
+    "msPlayed" : 256573
+  },
+  {
+    "endTime" : "2022-09-30 11:21",
+    "artistName" : "Metallica",
+    "trackName" : "Nothing Else Matters - Remastered 2021",
+    "msPlayed" : 5470
+  },
+  {
+    "endTime" : "2022-09-30 11:21",
+    "artistName" : "Metallica",
+    "trackName" : "The Call Of Ktulu - Remastered",
+    "msPlayed" : 533493
+  },
+  {
+    "endTime" : "2022-09-30 11:26",
+    "artistName" : "Metallica",
+    "trackName" : "Fight Fire With Fire - Remastered",
+    "msPlayed" : 284506
+  },
+  {
+    "endTime" : "2022-09-30 11:34",
+    "artistName" : "Metallica",
+    "trackName" : "The Judas Kiss",
+    "msPlayed" : 480760
+  },
+  {
+    "endTime" : "2022-09-30 11:37",
+    "artistName" : "Metallica",
+    "trackName" : "So What",
+    "msPlayed" : 188933
+  },
+  {
+    "endTime" : "2022-09-30 11:44",
+    "artistName" : "Metallica",
+    "trackName" : "The Unnamed Feeling",
+    "msPlayed" : 371192
+  },
+  {
+    "endTime" : "2022-09-30 11:49",
+    "artistName" : "Metallica",
+    "trackName" : "Enter Sandman - Remastered 2021",
+    "msPlayed" : 331560
+  },
+  {
+    "endTime" : "2022-09-30 11:55",
+    "artistName" : "Metallica",
+    "trackName" : "Damage, Inc.",
+    "msPlayed" : 332465
+  },
+  {
+    "endTime" : "2022-09-30 12:02",
+    "artistName" : "Metallica",
+    "trackName" : "Am I Evil?",
+    "msPlayed" : 470066
+  },
+  {
+    "endTime" : "2022-09-30 12:07",
+    "artistName" : "Metallica",
+    "trackName" : "My Apocalypse",
+    "msPlayed" : 301026
+  },
+  {
+    "endTime" : "2022-09-30 12:13",
+    "artistName" : "Metallica",
+    "trackName" : "Ain't My Bitch",
+    "msPlayed" : 304400
+  },
+  {
+    "endTime" : "2022-09-30 12:16",
+    "artistName" : "Metallica",
+    "trackName" : "It's Electric",
+    "msPlayed" : 213933
+  },
+  {
+    "endTime" : "2022-09-30 12:20",
+    "artistName" : "Metallica",
+    "trackName" : "Bad Seed",
+    "msPlayed" : 245333
+  },
+  {
+    "endTime" : "2022-09-30 12:23",
+    "artistName" : "Metallica",
+    "trackName" : "Breadfan",
+    "msPlayed" : 180308
+  },
+  {
+    "endTime" : "2022-09-30 15:52",
+    "artistName" : "Metallica",
+    "trackName" : "Breadfan",
+    "msPlayed" : 339523
+  },
+  {
+    "endTime" : "2022-09-30 15:57",
+    "artistName" : "Metallica",
+    "trackName" : "Harvester of Sorrow",
+    "msPlayed" : 345283
+  },
+  {
+    "endTime" : "2022-09-30 16:07",
+    "artistName" : "Metallica",
+    "trackName" : "...And Justice for All",
+    "msPlayed" : 585506
+  },
+  {
+    "endTime" : "2022-09-30 16:14",
+    "artistName" : "Metallica",
+    "trackName" : "Where The Wild Things Are",
+    "msPlayed" : 412960
+  },
+  {
+    "endTime" : "2022-09-30 16:19",
+    "artistName" : "Metallica",
+    "trackName" : "Purify",
+    "msPlayed" : 270179
+  },
+  {
+    "endTime" : "2022-09-30 16:24",
+    "artistName" : "Metallica",
+    "trackName" : "The God That Failed - Remastered 2021",
+    "msPlayed" : 308506
+  },
+  {
+    "endTime" : "2022-09-30 16:30",
+    "artistName" : "Metallica",
+    "trackName" : "Carpe Diem Baby",
+    "msPlayed" : 372200
+  },
+  {
+    "endTime" : "2022-09-30 16:34",
+    "artistName" : "Metallica",
+    "trackName" : "Hit The Lights - Remastered",
+    "msPlayed" : 255866
+  },
+  {
+    "endTime" : "2022-09-30 17:22",
+    "artistName" : "Metallica",
+    "trackName" : "The Memory Remains",
+    "msPlayed" : 93159
+  },
+  {
+    "endTime" : "2022-09-30 17:28",
+    "artistName" : "Metallica",
+    "trackName" : "Atlas, Rise!",
+    "msPlayed" : 388624
+  },
+  {
+    "endTime" : "2022-09-30 17:35",
+    "artistName" : "Metallica",
+    "trackName" : "Wherever I May Roam - Remastered 2021",
+    "msPlayed" : 404333
+  },
+  {
+    "endTime" : "2022-09-30 17:40",
+    "artistName" : "Metallica",
+    "trackName" : "The Wait",
+    "msPlayed" : 292960
+  },
+  {
+    "endTime" : "2022-09-30 17:47",
+    "artistName" : "Metallica",
+    "trackName" : "The House That Jack Built",
+    "msPlayed" : 398866
+  },
+  {
+    "endTime" : "2022-09-30 17:53",
+    "artistName" : "Metallica",
+    "trackName" : "Turn The Page",
+    "msPlayed" : 366466
+  },
+  {
+    "endTime" : "2022-09-30 17:57",
+    "artistName" : "Metallica",
+    "trackName" : "Wasting My Hate",
+    "msPlayed" : 237240
+  },
+  {
+    "endTime" : "2022-09-30 18:02",
+    "artistName" : "Metallica",
+    "trackName" : "For Whom The Bell Tolls - Remastered",
+    "msPlayed" : 309973
+  },
+  {
+    "endTime" : "2022-09-30 18:09",
+    "artistName" : "Metallica",
+    "trackName" : "Ride The Lightning - Remastered",
+    "msPlayed" : 396986
+  },
+  {
+    "endTime" : "2022-09-30 20:26",
+    "artistName" : "Metallica",
+    "trackName" : "One",
+    "msPlayed" : 447940
+  },
+  {
+    "endTime" : "2022-09-30 20:27",
+    "artistName" : "Metallica",
+    "trackName" : "The Day That Never Comes",
+    "msPlayed" : 74756
+  },
+  {
+    "endTime" : "2022-09-30 20:28",
+    "artistName" : "Metallica",
+    "trackName" : "The Outlaw Torn",
+    "msPlayed" : 54260
+  },
+  {
+    "endTime" : "2022-09-30 20:37",
+    "artistName" : "Metallica",
+    "trackName" : "Master Of Puppets",
+    "msPlayed" : 515386
+  },
+  {
+    "endTime" : "2022-09-30 20:41",
+    "artistName" : "Metallica",
+    "trackName" : "My Friend of Misery - Remastered 2021",
+    "msPlayed" : 239229
+  },
+  {
+    "endTime" : "2022-09-30 20:42",
+    "artistName" : "Metallica",
+    "trackName" : "Rebel Of Babylon",
+    "msPlayed" : 5807
+  },
+  {
+    "endTime" : "2022-09-30 20:42",
+    "artistName" : "Metallica",
+    "trackName" : "Bad Seed",
+    "msPlayed" : 4230
+  },
+  {
+    "endTime" : "2022-09-30 20:46",
+    "artistName" : "Metallica",
+    "trackName" : "Wasting My Hate",
+    "msPlayed" : 237240
+  },
+  {
+    "endTime" : "2022-09-30 20:57",
+    "artistName" : "Metallica",
+    "trackName" : "King Nothing",
+    "msPlayed" : 92420
+  },
+  {
+    "endTime" : "2022-10-01 08:20",
+    "artistName" : "Queens of the Stone Age",
+    "trackName" : "No One Knows",
+    "msPlayed" : 365
+  },
+  {
+    "endTime" : "2022-10-01 08:20",
+    "artistName" : "Metallica",
+    "trackName" : "King Nothing",
+    "msPlayed" : 1080
+  },
+  {
+    "endTime" : "2022-10-01 08:23",
+    "artistName" : "The Offspring",
+    "trackName" : "You're Gonna Go Far, Kid",
+    "msPlayed" : 177826
+  },
+  {
+    "endTime" : "2022-10-01 08:26",
+    "artistName" : "Metalocalypse",
+    "trackName" : "The Duel",
+    "msPlayed" : 16353
+  },
+  {
+    "endTime" : "2022-10-01 08:26",
+    "artistName" : "Sum 41",
+    "trackName" : "Still Waiting",
+    "msPlayed" : 158733
+  },
+  {
+    "endTime" : "2022-10-01 08:26",
+    "artistName" : "Metallica",
+    "trackName" : "Fuel",
+    "msPlayed" : 2792
+  },
+  {
+    "endTime" : "2022-10-01 08:26",
+    "artistName" : "Rise Against",
+    "trackName" : "Savior",
+    "msPlayed" : 12844
+  },
+  {
+    "endTime" : "2022-10-01 08:32",
+    "artistName" : "Rage Against The Machine",
+    "trackName" : "Killing In The Name",
+    "msPlayed" : 313573
+  },
+  {
+    "endTime" : "2022-10-01 08:40",
+    "artistName" : "Green Day",
+    "trackName" : "Holiday / Boulevard of Broken Dreams",
+    "msPlayed" : 493400
+  },
+  {
+    "endTime" : "2022-10-01 08:42",
+    "artistName" : "The Offspring",
+    "trackName" : "Pretty Fly (For A White Guy)",
+    "msPlayed" : 110939
+  },
+  {
+    "endTime" : "2022-10-01 08:47",
+    "artistName" : "Iron Maiden",
+    "trackName" : "Aces High - 2015 Remaster",
+    "msPlayed" : 271906
+  },
+  {
+    "endTime" : "2022-10-01 08:50",
+    "artistName" : "Finger Eleven",
+    "trackName" : "Paralyzer",
+    "msPlayed" : 208106
+  },
+  {
+    "endTime" : "2022-10-01 09:03",
+    "artistName" : "Queens of the Stone Age",
+    "trackName" : "No One Knows",
+    "msPlayed" : 163689
+  },
+  {
+    "endTime" : "2022-10-01 11:52",
+    "artistName" : "Queens of the Stone Age",
+    "trackName" : "No One Knows",
+    "msPlayed" : 115606
+  },
+  {
+    "endTime" : "2022-10-01 11:56",
+    "artistName" : "Billy Talent",
+    "trackName" : "Red Flag",
+    "msPlayed" : 198173
+  },
+  {
+    "endTime" : "2022-10-01 12:00",
+    "artistName" : "AC/DC",
+    "trackName" : "Back In Black",
+    "msPlayed" : 255493
+  },
+  {
+    "endTime" : "2022-10-01 12:02",
+    "artistName" : "Mike Posner",
+    "trackName" : "Cooler Than Me - Single Mix",
+    "msPlayed" : 112062
+  },
+  {
+    "endTime" : "2022-10-01 12:06",
+    "artistName" : "Avicii",
+    "trackName" : "Ten More Days",
+    "msPlayed" : 245813
+  },
+  {
+    "endTime" : "2022-10-01 12:09",
+    "artistName" : "Skillet",
+    "trackName" : "Hero",
+    "msPlayed" : 186813
+  },
+  {
+    "endTime" : "2022-10-01 12:09",
+    "artistName" : "Metallica",
+    "trackName" : "Fuel",
+    "msPlayed" : 6271
+  },
+  {
+    "endTime" : "2022-10-01 12:13",
+    "artistName" : "HammerFall",
+    "trackName" : "Hearts on Fire",
+    "msPlayed" : 231386
+  },
+  {
+    "endTime" : "2022-10-01 12:19",
+    "artistName" : "Black Sabbath",
+    "trackName" : "Iron Man",
+    "msPlayed" : 354773
+  },
+  {
+    "endTime" : "2022-10-01 12:25",
+    "artistName" : "Metallica",
+    "trackName" : "One",
+    "msPlayed" : 349101
+  },
+  {
+    "endTime" : "2022-10-01 13:45",
+    "artistName" : "Disturbed",
+    "trackName" : "Land of Confusion",
+    "msPlayed" : 35852
+  },
+  {
+    "endTime" : "2022-10-01 13:45",
+    "artistName" : "Metallica",
+    "trackName" : "One",
+    "msPlayed" : 98339
+  },
+  {
+    "endTime" : "2022-10-01 14:30",
+    "artistName" : "Disturbed",
+    "trackName" : "Land of Confusion",
+    "msPlayed" : 152400
+  },
+  {
+    "endTime" : "2022-10-01 14:59",
+    "artistName" : "Disturbed",
+    "trackName" : "Land of Confusion",
+    "msPlayed" : 38054
+  },
+  {
+    "endTime" : "2022-10-01 15:01",
+    "artistName" : "Rev Theory",
+    "trackName" : "Hell Yeah",
+    "msPlayed" : 123707
+  },
+  {
+    "endTime" : "2022-10-01 15:49",
+    "artistName" : "Rev Theory",
+    "trackName" : "Hell Yeah",
+    "msPlayed" : 6211
+  },
+  {
+    "endTime" : "2022-10-01 15:49",
+    "artistName" : "Green Day",
+    "trackName" : "Boulevard of Broken Dreams",
+    "msPlayed" : 2696
+  },
+  {
+    "endTime" : "2022-10-01 15:49",
+    "artistName" : "Disturbed",
+    "trackName" : "Stricken",
+    "msPlayed" : 2774
+  },
+  {
+    "endTime" : "2022-10-01 15:51",
+    "artistName" : "The Lonely Island",
+    "trackName" : "I Just Had Sex",
+    "msPlayed" : 70690
+  },
+  {
+    "endTime" : "2022-10-01 15:58",
+    "artistName" : "The Lonely Island",
+    "trackName" : "I Just Had Sex",
+    "msPlayed" : 95872
+  },
+  {
+    "endTime" : "2022-10-01 15:58",
+    "artistName" : "Steve Ouimette",
+    "trackName" : "The Devil Went Down to Georgia",
+    "msPlayed" : 15448
+  },
+  {
+    "endTime" : "2022-10-02 07:36",
+    "artistName" : "Steve Ouimette",
+    "trackName" : "The Devil Went Down to Georgia",
+    "msPlayed" : 360925
+  },
+  {
+    "endTime" : "2022-10-02 07:40",
+    "artistName" : "Nomy",
+    "trackName" : "You Better Die Young",
+    "msPlayed" : 225653
+  },
+  {
+    "endTime" : "2022-10-02 07:44",
+    "artistName" : "Flo Rida",
+    "trackName" : "I Cry",
+    "msPlayed" : 223800
+  },
+  {
+    "endTime" : "2022-10-02 07:48",
+    "artistName" : "HOFFMAESTRO",
+    "trackName" : "Highway Man",
+    "msPlayed" : 229586
+  },
+  {
+    "endTime" : "2022-10-02 07:49",
+    "artistName" : "Living Colour",
+    "trackName" : "Cult of Personality",
+    "msPlayed" : 70548
+  },
+  {
+    "endTime" : "2022-10-02 07:54",
+    "artistName" : "Five Finger Death Punch",
+    "trackName" : "House of The Rising Sun",
+    "msPlayed" : 247388
+  },
+  {
+    "endTime" : "2022-10-02 07:59",
+    "artistName" : "Disturbed",
+    "trackName" : "Down with the Sickness",
+    "msPlayed" : 279213
+  },
+  {
+    "endTime" : "2022-10-02 08:02",
+    "artistName" : "Sum 41",
+    "trackName" : "Still Waiting",
+    "msPlayed" : 158733
+  },
+  {
+    "endTime" : "2022-10-02 08:05",
+    "artistName" : "System Of A Down",
+    "trackName" : "Chop Suey!",
+    "msPlayed" : 210240
+  },
+  {
+    "endTime" : "2022-10-02 08:10",
+    "artistName" : "Red Hot Chili Peppers",
+    "trackName" : "Snow (Hey Oh)",
+    "msPlayed" : 283467
+  },
+  {
+    "endTime" : "2022-10-02 08:12",
+    "artistName" : "Machine Head",
+    "trackName" : "Is There Anybody Out There?",
+    "msPlayed" : 104844
+  },
+  {
+    "endTime" : "2022-10-02 08:14",
+    "artistName" : "Nomy",
+    "trackName" : "Cocaine",
+    "msPlayed" : 138298
+  },
+  {
+    "endTime" : "2022-10-02 08:15",
+    "artistName" : "Guns N' Roses",
+    "trackName" : "Welcome To The Jungle",
+    "msPlayed" : 74260
+  },
+  {
+    "endTime" : "2022-10-02 08:20",
+    "artistName" : "Metallica",
+    "trackName" : "Whiskey In The Jar",
+    "msPlayed" : 304693
+  },
+  {
+    "endTime" : "2022-10-02 08:24",
+    "artistName" : "Eric Johnson",
+    "trackName" : "Cliffs Of Dover - Instrumental",
+    "msPlayed" : 249767
+  },
+  {
+    "endTime" : "2022-10-02 08:30",
+    "artistName" : "Metallica",
+    "trackName" : "Enter Sandman - Remastered 2021",
+    "msPlayed" : 331560
+  },
+  {
+    "endTime" : "2022-10-02 08:34",
+    "artistName" : "Tenacious D",
+    "trackName" : "Tribute",
+    "msPlayed" : 248053
+  },
+  {
+    "endTime" : "2022-10-02 08:37",
+    "artistName" : "Kings of Leon",
+    "trackName" : "Sex on Fire",
+    "msPlayed" : 185866
+  },
+  {
+    "endTime" : "2022-10-02 08:40",
+    "artistName" : "Travie McCoy",
+    "trackName" : "Billionaire (feat. Bruno Mars)",
+    "msPlayed" : 150671
+  },
+  {
+    "endTime" : "2022-10-02 08:42",
+    "artistName" : "The Lonely Island",
+    "trackName" : "Motherlover",
+    "msPlayed" : 169506
+  },
+  {
+    "endTime" : "2022-10-02 08:47",
+    "artistName" : "Iron Maiden",
+    "trackName" : "The Wicker Man - 2015 Remaster",
+    "msPlayed" : 275253
+  },
+  {
+    "endTime" : "2022-10-02 08:51",
+    "artistName" : "AC/DC",
+    "trackName" : "T.N.T.",
+    "msPlayed" : 214666
+  },
+  {
+    "endTime" : "2022-10-02 08:56",
+    "artistName" : "Iron Maiden",
+    "trackName" : "Run to the Hills - 2015 Remaster",
+    "msPlayed" : 233506
+  },
+  {
+    "endTime" : "2022-10-02 09:02",
+    "artistName" : "Anders Nilsen",
+    "trackName" : "Salsa Tequila",
+    "msPlayed" : 4755
+  },
+  {
+    "endTime" : "2022-10-02 09:05",
+    "artistName" : "The Lonely Island",
+    "trackName" : "Jack Sparrow",
+    "msPlayed" : 187746
+  },
+  {
+    "endTime" : "2022-10-02 09:08",
+    "artistName" : "blink-182",
+    "trackName" : "All The Small Things",
+    "msPlayed" : 167066
+  },
+  {
+    "endTime" : "2022-10-02 09:12",
+    "artistName" : "Avicii",
+    "trackName" : "Hey Brother - Avicii By Avicii",
+    "msPlayed" : 20500
+  },
+  {
+    "endTime" : "2022-10-02 09:12",
+    "artistName" : "ABBA",
+    "trackName" : "Dancing Queen",
+    "msPlayed" : 230400
+  },
+  {
+    "endTime" : "2022-10-02 09:13",
+    "artistName" : "Foo Fighters",
+    "trackName" : "The Pretender",
+    "msPlayed" : 26222
+  },
+  {
+    "endTime" : "2022-10-02 09:16",
+    "artistName" : "Queen",
+    "trackName" : "Killer Queen - Remastered 2011",
+    "msPlayed" : 17765
+  },
+  {
+    "endTime" : "2022-10-02 09:16",
+    "artistName" : "Billy Talent",
+    "trackName" : "Fallen Leaves",
+    "msPlayed" : 199200
+  },
+  {
+    "endTime" : "2022-10-02 09:19",
+    "artistName" : "Judas Priest",
+    "trackName" : "Breaking the Law",
+    "msPlayed" : 153840
+  },
+  {
+    "endTime" : "2022-10-02 09:23",
+    "artistName" : "Outkast",
+    "trackName" : "Ms. Jackson",
+    "msPlayed" : 270506
+  },
+  {
+    "endTime" : "2022-10-02 09:27",
+    "artistName" : "Matchbook Romance",
+    "trackName" : "Monsters",
+    "msPlayed" : 243746
+  },
+  {
+    "endTime" : "2022-10-02 09:30",
+    "artistName" : "Avicii",
+    "trackName" : "Friend Of Mine (feat. Vargas & Lagola)",
+    "msPlayed" : 159863
+  },
+  {
+    "endTime" : "2022-10-02 09:33",
+    "artistName" : "Nelly",
+    "trackName" : "Hey Porsche",
+    "msPlayed" : 2955
+  },
+  {
+    "endTime" : "2022-10-02 09:33",
+    "artistName" : "Green Day",
+    "trackName" : "American Idiot",
+    "msPlayed" : 176346
+  },
+  {
+    "endTime" : "2022-10-02 09:37",
+    "artistName" : "Nickelback",
+    "trackName" : "Rockstar",
+    "msPlayed" : 252040
+  },
+  {
+    "endTime" : "2022-10-02 09:41",
+    "artistName" : "Turisas",
+    "trackName" : "Rasputin",
+    "msPlayed" : 233520
+  },
+  {
+    "endTime" : "2022-10-02 09:47",
+    "artistName" : "Avenged Sevenfold",
+    "trackName" : "Nightmare",
+    "msPlayed" : 374453
+  },
+  {
+    "endTime" : "2022-10-02 09:53",
+    "artistName" : "Dio",
+    "trackName" : "Holy Diver",
+    "msPlayed" : 340640
+  },
+  {
+    "endTime" : "2022-10-02 09:55",
+    "artistName" : "The Offspring",
+    "trackName" : "You're Gonna Go Far, Kid",
+    "msPlayed" : 102785
+  },
+  {
+    "endTime" : "2022-10-02 09:56",
+    "artistName" : "Metallica",
+    "trackName" : "The Unnamed Feeling",
+    "msPlayed" : 23
+  },
+  {
+    "endTime" : "2022-10-02 10:00",
+    "artistName" : "Metallica",
+    "trackName" : "Of Wolf And Man",
+    "msPlayed" : 256533
+  },
+  {
+    "endTime" : "2022-10-02 10:02",
+    "artistName" : "Slayer",
+    "trackName" : "Delusions of Saviour",
+    "msPlayed" : 115413
+  },
+  {
+    "endTime" : "2022-10-02 10:12",
+    "artistName" : "Danzig",
+    "trackName" : "Mother",
+    "msPlayed" : 26533
+  },
+  {
+    "endTime" : "2022-10-02 10:58",
+    "artistName" : "Danzig",
+    "trackName" : "Mother",
+    "msPlayed" : 148440
+  },
+  {
+    "endTime" : "2022-10-02 10:59",
+    "artistName" : "Pantera",
+    "trackName" : "Domination",
+    "msPlayed" : 106700
+  }
+]
